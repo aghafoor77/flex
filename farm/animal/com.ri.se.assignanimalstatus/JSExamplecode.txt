@@ -1,0 +1,68 @@
+this.state = {
+	aasid : aasid, 
+	aaid : aaid, 
+	submissionDate : submissionDate, 
+	animals : animals, 
+	reportReference : reportReference, 
+	reportSubmitted : reportSubmitted
+}
+
+
+this.state = {
+	aasid : "", 
+	aaid : "", 
+	submissionDate : "", 
+	animals : "", 
+	reportReference : "", 
+	reportSubmitted : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'aasid': this.setState({ aasid: event.target.value }); break;
+		  case 'aaid': this.setState({ aaid: event.target.value }); break;
+		  case 'submissionDate': this.setState({ submissionDate: event.target.value }); break;
+		  case 'animals': this.setState({ animals: event.target.value }); break;
+		  case 'reportReference': this.setState({ reportReference: event.target.value }); break;
+		  case 'reportSubmitted': this.setState({ reportSubmitted: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="aasid"
+name="aasid" id="aasid" onChange={this.handleChange.bind(this)} value={this.state.aasid}
+
+htmlFor="aaid"
+name="aaid" id="aaid" onChange={this.handleChange.bind(this)} value={this.state.aaid}
+
+htmlFor="submissionDate"
+name="submissionDate" id="submissionDate" onChange={this.handleChange.bind(this)} value={this.state.submissionDate}
+
+htmlFor="animals"
+name="animals" id="animals" onChange={this.handleChange.bind(this)} value={this.state.animals}
+
+htmlFor="reportReference"
+name="reportReference" id="reportReference" onChange={this.handleChange.bind(this)} value={this.state.reportReference}
+
+htmlFor="reportSubmitted"
+name="reportSubmitted" id="reportSubmitted" onChange={this.handleChange.bind(this)} value={this.state.reportSubmitted}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		aasid : this.state.aasid, 
+		aaid : this.state.aaid, 
+		submissionDate : this.state.submissionDate, 
+		animals : this.state.animals, 
+		reportReference : this.state.reportReference, 
+		reportSubmitted : this.state.reportSubmitted
+	}
+	return jsondata; 
+
+}

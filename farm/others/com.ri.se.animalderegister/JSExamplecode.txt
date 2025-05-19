@@ -1,0 +1,89 @@
+this.state = {
+	animalID : animalID, 
+	deregisterDate : deregisterDate, 
+	reportBy : reportBy, 
+	notes : notes, 
+	reportTo : reportTo, 
+	response : response, 
+	location : location, 
+	emailTo : emailTo, 
+	dcode : dcode
+}
+
+
+this.state = {
+	animalID : "", 
+	deregisterDate : "", 
+	reportBy : "", 
+	notes : "", 
+	reportTo : "", 
+	response : "", 
+	location : "", 
+	emailTo : "", 
+	dcode : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'deregisterDate': this.setState({ deregisterDate: event.target.value }); break;
+		  case 'reportBy': this.setState({ reportBy: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'reportTo': this.setState({ reportTo: event.target.value }); break;
+		  case 'response': this.setState({ response: event.target.value }); break;
+		  case 'location': this.setState({ location: event.target.value }); break;
+		  case 'emailTo': this.setState({ emailTo: event.target.value }); break;
+		  case 'dcode': this.setState({ dcode: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="deregisterDate"
+name="deregisterDate" id="deregisterDate" onChange={this.handleChange.bind(this)} value={this.state.deregisterDate}
+
+htmlFor="reportBy"
+name="reportBy" id="reportBy" onChange={this.handleChange.bind(this)} value={this.state.reportBy}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="reportTo"
+name="reportTo" id="reportTo" onChange={this.handleChange.bind(this)} value={this.state.reportTo}
+
+htmlFor="response"
+name="response" id="response" onChange={this.handleChange.bind(this)} value={this.state.response}
+
+htmlFor="location"
+name="location" id="location" onChange={this.handleChange.bind(this)} value={this.state.location}
+
+htmlFor="emailTo"
+name="emailTo" id="emailTo" onChange={this.handleChange.bind(this)} value={this.state.emailTo}
+
+htmlFor="dcode"
+name="dcode" id="dcode" onChange={this.handleChange.bind(this)} value={this.state.dcode}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		animalID : this.state.animalID, 
+		deregisterDate : this.state.deregisterDate, 
+		reportBy : this.state.reportBy, 
+		notes : this.state.notes, 
+		reportTo : this.state.reportTo, 
+		response : this.state.response, 
+		location : this.state.location, 
+		emailTo : this.state.emailTo, 
+		dcode : this.state.dcode
+	}
+	return jsondata; 
+
+}

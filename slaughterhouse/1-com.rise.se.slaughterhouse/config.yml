@@ -1,0 +1,52 @@
+defaultName: ${DW_DEFAULT_NAME:-RISERCarrierSlaughterhouseData}
+template: RISE, %s!
+
+
+# Database settings.
+database:
+  driverClass: com.mysql.jdbc.Driver
+  url: jdbc:mysql://${dbip}:3306/formas?createDatabaseIfNotExist=true&enabledTLSProtocols=TLSv1.2
+  user: ${dbuser}
+  password: ${dbpassword}
+  maxWaitForConnection: 1s
+  validationQuery: "SELECT 1"
+  validationQueryTimeout: 3s
+  minSize: 8
+  maxSize: 32
+  checkConnectionWhileIdle: false
+  evictionInterval: 10s
+  minIdleTime: 1 minute
+  checkConnectionOnBorrow: true
+
+server:
+  type: simple
+  applicationContextPath: /application
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 9050
+       
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: INFO
+
+  # Logger-specific levels.
+  loggers:
+
+    # Sets the level for 'com.bixsystem.ledger' to DEBUG.
+    com.ri.se: INFO
+
+    # Redirects SQL logs to a separate file
+    org.hibernate.SQL:
+      level: INFO
+
+# the key needs to match the suffix of the renderer
+viewRendererConfiguration:
+    .ftl:
+        strict_syntax: yes
+        whitespace_stripping: yes
+
+swagger:
+  resourcePackage: com.rise.se.slaughterhouse.utils

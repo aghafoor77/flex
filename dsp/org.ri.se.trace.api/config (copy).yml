@@ -1,0 +1,72 @@
+
+defaultName: ${DW_DEFAULT_NAME:-BIXIDMSDocument}
+
+# Database settings.
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://${dbip}:3306/formas?createDatabaseIfNotExist=true&enabledTLSProtocols=TLSv1.2
+  user: ${dbuser}
+  password: ${dbpassword}
+  maxWaitForConnection: 1s
+  validationQuery: "SELECT 1"
+  validationQueryTimeout: 3s
+  minSize: 8
+  maxSize: 32
+  checkConnectionWhileIdle: false
+  evictionInterval: 10s
+  minIdleTime: 1 minute
+  checkConnectionOnBorrow: true
+        
+tapi:
+   urlEther: http://172.17.0.16:8545
+   urlIPFS: /ip4/172.17.0.15/tcp/5001
+   urlWeb: http://localhost:8888
+   resourceAPI: http://10.112.0.39:9020
+   walletDir: resources/
+   urlCentraliRegistration: http://172.17.0.2:9090
+   traceContract: 0x4558e77686c23f925344b72426bf53667fcf4f30
+
+# use the simple server factory if you only want to run on a single port
+#server:
+#  type: simple
+#  connector:
+#    type: http
+#    port: 8080
+
+server:
+#  softNofileLimit: 1000
+#  hardNofileLimit: 1000
+  applicationConnectors:
+    - type: http
+      port: 9000
+
+  adminConnectors:
+    - type: http
+      port: 8277
+  
+ 
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: INFO
+
+       
+  appenders:    
+    - type: console
+    - type: file
+      logFormat: "%-6level [%d{HH:mm:ss.SSS}] [%t] %logger{5} - %X{code} %msg %n"
+      currentLogFilename: ./log/application.log
+      archivedLogFilenamePattern: ./log/application-%d{yyyy-MM-dd}-%i.log.gz
+      archivedFileCount: 7
+      timeZone: UTC
+      maxFileSize: 10MB
+
+# the key needs to match the suffix of the renderer
+viewRendererConfiguration:
+    .ftl:
+        strict_syntax: yes
+        whitespace_stripping: yes
+
+swagger:
+  resourcePackage: org.ri.se.trace.api.resource

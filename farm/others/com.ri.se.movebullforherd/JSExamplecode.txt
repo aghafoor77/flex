@@ -1,0 +1,82 @@
+this.state = {
+	mb4hid : mb4hid, 
+	notes : notes, 
+	entryDate : entryDate, 
+	groupFemale : groupFemale, 
+	employeeID : employeeID, 
+	location : location, 
+	animalID : animalID, 
+	exitDate : exitDate
+}
+
+
+this.state = {
+	mb4hid : "", 
+	notes : "", 
+	entryDate : "", 
+	groupFemale : "", 
+	employeeID : "", 
+	location : "", 
+	animalID : "", 
+	exitDate : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'mb4hid': this.setState({ mb4hid: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'entryDate': this.setState({ entryDate: event.target.value }); break;
+		  case 'groupFemale': this.setState({ groupFemale: event.target.value }); break;
+		  case 'employeeID': this.setState({ employeeID: event.target.value }); break;
+		  case 'location': this.setState({ location: event.target.value }); break;
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'exitDate': this.setState({ exitDate: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="mb4hid"
+name="mb4hid" id="mb4hid" onChange={this.handleChange.bind(this)} value={this.state.mb4hid}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="entryDate"
+name="entryDate" id="entryDate" onChange={this.handleChange.bind(this)} value={this.state.entryDate}
+
+htmlFor="groupFemale"
+name="groupFemale" id="groupFemale" onChange={this.handleChange.bind(this)} value={this.state.groupFemale}
+
+htmlFor="employeeID"
+name="employeeID" id="employeeID" onChange={this.handleChange.bind(this)} value={this.state.employeeID}
+
+htmlFor="location"
+name="location" id="location" onChange={this.handleChange.bind(this)} value={this.state.location}
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="exitDate"
+name="exitDate" id="exitDate" onChange={this.handleChange.bind(this)} value={this.state.exitDate}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		mb4hid : this.state.mb4hid, 
+		notes : this.state.notes, 
+		entryDate : this.state.entryDate, 
+		groupFemale : this.state.groupFemale, 
+		employeeID : this.state.employeeID, 
+		location : this.state.location, 
+		animalID : this.state.animalID, 
+		exitDate : this.state.exitDate
+	}
+	return jsondata; 
+
+}

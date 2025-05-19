@@ -1,0 +1,1 @@
+["Farm Owner", "Veterinarian", "Observer", "Farm Employee", "Transporter", "Transporter Employee", "Slaughterhouse", "Slaughterhouse Employee", "Farm Manager"]

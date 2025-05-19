@@ -1,0 +1,110 @@
+{
+  "issuanceDate" : "2025-01-29 02:56:22",
+  "holder" : "5955394570666a39756b4a67327256346e6845414547775a504371306b6a",
+  "validFrom" : "2025-01-29 02:56:22",
+  "issued" : "2025-01-29 02:56:22",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrBpmLrixjBAXDwsdcHjFUMHUnux3uUKvzVYwgv4L2HFSHC5Kj65weLbSx67a5LsZ24g8ffV1corpfC2MpcDuRC9Nia4ExRNDKDa4Sp1FusHtApAEQLkjVi2CTEB8KtxmnT2ahh5rxbVnGXVx1kiMaY9kvBaAPWeHH4CoGJz1buhgyhguDVLQtC95UBHBW73S23HpwDBsLmAHVkZGoEcM9oJHxQm9ghHnxhdmrqmNTU974MsW9yBcoDeG2HgtD6HCfDcULhUUZW2EbZJHd3xFWziDWxbbU1Qs4B9cwfTDeUGEHiMhzt6M3jmgu93Jn9G7eUgHUYCKjqFYBJyYzHedzWMm321BHcASgkudJg"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:479743059",
+  "issuer" : "3672436e6764657544564158493334514b63385a674f466a7551502a4a48",
+  "digest-set" : {
+    "1" : "9978492c4c2d904be943a28b77e3b824e9b0bf7267383a7872172d9827ec5c06",
+    "3" : "5674d55cf42a20725b8cdcb3e9a5a162ed569ec6abe6e51d56364e5b75643c9c",
+    "2.1" : "a908c110d8e76333f487105bd124c2ea06d6c479d07350b9042fc30ff94061ee",
+    "2.2" : "a2ea0c49fd33c024bd2a903d0f746c17fbcc4053c12c432e545579062b6d65dd",
+    "2.3" : "e8fe10945cedecfadb27972d449bf76ea5e32e6d0116f498db4e926be11a0944",
+    "2.4" : "ae8ef64472d7e9d02314086d07a6211b75334f56a52877991a92d10586e8d1de",
+    "2.5" : "7398ae119910d3b1e72396b5e6505c40c75cd7e698a85bffedeb80e932d0603a",
+    "2.6" : "42c54ecd1b9af252d7fcc5d2552185df3db0b493b9e71d3f2931e3352346568c",
+    "2.7" : "59f28724781cb8fccb30c73b10a822a17a8765756c9aa4e8b00c977e9248e226",
+    "2.8" : "fdea9d8a595b56687b3fa026fb372e062ca4ba778b6eb815193be3faf6d35394",
+    "2.10" : "a7b11780c019a1fa6836440b3cedd5684d4e58f19e51d5dc7ae3b87cddde14bd"
+  },
+  "expirationDate" : "2025-01-29 02:56:22",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-29T13:56:22Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e65613537363639626263316635702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..AcJojOb3Bz5wCM-XzI1C9Tb7BRcO5Q006f4JaQd5r2Ut8qY1wout6Uq9t-9qza7ZzXcRk8-9SALKX3ArhiYKT-oLJg5LEOk4vQJuIB9IynodPf4mOk1Mz7FcPDON7zLlq7x-gplUmC4PpUmSQ7x4l2N9uU-2eElvnZ0_xHKOmspPZvt6Y6wKW_ZZm8iLY8sUxNpB1HbgXEjT8t7UODCoG7_sdENGS19TkEo3wTSue6NIttoVIzYzErAOZ8QtL0Q897N-zaRwbLY8oWxuj2_0Lq1Wp9pn75rwb7u3AkJgsZjxXqPjQ-ucTZ48KQp2q0P6_eNTKUAmv0biqJozBXa0Eg"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "z9CCpZZ6epHOvGFfjQnsjHzl2QsOEH5B7duKSLHIwgCussnh3JORZVrZD2JyAYbY",
+      "name" : "evidenceType",
+      "value" : "AnimalExamination"
+    },
+    "evidence" : {
+      "2.1" : {
+        "salt" : "FCfMGz6YCzvLasbwfbDrYKOCXrbvXcHK8NsR5yj2NP41dBiGTko0JvhTZLjoDwj6",
+        "name" : "aeid",
+        "value" : "AE-1738117941562"
+      },
+      "2.2" : {
+        "salt" : "bkdhyCYFFdet5LzE6wZBRbvQq28N3mwHCYBWMRLdjHn9AJBGTqqoEBQ2ri6Gv5Xa",
+        "name" : "notes",
+        "value" : "This is early examination through pregnancy test."
+      },
+      "2.3" : {
+        "salt" : "DwiPV4mBZpzc0PaLTKyFbjhp9LEd5BPaEA0fattYpopnmoC8GmKTEro71Fu1evzm",
+        "name" : "examinationDate",
+        "value" : "2020-08-30"
+      },
+      "2.4" : {
+        "salt" : "3eFzhIVQUz5UitJZLfKVxpRFfaPss56DdXMZUpD8cxq0AdqWro2SoIq8BVbb9hPV",
+        "name" : "refnumber",
+        "value" : "exteranl ocument"
+      },
+      "2.5" : {
+        "salt" : "07Mr6pKqEODYXnOmRWzxZEmHkqOr2AXG1yGyMR34LPxalUNTAlkpNqW0RnhehNUq",
+        "name" : "refType",
+        "value" : "medicine"
+      },
+      "2.6" : {
+        "salt" : "vShCUaSjCLIgadZitcplBDtO1npJUIlLCArHKGL5kCx4aBRIdB8xvPMhc0y492ck",
+        "name" : "sensorData",
+        "value" : "sensordataid"
+      },
+      "2.7" : {
+        "salt" : "9oF5lYdY0UidWKEgtysAsI0QzhFIkttF7q7CjI3JPXnGSGbjiEyhQNRifC1NamT9",
+        "name" : "employeeID",
+        "value" : "4133307e41394a53754d3547463672635a4c2a42624e5f5846734b3b6245"
+      },
+      "2.8" : {
+        "salt" : "0aLMSd9Bet2waANCFcnAG86aVQpOLuFD9d5sjqSpS8ExxZ2UkOIpTfSdDYyAf7M7",
+        "name" : "animalID",
+        "value" : "AR-1738117939683"
+      },
+      "2.10" : {
+        "salt" : "1t8UAzIGpnZREmyyqgYbuWyNAQ5iSmwtHY7l6yf13CoewyjNXiApORAdHEtNJ7Bz",
+        "name" : "status",
+        "value" : "false"
+      }
+    },
+    "3" : {
+      "salt" : "jzqGSMnShKnN38vlCvecTRSwp3Nc2OqG123r8775RJckvc297mZ87bWit5kqvl2D",
+      "name" : "uniqueNo",
+      "value" : "AE-1738117941562"
+    }
+  },
+  "metamapper" : {
+    "evidence.refnumber" : "2.4",
+    "uniqueNo" : "3",
+    "evidence.refType" : "2.5",
+    "evidenceType" : "1",
+    "evidence.animalID" : "2.8",
+    "evidence.employeeID" : "2.7",
+    "evidence.status" : "2.10",
+    "evidence.examinationDate" : "2.3",
+    "evidence.sensorData" : "2.6",
+    "evidence.aeid" : "2.1",
+    "evidence.notes" : "2.2"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "issuanceDate" : "2024-12-16 01:42:56",
+  "holder" : "did:veid:0x71aD1108403C28f3723d09D533337BC115528039",
+  "validFrom" : "2024-12-16 01:42:56",
+  "issued" : "2024-12-16 01:42:56",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrBJnWZ78DBkVJTwajhfw4kqBdvpDvwPYPjhY5yAnGFcb7K3izsaKRFLkSNQ3HpVbCMKD54MfxdqgWZ29C14qkKR4f7TVAUEXACyd6bb5pFq4Htn2qsfq3PniyEy9Yy4GCKsrtR8fkGJkbWw2zhtYthD6o2d8QC1ugqEYdSsx8XqysskAL2rR1SUitYg1M8jeXJaCJoXDfwJQHZ9Nesowwz6GCUeSt5EsgL4bPQ76KGZP9Jix1j3gRSeGxpmhy4fY2E4j6aP6am56DpK8wDe5FmyqrLzQCeeY5PL4CXmskpTnidwojFPtnuuDadWpNxPiiea8vc6mBthCC66DbUnP4fp4giWxamhKVKAqWg"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:7268701",
+  "issuer" : "did:veid:0xC5B09bb75A2C4b6Bb0c91E9dac4d3cC3C40Fed05",
+  "digest-set" : {
+    "2_0_.6" : "08542f30b728dcb632274212e8936e2e7732013e118833f18d7cd0bae0883ef7",
+    "2_1_.10" : "d29f6b81467acf262292742b57b4e5801b8970585ad4c7ec4335f809c139d331",
+    "2_0_.7" : "c3e700a4cb19fdd62e2e854e6068e84853d4ccec8e17dc9a81b02fcb640e2b5d",
+    "2_2_.8" : "b964223c4495e44eeb1128897cf5e73ab8dda2117b83872a5a9388e09265c215",
+    "2_0_.8" : "e43481e03d8d8de079da0aeda5c03fc7fba22edde51cf9fe03577507b56c2552",
+    "2_0_.2" : "cdfdba80bdf048945cb6f80b384a1fb32f627b312eafde531a39e05c03a529fb",
+    "2_2_.5" : "49d7346b69d4e29d7b16ecf46653ba9cf4aa8d1fcdcc037fb0e193a052096bc0",
+    "2_0_.3" : "93e330329387aa08d382b9904dd2b8a9f11605c05c6996ea7fe83157b76083de",
+    "2_2_.4" : "14d63b94810b90b163d0034ad03b5aed6b392e1761ce15c2a6db6d0ce6bcf9e2",
+    "2_0_.4" : "c566ea25ec62da65d3ad07509c665a9e21ee2a38a704fa1d9c5769fdca15b122",
+    "2_2_.7" : "677fe777dce3e06a326aba6966decab7186066ae1e86660d56320bbc3e5b34af",
+    "2_0_.5" : "c0b448adc11af305156ddbc468b654f209020a7ef8f9ac8ab9d32a8ffa2157c1",
+    "2_2_.6" : "bdc78bd01bd702ec5be5ee4c94cb4d91cd5aa26b39b8ae9fae38ace9b788296f",
+    "1.17" : "d123f4b372287894505e99ac74663af333e92b3f69c2ab028d50e443199faf76",
+    "2_0_.10" : "caa8858d5e6a340299850896d891fb16982ade5b4d6844310af3db3bfdccd9e4",
+    "1.15" : "24b742a002c9d9d75eadc820a8a88f8c43fd7c7a33bcf9700d2f354d3a43f6a0",
+    "2_1_.1" : "6c282f420da5ad9963c5e2ef2ed012907f3915577999fa63e869aa7ad182b6aa",
+    "2_1_.2" : "e9b1351404c0aada91a4df51a4fe661fcccc65f04f25b5d11c4cc08675b2a159",
+    "2_1_.7" : "935b1e49fb332c3a7a1153f7c715e078525a936a36e313fd3f3cc57bae91488c",
+    "2_1_.8" : "f3df787f2d259416080bf03c4d10c411af1ea9da2b9919353f38a660edae4d69",
+    "2_1_.9" : "ce3e605d722ed318f3c43a90a917ee28fb184b679c7c2e8a295157af05533fb9",
+    "2_1_.3" : "648616ae7ae70f0bec34040e09d80fc163a08af83eeb40ecee9eb7be3d2a983f",
+    "2_1_.4" : "985c41d97e80377b36f337f4d6096c83593f2c67301c9b5ded5cedaed5eb8b40",
+    "2_1_.5" : "3fc32f9d927d195bd5c39c76cbaf68b64504697322a81d73770e2d9a538b11a5",
+    "2_1_.6" : "9b1d4052603c6a035c68b30e9c4243db46a615d5d92b43747febdb8165b0bf26",
+    "1.12" : "09bdc4091a72f4e0b7b510fed618e2db2eb637be13b53527e6980bd0891a4950",
+    "1.10" : "1459d9da96246081793e7318d15aa9085be85667bce8c9aaa8361e7f7f377c1e",
+    "1.11" : "c12d5e15b2e831048606cdfab0b7bcc0f6720279d97696e5d133383d3e619ab0",
+    "1.1" : "931c71b4617fd6fbe082cd5b16a0949cc96706864bf284efcc61406e9bdcf7f4",
+    "1.3" : "18cbbca5e400abf35d9f465940e83b3df485df820b41c699bb72ca3e8e5bb560",
+    "1.4" : "c660df6c07764b4a97f5d717d75117f7e6ad6186e0aa15986c08cd122a183075",
+    "1.5" : "b754ec5a17e25de658685980d327549e0967864aaf65209c4aef3af38f3a4988",
+    "2_2_.1" : "882b63605802678e847ef3012652fa0f4b7a0cd83edb14f048173e90f78ff45c",
+    "1.6" : "553be5e2aa943b45a7cc2ddc1c4bc89983b7a555355189168741dd67879d4c8e",
+    "1.7" : "1ed4cb5bfc4d0c864ca30e3045bc88bfa7013f88554c90dae8c6846c1cf57689",
+    "2_2_.3" : "ae68d3aeed3c9b3db0d28c44645cf76aa953273b3e82365a7800f6bf6d49ae8a",
+    "1.8" : "86203fdcf04a78296af433a1d89b040de3b86b4669b575ccf80e4b3365aaa9a0",
+    "2_0_.1" : "fb915eca395dce65a0227e4d8773b1fda71e3e417197224b21f27a4f81a235f1",
+    "2_2_.2" : "7025cf587e68960fb3edc73c6a612e7e0169896f0169ccbf7443d0a6f2657316",
+    "1.9" : "f70f169fcfecc17ba73eb911278bfc8970e8dfcef1028b2fc4df165024f9c79b"
+  },
+  "expirationDate" : "2024-12-16 01:42:57",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2024-12-16T12:42:57Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e64333763386632666661636362702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..b336VlZjrHsKyQ8WSR-53CUPbTrjWHwsO_MBztDvGhR1MUQTJWTSN2G3b_72Z0VGTufDG4itfZfXKLHjE0Pr9yrHwGjsVAwsHLrT1jDfor2UtdAJ_WvgSrksRGT0e3TOz-HA79lldBiTxKgTAtziazGiCnH4Z0KHQDaQ_kx3QSsV1aWX5V8SU8BKzlD0wvbWpny2g4bhMRAAfTN9Hb6eOeIzwaYNvSO4pMFOQav1qxioDyP5vNYX2Lk1CaJdmv5mrZ49idsDDFKiBDLTa2lYPmCmZGfSl7NPhVoFqJ_7eW5-w-KdhGl5qGYcRICtfv98hM7wRwASYXIibQ8WqPfGcw"
+  },
+  "claims" : {
+    "dtoRegisterAnimal1" : {
+      "1.1" : {
+        "salt" : "IqxwTcMpJVZTbV3pt8PKdG9uWrhtOAVH3WQA6STbfjMHivswCBJYeD1bnd4tYE3Y",
+        "name" : "animalID",
+        "value" : "AR-33-567-40"
+      },
+      "1.3" : {
+        "salt" : "z77R1ZSBF8vpspkJzOPUqOVihVThgLI5R9jswyzh1RAsBHSR6fL0oBASuAehmjxh",
+        "name" : "animalIDMother",
+        "value" : ""
+      },
+      "1.4" : {
+        "salt" : "fxb0ccaG1k0Z2dbm0wlTKro0YKQSYFxTEByrjZLsd2vQDZ2LIML6XXWsftMyV9Q2",
+        "name" : "notes",
+        "value" : "Natural birth"
+      },
+      "1.5" : {
+        "salt" : "MuXK4uQUVqoKNse8Sr6I1KteyA2hZZaATKcCPMzu2gEER32q5eurZj2IafFt9qEA",
+        "name" : "pregnancyExamination",
+        "value" : ""
+      },
+      "1.6" : {
+        "salt" : "wSRJqZ2xfWfWsKKUiD2D1StOccgM2UH1DcFvApSy3zr9aquejD5YlRkDImcwsEvq",
+        "name" : "sex",
+        "value" : "Cow"
+      },
+      "1.7" : {
+        "salt" : "VY81H7krAfYoYNUJ3ljwppZEYF2uKV7e4olHzvVa9Cs4oQToNojhgTK8co1HLbeO",
+        "name" : "weight",
+        "value" : 10
+      },
+      "1.8" : {
+        "salt" : "PFQqdzGN3Z2WdurY0feX20VTwD1Ab6hz5PXyLTbDLLBOtC7UKF6xMaxAPixIxvm0",
+        "name" : "dateOfBirth",
+        "value" : "2021-08-10"
+      },
+      "1.9" : {
+        "salt" : "jguBdv7FC0M20kiucscKS0uRpNlKtRnv1loRBa8GWb94hfpU4aoCeYK6atWAqU79",
+        "name" : "breed",
+        "value" : ""
+      },
+      "1.10" : {
+        "salt" : "zBtm1i737CgZb8GmbNuI9o98JqggQAyYGTK6OcM8B5QEN3KJvicOymNOmu1stQJT",
+        "name" : "birthPlace",
+        "value" : "Uppsala Farm"
+      },
+      "1.11" : {
+        "salt" : "ptjwTK9KfQjFykX6O8OrKbxaV9WH17vEAg7JEYPathOIcglWz0U2ix10hbqwxeZq",
+        "name" : "employerID",
+        "value" : ""
+      },
+      "1.12" : {
+        "salt" : "HhkWfoUjPpmXQQy9ZJMcNz93RAi7FejBRyGsRWlGXqbIhwmhvTIRWbPBsBvNmvL1",
+        "name" : "unit",
+        "value" : "kg"
+      },
+      "1.15" : {
+        "salt" : "G0fmc9zaQXHwOsL6hE6ecwEgjSN6ZZa9PFb4BOwpnHSYKxtS1lCFUzLGnOhPtEhT",
+        "name" : "aboutAnimal",
+        "value" : "This is newly born animal"
+      },
+      "1.17" : {
+        "salt" : "Cjd1X1Buch7q4TltxXXhKHTFAHHUKWhg6CalUoAB7TRjHtuxAYWqokX84emHy8uF",
+        "name" : "status",
+        "value" : "Active"
+      }
+    },
+    "evidence" : [ {
+      "2_0_.1" : {
+        "salt" : "K53TnWKurQKoIT7kRuSkWMp7IfmiuOFDlxSHCfj8XMKCIFbjR7m33PrKEF2eqN01",
+        "name" : "aeid",
+        "value" : "AE-11-53-56"
+      },
+      "2_0_.2" : {
+        "salt" : "RMvepjkZmGVRXAmACEdshG1Thyj3l6OVHqKKlGCl3T2336VreUxDNfBMoEKGH6fx",
+        "name" : "notes",
+        "value" : "This is early examination through pregnancy test."
+      },
+      "2_0_.3" : {
+        "salt" : "EVFBIYpeyuk5Dif1MHHiFJYECJKD49PuXeEEeLxjsHRD1Ogi46bQ4W1xakEejHnW",
+        "name" : "examinationDate",
+        "value" : "2020-08-30"
+      },
+      "2_0_.4" : {
+        "salt" : "GDUmIDHBaJ2d7EUmkSD9ulqrWjbUSOYXFMm3ugjldVVUnyujaBj1nlT9HRedTBg6",
+        "name" : "refnumber",
+        "value" : "exteranl ocument"
+      },
+      "2_0_.5" : {
+        "salt" : "bUXMH6UX8NShmk2CMoa7Y3HGzTHQLsWzjS3nec9JAgmduMCOiOPVw2ACKBKsMzIZ",
+        "name" : "refType",
+        "value" : "medicine"
+      },
+      "2_0_.6" : {
+        "salt" : "JgEGezZ6l4r1qZMyuPq57vDnSbVuEZAiWATMG1npm1PtAS1DsVDm5fvpIzCJTT5s",
+        "name" : "sensorData",
+        "value" : "sensordataid"
+      },
+      "2_0_.7" : {
+        "salt" : "ldIY1hP6c5qexqHvAXpUuPdimu1PMghkbaFAvYLSj5yUJ4BkXpLquOm7w92BIlZY",
+        "name" : "employeeID",
+        "value" : "HR-00-11-22"
+      },
+      "2_0_.8" : {
+        "salt" : "RLhE4UvYYEIFgWelZAS1oTjsgkeC05zmOahxAJsdJDZ1a5ARio7FI4qxlo6FcAgX",
+        "name" : "animalID",
+        "value" : "AR-34-567-37"
+      },
+      "2_0_.10" : {
+        "salt" : "SqnrSOndspFyfiKuU8FTElTuauC4tssEdKuwmhQGO11bgs0QAKT1fk0cC4irMFjK",
+        "name" : "status",
+        "value" : "false"
+      }
+    }, {
+      "2_1_.1" : {
+        "salt" : "ttAQHWj6MRz8WiuUsnnM42hgwPvTanSGsmK57V0EZaln8V8ZFKeioGm3KyzO0Gyi",
+        "name" : "ghoid",
+        "value" : "GHO-33-11-302"
+      },
+      "2_1_.2" : {
+        "salt" : "aFJ9XPt3ml1PRgkpuB6qfO1O7JTZS05EPlYoxnOq78i8tVwfh3Xr76vUFfA12aMM",
+        "name" : "limping",
+        "value" : "No"
+      },
+      "2_1_.3" : {
+        "salt" : "TP2WnuxVO2kSXgpc0wuOvr15DU8uWpuKP8Y7ueRl9kph9mzjyLG1RS8qu3rXbmGe",
+        "name" : "observer",
+        "value" : "OB-29-276-76"
+      },
+      "2_1_.4" : {
+        "salt" : "AVA8eRD3iaYhl1t6S7SNUT2sLToWAkGlClKHd9i2ASzvUfyX1QO8HPENiw6yLb2a",
+        "name" : "wound",
+        "value" : "No"
+      },
+      "2_1_.5" : {
+        "salt" : "eIjkU82W3rYJkc27l4huxzn71XParmB9i8RFUTurhRqVkrIDwSfE1n1pVMUyJw7F",
+        "name" : "bcs",
+        "value" : "No"
+      },
+      "2_1_.6" : {
+        "salt" : "pAcsbJa1KR5RG06tZw1YGV3x1ITqPJ8g2jVMWzD4mxZ0O3c4sZj2lJ03u0KaoSFx",
+        "name" : "notes",
+        "value" : "OK"
+      },
+      "2_1_.7" : {
+        "salt" : "RLApRiKOi0JZuKNWhSj7EzSUGvESkWjwKFLGm9mHwTzWH2Oi0TpfvWHSDe7iFKWA",
+        "name" : "swelling",
+        "value" : "No"
+      },
+      "2_1_.8" : {
+        "salt" : "zftIk4xOs80Rs5IeMI7gSba7m2t1C9PecWtQma7Vvh4clQNZSRy1zuuUf5bwj6AP",
+        "name" : "gheDate",
+        "value" : "2021-09-15"
+      },
+      "2_1_.9" : {
+        "salt" : "6I4LuMepqroDb82zMt7amugjWi7WjhwQmEFeHcIs9Zhhyz9ILkza4lKCVCl7AC2x",
+        "name" : "animalID",
+        "value" : "AR-33-567-40"
+      },
+      "2_1_.10" : {
+        "salt" : "FE2E16XHigVd6n8UZr0OzA13OYEuP0LasATvBGzS8yM7HYeuashkKukTRqGlHbRC",
+        "name" : "wight",
+        "value" : "17"
+      }
+    }, {
+      "2_2_.1" : {
+        "salt" : "9z4C71lwJCImY5QpG17KvFZsv4nGPOCuLWhbZU0ayj2hcywkvAnWyhuRIfSx1wY8",
+        "name" : "dtid",
+        "value" : "DT-333-454-333"
+      },
+      "2_2_.2" : {
+        "salt" : "rmKbWvE4zTq2IPjsLu3kCy6rDO8fxUTUwY3CkPsyWR0i1AIgUQCOphwpG78WWn3M",
+        "name" : "assignedDate",
+        "value" : "2021/09/19"
+      },
+      "2_2_.3" : {
+        "salt" : "BqIRkMuw5G9VloBpxCqpCknvcffG9uAuKVMExnwbODPKV2LcUPzrpD8jaJv6eqtA",
+        "name" : "reason",
+        "value" : "Feeling tempa and coughing"
+      },
+      "2_2_.4" : {
+        "salt" : "dz592NisgTt59YCI31MFtvPkA0v7tjeWoi0ao6gbHejIUTm7xOCxRA8miWRAySOF",
+        "name" : "drungs",
+        "value" : "Paracetamole"
+      },
+      "2_2_.5" : {
+        "salt" : "NUsx9B1XUyLrFph2poJ9ZCsfWJ0NbQyF8MnGRi6H17elFZFeByHkdUfUL9d6p6J6",
+        "name" : "refnumber",
+        "value" : "GHE-11-11-120"
+      },
+      "2_2_.6" : {
+        "salt" : "ohlO9jnpatbTw2l6PLXK8OXkz8tmzIE81uU8C5o0GUKEUZ3xbuMLujuOlcPk9UCU",
+        "name" : "examinedBy",
+        "value" : "HR-343-567-983"
+      },
+      "2_2_.7" : {
+        "salt" : "jRMAzuuaVoQX5MiscFX3NQHiEMIZZDxD1pqKRL2EHStYSGFOI6nfyuJOvgfk83X5",
+        "name" : "animalID",
+        "value" : "AR-33-567-40"
+      },
+      "2_2_.8" : {
+        "salt" : "WQj8ApQDg9pzjJ0ims6ot04oz1wcQxJemdgQT937a3gBf6HYuBUP9Dausn2NxzrC",
+        "name" : "reftype",
+        "value" : "Medical"
+      }
+    } ]
+  },
+  "metamapper" : {
+    "evidence._0_.sensorData" : "2_0_.6",
+    "evidence._1_.observer" : "2_1_.3",
+    "evidence._1_.gheDate" : "2_1_.8",
+    "evidence._0_.employeeID" : "2_0_.7",
+    "evidence._2_.examinedBy" : "2_2_.6",
+    "dtoRegisterAnimal1.weight" : "1.7",
+    "evidence._1_.swelling" : "2_1_.7",
+    "dtoRegisterAnimal1.aboutAnimal" : "1.15",
+    "dtoRegisterAnimal1.pregnancyExamination" : "1.5",
+    "evidence._1_.bcs" : "2_1_.5",
+    "evidence._2_.assignedDate" : "2_2_.2",
+    "evidence._0_.refnumber" : "2_0_.4",
+    "evidence._2_.animalID" : "2_2_.7",
+    "dtoRegisterAnimal1.status" : "1.17",
+    "evidence._0_.refType" : "2_0_.5",
+    "evidence._2_.reftype" : "2_2_.8",
+    "dtoRegisterAnimal1.animalIDMother" : "1.3",
+    "dtoRegisterAnimal1.dateOfBirth" : "1.8",
+    "evidence._1_.notes" : "2_1_.6",
+    "dtoRegisterAnimal1.unit" : "1.12",
+    "evidence._0_.notes" : "2_0_.2",
+    "evidence._1_.ghoid" : "2_1_.1",
+    "dtoRegisterAnimal1.animalID" : "1.1",
+    "evidence._0_.examinationDate" : "2_0_.3",
+    "dtoRegisterAnimal1.sex" : "1.6",
+    "evidence._1_.animalID" : "2_1_.9",
+    "evidence._0_.status" : "2_0_.10",
+    "evidence._2_.drungs" : "2_2_.4",
+    "dtoRegisterAnimal1.notes" : "1.4",
+    "evidence._0_.animalID" : "2_0_.8",
+    "evidence._1_.wight" : "2_1_.10",
+    "dtoRegisterAnimal1.breed" : "1.9",
+    "dtoRegisterAnimal1.employerID" : "1.11",
+    "dtoRegisterAnimal1.birthPlace" : "1.10",
+    "evidence._0_.aeid" : "2_0_.1",
+    "evidence._2_.reason" : "2_2_.3",
+    "evidence._2_.refnumber" : "2_2_.5",
+    "evidence._1_.wound" : "2_1_.4",
+    "evidence._1_.limping" : "2_1_.2",
+    "evidence._2_.dtid" : "2_2_.1"
+  }
+}

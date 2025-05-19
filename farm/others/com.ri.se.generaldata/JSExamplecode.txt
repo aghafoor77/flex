@@ -1,0 +1,40 @@
+this.state = {
+	feedName : feedName, 
+	creationDate : creationDate
+}
+
+
+this.state = {
+	feedName : "", 
+	creationDate : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'feedName': this.setState({ feedName: event.target.value }); break;
+		  case 'creationDate': this.setState({ creationDate: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="feedName"
+name="feedName" id="feedName" onChange={this.handleChange.bind(this)} value={this.state.feedName}
+
+htmlFor="creationDate"
+name="creationDate" id="creationDate" onChange={this.handleChange.bind(this)} value={this.state.creationDate}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		feedName : this.state.feedName, 
+		creationDate : this.state.creationDate
+	}
+	return jsondata; 
+
+}

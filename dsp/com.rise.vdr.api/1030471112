@@ -1,0 +1,123 @@
+{
+  "issuanceDate" : "2025-01-29 02:56:28",
+  "holder" : "5955394570666a39756b4a67327256346e6845414547775a504371306b6a",
+  "validFrom" : "2025-01-29 02:56:28",
+  "issued" : "2025-01-29 02:56:28",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrB4nfXwLN5W5s6bkBdyBTzFTwCnLXess5wKmu9x19asUN5SrFgPDHqysV3khnLAqR8RLi4BPfcsVqRMzyWSAfDxv2TbkgzvLbqv15RvTC2FdK1UXkm4QnsQrsxHv8zpCDZTLVSbw3waVxkSFtNfukSGhoGPhH12v7eA17XiKKcBf8jL5P7qmYDzGpyxUnjb9zkXMkzs6D8Wz7xEx8RUDp9ZZn8dFPUYxMLRAws7jiQSESbwqL1DLdZw6q6Ymxz21vVxddgXpGH74DpDSeWkvYSTvJxrQsGJBHSfdUsfPLywGhZtcc12T7Y2bq7K3fNwNodmVkSeg41SFREX6qLKqxE8wowPRUTCcked2kG"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:-2057036261",
+  "issuer" : "3672436e6764657544564158493334514b63385a674f466a7551502a4a48",
+  "digest-set" : {
+    "2.11" : "a6606c498fa6a27f0f86c4d40c8678c44e7eeb5fc2853f13846f0c6415e29e4f",
+    "2.10" : "2fcc9c6616b7796dcadf221bbcbe82f03cefea44264b0c48aed99ad549fb3ead",
+    "1" : "6bbedc7bdebe29d14c8679bb84cd113fe87c0e37d210769c173fdbcfba1166c9",
+    "3" : "33244d93dcf63124145bd9dc52c024c902ecc83715a3f417f54fc7a2b940c9d8",
+    "2.1" : "67f7a563bfd94d50e0b11028454da86e9f5734505098872e2a21b5fe38c3a734",
+    "2.2" : "057d3c01108086df1f11e52dc46279fa18378e0fb73e1370756297ab3dbd4c79",
+    "2.3" : "0ee19747197273b288cd9b2545dfcdf3fe8c9b01d7e9d5af08bbad02dff25c86",
+    "2.4" : "9ad254896eb9b01469d8c71e230af5fac8171cc4fd0f4e7aab258bd248daea3a",
+    "2.5" : "dd8d68ee3ecd6ec5772e906314f647e0546a5a35988fc76b78855f05d8ccfa88",
+    "2.6" : "30677d7c321688b758930b4b3d819474065305553f2a0ac5bf82a97578213e5f",
+    "2.7" : "e21b08d22e777c8a58e2bca5b9be61a3b118d48cdab9a25299d9bab6b7ea1879",
+    "2.8" : "6939c1b95b8c38ee9cabb3201e64cd1a9091695e18a171ca89eefaaf7f7501e4",
+    "2.9" : "08f11b034dae1603b02210d0fd0b3c04e57bfa8e548da9f0374049d320b24ce2"
+  },
+  "expirationDate" : "2025-01-29 02:56:28",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-29T13:56:28Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e35613135343634613366313938702d34",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..aRhWNVrlUxElrqRSu7ub9fhDRgEe5L_IHqHn4nJyYZ5KRk3zeEpU73WcWJ2MQMgzFXdCfIV4i7vo7ZfZilZXvWcVfnC2yMoJLyAJxBBUFgaDVb_KywuMGFEjIMoiEi2XiFC4mmRHmp6qXIxRzapCpFh2Tm_3QGVtzSTS0yQxLZKI2JHwwtSckvz-ni3FADFXKe7Lw99MtmlVDQx82Gf7x8B8t2T9XmhNTc2gKiy1vGba0PBNCuiglZVeZCRti-msFUyHb4GVex04Qx5BCazEDspKtLCbN4oRNJ9e_UbH8i1GNh172qBllxF6JC_skgwzSo4IcXY7w0WEXwauCUpydg"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "xgzSwjl7uERurf5FIeKI86AGbFEm2CxrGMmuNyaUwtmMtEwvfVg6dmxXFEvdfYNp",
+      "name" : "evidenceType",
+      "value" : "DATA"
+    },
+    "evidence" : {
+      "2.1" : {
+        "salt" : "EwFD8Omn2fOX08sFTafB5WRw2b4JFEHXhVd3ApzXHYzQyIjP5OIBNgmKHkYsKASn",
+        "name" : "animalID",
+        "value" : "AR-1738117939683"
+      },
+      "2.2" : {
+        "salt" : "6YDbq0bFdChzm3Vrym8SbG9kTclrk8eMdcK5FEK3BHLEMIHiCSMDHk4cr62xfYFK",
+        "name" : "animalIDMother"
+      },
+      "2.3" : {
+        "salt" : "3bP1PM7gzyOeR14ezbw8pfSh9gus36OjxNiuC3Lcq4LEQc2zAIhtDvSG6YdDU1j5",
+        "name" : "birthPlace",
+        "value" : "Uppsala Farm"
+      },
+      "2.4" : {
+        "salt" : "6Wv3nXJJ9j5BMAEr4yre2eVGyn71fln9PEZ7r6LcKFSG9pPsNIBK8EG1iXBuAVMz",
+        "name" : "previousFarmContact",
+        "value" : "AR-12-12-13IMP"
+      },
+      "2.5" : {
+        "salt" : "hJnAs4LMCKi44m7w9hJsnWq4z7J26tUxt2COY7eHrGa35Y9XnkQ6CeOiooB1kpLg",
+        "name" : "currentWeight",
+        "value" : 200
+      },
+      "2.6" : {
+        "salt" : "ketLdOg7ubTWe0SEMM5dKqPeUh5mwUP0VgVvlU96PANa3b5KndsVW5NwFeSWoZUh",
+        "name" : "receivedFarmName",
+        "value" : "Sundsval"
+      },
+      "2.7" : {
+        "salt" : "wmFCMcKbwKtYVY0cJtc9arnLtDbPb5JqmQDibJbp4rienaanjo89CzvBstyzdxc2",
+        "name" : "sex",
+        "value" : "Cow"
+      },
+      "2.8" : {
+        "salt" : "zBHrq3p0xZzQF94OekNG4oLgFtsGg7n0s3DodQ5AhHLQlmogh52lbHaNrURR70dN",
+        "name" : "farmId",
+        "value" : "AR-1738117939683"
+      },
+      "2.9" : {
+        "salt" : "LidvTSoYuwVJUAoBMrP60Dz7pqYkmfZHcnu00rxSs0GZTIUjr8Am7014sHEiE2Rp",
+        "name" : "transferDate",
+        "value" : "2025-01-29 02:56:18"
+      },
+      "2.10" : {
+        "salt" : "Al2OtKas7qtxnHd8aPhflZKIovyWjJDyGxRevfvQdXBDBiaMiMhbeIAYHgqKnwr0",
+        "name" : "birthDate",
+        "value" : "2019-12-25"
+      },
+      "2.11" : {
+        "salt" : "oeKGsQqfkQqTzDpwWs1vGpQfsbtf931QqPUd6AUCUvnWdt12aXNf5AGtPh3Vp1fZ",
+        "name" : "breed",
+        "value" : "German Red Pied"
+      }
+    },
+    "3" : {
+      "salt" : "9ZuSk3jTlFPRyL4zS7sc5RbXzCBaylaLWmX56IYluB38jtZa2Dp5l566VTNRVJo5",
+      "name" : "uniqueNo",
+      "value" : "DATA"
+    }
+  },
+  "metamapper" : {
+    "uniqueNo" : "3",
+    "evidence.breed" : "2.11",
+    "evidence.animalIDMother" : "2.2",
+    "evidence.birthDate" : "2.10",
+    "evidence.transferDate" : "2.9",
+    "evidence.birthPlace" : "2.3",
+    "evidence.receivedFarmName" : "2.6",
+    "evidence.previousFarmContact" : "2.4",
+    "evidence.farmId" : "2.8",
+    "evidenceType" : "1",
+    "evidence.animalID" : "2.1",
+    "evidence.sex" : "2.7",
+    "evidence.currentWeight" : "2.5"
+  }
+}

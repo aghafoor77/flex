@@ -1,0 +1,96 @@
+this.state = {
+	osid : osid, 
+	notes : notes, 
+	contact : contact, 
+	orderedTo : orderedTo, 
+	employeeID : employeeID, 
+	emailto : emailto, 
+	farmID : farmID, 
+	orderDate : orderDate, 
+	breed : breed, 
+	status : status
+}
+
+
+this.state = {
+	osid : "", 
+	notes : "", 
+	contact : "", 
+	orderedTo : "", 
+	employeeID : "", 
+	emailto : "", 
+	farmID : "", 
+	orderDate : "", 
+	breed : "", 
+	status : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'osid': this.setState({ osid: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'contact': this.setState({ contact: event.target.value }); break;
+		  case 'orderedTo': this.setState({ orderedTo: event.target.value }); break;
+		  case 'employeeID': this.setState({ employeeID: event.target.value }); break;
+		  case 'emailto': this.setState({ emailto: event.target.value }); break;
+		  case 'farmID': this.setState({ farmID: event.target.value }); break;
+		  case 'orderDate': this.setState({ orderDate: event.target.value }); break;
+		  case 'breed': this.setState({ breed: event.target.value }); break;
+		  case 'status': this.setState({ status: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="osid"
+name="osid" id="osid" onChange={this.handleChange.bind(this)} value={this.state.osid}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="contact"
+name="contact" id="contact" onChange={this.handleChange.bind(this)} value={this.state.contact}
+
+htmlFor="orderedTo"
+name="orderedTo" id="orderedTo" onChange={this.handleChange.bind(this)} value={this.state.orderedTo}
+
+htmlFor="employeeID"
+name="employeeID" id="employeeID" onChange={this.handleChange.bind(this)} value={this.state.employeeID}
+
+htmlFor="emailto"
+name="emailto" id="emailto" onChange={this.handleChange.bind(this)} value={this.state.emailto}
+
+htmlFor="farmID"
+name="farmID" id="farmID" onChange={this.handleChange.bind(this)} value={this.state.farmID}
+
+htmlFor="orderDate"
+name="orderDate" id="orderDate" onChange={this.handleChange.bind(this)} value={this.state.orderDate}
+
+htmlFor="breed"
+name="breed" id="breed" onChange={this.handleChange.bind(this)} value={this.state.breed}
+
+htmlFor="status"
+name="status" id="status" onChange={this.handleChange.bind(this)} value={this.state.status}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		osid : this.state.osid, 
+		notes : this.state.notes, 
+		contact : this.state.contact, 
+		orderedTo : this.state.orderedTo, 
+		employeeID : this.state.employeeID, 
+		emailto : this.state.emailto, 
+		farmID : this.state.farmID, 
+		orderDate : this.state.orderDate, 
+		breed : this.state.breed, 
+		status : this.state.status
+	}
+	return jsondata; 
+
+}

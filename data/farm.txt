@@ -1,0 +1,45 @@
+{
+  "dtoFacilityList" : [ {
+    "facilityId" : null,
+    "address" : "1. enter address",
+    "maxcapacity" : 5,
+    "temporaryactivity" : "1. enter temporaryactivity",
+    "anlaggningsnumber" : "1. enter anlaggningsnumber",
+    "farmId" : "1. enter farmId",
+    "type" : "1. enter type",
+    "areasize" : "1. enter areasize",
+    "fromDate" : "2022-1-15",
+    "movementacrossEU" : true,
+    "facilityNr" : "1. enter facilityNr",
+    "specieskept" : "1. enter specieskept",
+    "breedingmaterials" : "1. enter breedingmaterials"
+  }, {
+    "facilityId" : null,
+    "address" : "2.enter address",
+    "maxcapacity" : 2,
+    "temporaryactivity" : "2.enter temporaryactivity",
+    "anlaggningsnumber" : "2.enter anlaggningsnumber",
+    "farmId" : "2.enter farmId",
+    "type" : "2.enter type",
+    "areasize" : "2.enter areasize",
+    "fromDate" : "2022-1-15",
+    "movementacrossEU" : true,
+    "facilityNr" : "2.enter facilityNr",
+    "specieskept" : "2.enter specieskept",
+    "breedingmaterials" : "2.enter breedingmaterials"
+  } ],
+  "farm" : {
+    "farmId" : "5445-4545-78",
+    "farmName" : "iFarm",
+    "owner" : "owner@lsc.se",
+    "dateTime" : "2022-1-15",
+    "country" : "SE",
+    "notes" : "This is cattle farm in uppsala",
+    "city" : "Uppsala",
+    "street" : "Maincowgatan",
+    "postalcode" : "19425",
+    "farmContactNo" : "0155446768",
+    "farmCompany" : "iFarm",
+    "email" : "owner@lsc.se"
+  }
+}

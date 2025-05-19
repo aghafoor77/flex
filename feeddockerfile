@@ -1,0 +1,58 @@
+FROM ubuntu:22.04 as base-stage
+
+USER root
+ENV TZ=Europe/Stockholm
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+LABEL vnf="trapi" description="FORMAS TrAPI Controler" type="container"
+MAINTAINER Abdul Ghafoor abdul.ghafoor@ri.se
+
+RUN \
+    apt-get -y update && \
+    apt-get -y install curl unzip man wget telnet net-tools iputils-ping vim 
+
+RUN apt-get install openjdk-8-jdk openjdk-8-jre -y
+
+FROM base-stage as build-stage
+COPY ./farm/feed/com.ri.se.feedtype/ /app/build/com.ri.se.feedtype/
+COPY ./farm/feed/com.ri.se.feedpattern/ /app/build/com.ri.se.feedpattern/
+COPY ./farm/feed/com.ri.se.temporarymovement/ /app/build/com.ri.se.temporarymovement/
+COPY ./farm/feed/ri.se.feed/ /app/build/ri.se.feed/
+
+USER root
+RUN apt-get -y install maven 
+
+# Buidling all packages and then installing in maven repo
+WORKDIR /app/build/com.ri.se.feedtype
+RUN mvn package && mvn install
+
+WORKDIR /app/build/com.ri.se.feedpattern
+RUN mvn package && mvn install
+
+WORKDIR /app/build/com.ri.se.temporarymovement
+RUN mvn package && mvn install
+
+WORKDIR /app/build/ri.se.feed
+RUN mvn package
+# End building all packages
+
+# Building for running microservice
+FROM base-stage as production-stage
+
+USER root
+
+ENV HOME /root
+WORKDIR /home
+
+RUN mkdir -p /home/app
+
+
+WORKDIR /home/app
+
+COPY --from=build-stage /app/build/ri.se.feed/target/ri.se.feed-1.0.0.jar /home/app
+COPY --from=build-stage /app/build/ri.se.feed/config.yml /home/app
+COPY ./farm/feed/runner.sh /home/app/runner.sh
+
+EXPOSE 9013
+
+CMD ./runner.sh

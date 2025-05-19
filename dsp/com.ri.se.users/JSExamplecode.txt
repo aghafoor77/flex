@@ -1,0 +1,47 @@
+this.state = {
+	email : email, 
+	password : password, 
+	roles : roles
+}
+
+
+this.state = {
+	email : "", 
+	password : "", 
+	roles : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'email': this.setState({ email: event.target.value }); break;
+		  case 'password': this.setState({ password: event.target.value }); break;
+		  case 'roles': this.setState({ roles: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="email"
+name="email" id="email" onChange={this.handleChange.bind(this)} value={this.state.email}
+
+htmlFor="password"
+name="password" id="password" onChange={this.handleChange.bind(this)} value={this.state.password}
+
+htmlFor="roles"
+name="roles" id="roles" onChange={this.handleChange.bind(this)} value={this.state.roles}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		email : this.state.email, 
+		password : this.state.password, 
+		roles : this.state.roles
+	}
+	return jsondata; 
+
+}

@@ -1,0 +1,41 @@
+FROM ubuntu:22.04 as base-stage
+
+USER root
+ENV TZ=Europe/Stockholm
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+LABEL vnf="ipfs" description="FORMAS IPFS Controler" type="container"
+MAINTAINER Abdul Ghafoor abdul.ghafoor@ri.se
+
+RUN \
+    apt-get -y update && \
+    apt-get -y install golang-go unzip man telnet net-tools iputils-ping vim
+
+USER root
+
+# Buidling all packages and then installing in maven repo
+
+# End building all packages
+
+# Building for running microservice
+FROM base-stage as production-stage
+
+USER root
+
+ENV HOME /root
+WORKDIR /home
+
+RUN mkdir -p /home/app
+RUN mkdir -p /home/app/data
+
+WORKDIR /home/app
+COPY ./ipfs/go-ipfs_v0.5.1_linux-amd64.tar.gz go-ipfs_v0.5.1_linux-amd64.tar.gz
+RUN tar xvfz go-ipfs_v0.5.1_linux-amd64.tar.gz
+RUN mv go-ipfs/ipfs /usr/local/bin/ipfs
+COPY ./ipfs/runner.sh /home/app/runner.sh
+
+EXPOSE 4001
+EXPOSE 5001
+EXPOSE 8080
+
+CMD ./runner.sh

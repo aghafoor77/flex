@@ -1,0 +1,29 @@
+version: '3'
+services:
+  transporter: 
+    build:
+      context: .
+      dockerfile: transporterdockerfile 
+    container_name: transporter
+    ports:
+      - '9031:9031'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+  
+  transferedanimal: 
+    build:
+      context: .
+      dockerfile: transferedanimaldockerfile 
+    container_name: transferedanimal
+    ports:
+      - '9032:9032'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+  
+  

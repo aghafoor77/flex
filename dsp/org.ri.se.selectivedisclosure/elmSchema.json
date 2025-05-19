@@ -1,0 +1,273 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"http://data.europa.eu/snb/model/context/edc-ap",
+		"http://www.w3.org/ns/adms#",
+		"http://data.europa.eu/m8g/",
+		"http://www.w3.org/ns/person#",
+		"https://www.w3.org/2018/credentials#",
+		"http://purl.org/dc/terms/",
+		"http://data.europa.eu/snb/model/elm/",
+		"http://xmlns.com/foaf/0.1/",
+		"http://www.w3.org/ns/locn#",
+		"http://www.w3.org/ns/org#",
+		"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"http://www.w3.org/ns/regorg#",
+		"http://www.w3.org/2004/02/skos/core#",
+		"http://www.w3.org/2001/XMLSchema#"
+	],
+	"EuropeanDigitalCredential": {
+	"validFrom": "",
+		"credentialProfiles": {
+			"inScheme": {
+				"id": "http://data.europa.eu/snb/credential/25831c2",
+				"type": "ConceptScheme"
+			},
+			"name": "",
+			"notation": ""
+		},
+		"credentialSchema": "",
+		"displayParameter": {
+			"title": "",
+			"language": {
+				"prefLabel": "",
+				"notation": "",
+				"inScheme": {
+					"id": "http://publications.europa.eu/resource/authority/language",
+					"type": "ConceptScheme"
+				}
+			},
+			"individualDisplay": {
+				"displayDetail": "",
+				"language": {
+					"id": "http://publications.europa.eu/resource/authority/language/ENG",
+					"type": "Concept",
+					"inScheme": {
+						"id": "http://publications.europa.eu/resource/authority/language",
+						"type": "ConceptScheme"
+					}
+				}
+			},
+			"primaryLanguage": {
+				"prefLabel": "",
+				"notation": "",
+				"inScheme": {
+					"id": "http://publications.europa.eu/resource/authority/language",
+					"type": "ConceptScheme"
+				}
+			}
+		},
+		"identifier": "",
+		"issuanceDate": "",
+		"expirationDate": "",
+		"issued": "",
+		"issuer": {
+			"notation": "",
+			"eIDASÎ™dentifier": {
+				"schemeId": "http://example.org/126839",
+				"type": "LegalIdentifier",
+				"notation": "126839",
+				"spatial": {
+					"prefLabel": "",
+					"inScheme": {
+						"id": "http://publications.europa.eu/resource/authority/country",
+						"type": "ConceptScheme"
+					}
+				}
+			}
+		},
+		"credentialSubject": {
+			"fullName": "",
+			"hasClaim": {
+				"LearningAssessment": {
+					"awardedBy": {
+						"awardingBody": {
+							"legalName": "",
+							"location": "",
+							"taxIdentifier": "",
+							"accreditation": {
+								"accreditingAgent": {
+									"legalName": "",
+									"location": ""
+								},
+								"organisation": {
+									"legalName": "",
+									"location": ""
+								},
+								"title": "",
+								"type": {
+									"notation": "",
+									"inScheme": ""
+								},
+								"decision": {
+									"notation": "",
+									"inScheme": ""
+								},
+								"additionalNote": {
+									"note literal": ""
+								}
+							}
+						},
+						"location": {
+							"countryCode": "",
+							"fullAddress": ""
+						},
+						"description": "",
+						"used": {
+							"awardedBy": {
+								"awardingBody": {
+									"legalName": "",
+									"location": ""
+								},
+								"description": ""
+							},
+							"grade": "",
+							"title": ""
+						}
+					},
+					"grade": "",
+					"idVerification": "",
+					"title": "",
+					"assessedBy": {
+						"name": ""
+					},
+					"specifiedBy": {
+						"title": "",
+						"additionalNote": {
+							"note literal": ""
+						}
+					}
+				},
+				"LearningAchievement": {
+					"awardedBy": {
+
+					},
+					"title": "",
+					"specifiedBy": {
+						"title": "",
+						"learningOutcome": [{
+							"title": "",
+							"type": {
+								"prefLabel": "",
+								"notation": "",
+								"inScheme": {
+									"id": "",
+									"type": "ConceptScheme"
+								}
+							},
+							"additionalNote": [{
+								"note literal": ""
+							}, {
+								"note literal": ""
+							}, {
+								"note literal": ""
+							}, {
+								"note literal": ""
+							}]
+						}],
+						"educationLevel": {
+							"inScheme": "",
+							"notation": ""
+						},
+						"entryRequirement": {
+							"noteLiteral": ""
+						},
+						"specialisationOf": {
+							"title": "",
+							"description": ""
+						},
+						"creditPoint": {
+							"framework": "",
+							"point": ""
+						},
+						"ISCEDFCode": {
+							"inScheme": "",
+							"notation": ""
+						},
+						"educationSubject": {
+							"inScheme": "",
+							"notation": ""
+						},
+						"volumeOfLearning": ""
+					},
+					"influencedBy": {
+						"title": "",
+						"type": {
+							"notation": "",
+							"inScheme": ""
+						}
+					}
+				},
+				"LearningEntitlement": {
+					"title": "",
+					"awardedBy": {
+						"awardingBody": {
+							"legalName": "",
+							"location": "",
+							"taxIdentifier": "",
+							"accreditation": {
+								"accreditingAgent": {
+									"legalName": "",
+									"location": ""
+								},
+								"organisation": {
+									"legalName": "",
+									"location": ""
+								},
+								"title": "",
+								"description": "",
+								"type ": {
+									"notation": "",
+									"inScheme": ""
+								},
+								"decision ": {
+									"notation": "",
+									"inScheme": ""
+								},
+								"additionalNote": [{
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}, {
+									"note literal": ""
+								}]
+							}
+						},
+						"location": {
+							"countryCode ": "",
+							"fullAddress": ""
+						}
+					},
+					"specifiedBy": {
+						"entitledBy": {
+							"EQFLevel ": "",
+							"NQFLevel ": ""
+						},
+						"entitlementStatus ": {
+							"notation": "",
+							"inScheme": ""
+						},
+						"title": "",
+						"type ": {
+							"notation": "",
+							"inScheme": ""
+						}
+					},
+					"description": ""
+				}
+			},
+			"nationalId": ""
+		}		
+	}
+
+}

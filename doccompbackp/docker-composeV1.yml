@@ -1,0 +1,51 @@
+version: '3'
+services:
+  dsp: 
+    build:
+        context: ./dsp
+        dockerfile: Dockerfile 
+    container_name: dsp
+    ports:
+      - '9000:9000'
+    restart: unless-stopped
+  animal: 
+    build:
+      context: ./farm/animal
+      dockerfile: Dockerfile 
+    container_name: animal
+    ports:
+      - '9002:9002'
+    restart: unless-stopped
+  farm: 
+    build:
+      context: ./farm/farmmgt
+      dockerfile: Dockerfile 
+    container_name: farm
+    ports:
+      - '9020:9020'
+    restart: unless-stopped  
+  feed: 
+    build:
+      context: ./farm/feed
+      dockerfile: Dockerfile 
+    container_name: feed
+    ports:
+      - '9013:9013'
+    restart: unless-stopped
+  health: 
+    build:
+      context: ./farm/health
+      dockerfile: Dockerfile 
+    container_name: health
+    ports:
+      - '9011:9011'
+    restart: unless-stopped
+  prebirth: 
+    build:
+      context: ./farm/prebirth
+      dockerfile: Dockerfile 
+    container_name: prebirth
+    ports:
+      - '9007:9007'
+    restart: unless-stopped
+

@@ -1,0 +1,8 @@
+INFO   [01:13:02.218] [dw-42 - POST /tapi/idms/v1/auth] o.r.s.v.b.AccountsManager -  Credentials already exisit in the wallet ! 
+INFO   [01:13:10.534] [dw-54 - POST /tapi/idms/v1/auth] o.r.s.v.b.AccountsManager -  Credentials already exisit in the wallet ! 
+INFO   [02:34:48.988] [dw-46 - POST /tapi/idms/v1/auth] o.r.s.v.b.AccountsManager -  Credentials already exisit in the wallet ! 
+INFO   [10:21:42.356] [dw-42 - POST /tapi/idms/v1/auth] o.r.s.v.b.AccountsManager -  Credentials already exisit in the wallet ! 
+INFO   [13:19:04.584] [JettyShutdownThread] o.e.j.s.AbstractConnector -  Stopped application@5d3634c8{HTTP/1.1, (http/1.1)}{0.0.0.0:9000} 
+INFO   [13:19:04.647] [JettyShutdownThread] o.e.j.s.AbstractConnector -  Stopped admin@6e67a8c0{HTTP/1.1, (http/1.1)}{0.0.0.0:8277} 
+INFO   [13:19:04.777] [JettyShutdownThread] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@1896299b{/,null,STOPPED} 
+INFO   [13:19:05.313] [JettyShutdownThread] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@53da2aec{/,null,STOPPED} 

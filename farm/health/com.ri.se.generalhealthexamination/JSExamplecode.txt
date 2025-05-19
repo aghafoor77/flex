@@ -1,0 +1,110 @@
+this.state = {
+	gaheid : gaheid, 
+	observer : observer, 
+	wound : wound, 
+	notes : notes, 
+	notation : notation, 
+	temperature : temperature, 
+	infections : infections, 
+	lameness : lameness, 
+	swelling : swelling, 
+	gheDate : gheDate, 
+	animalID : animalID, 
+	weak : weak
+}
+
+
+this.state = {
+	gaheid : "", 
+	observer : "", 
+	wound : "", 
+	notes : "", 
+	notation : "", 
+	temperature : "", 
+	infections : "", 
+	lameness : "", 
+	swelling : "", 
+	gheDate : "", 
+	animalID : "", 
+	weak : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'gaheid': this.setState({ gaheid: event.target.value }); break;
+		  case 'observer': this.setState({ observer: event.target.value }); break;
+		  case 'wound': this.setState({ wound: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'notation': this.setState({ notation: event.target.value }); break;
+		  case 'temperature': this.setState({ temperature: event.target.value }); break;
+		  case 'infections': this.setState({ infections: event.target.value }); break;
+		  case 'lameness': this.setState({ lameness: event.target.value }); break;
+		  case 'swelling': this.setState({ swelling: event.target.value }); break;
+		  case 'gheDate': this.setState({ gheDate: event.target.value }); break;
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'weak': this.setState({ weak: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="gaheid"
+name="gaheid" id="gaheid" onChange={this.handleChange.bind(this)} value={this.state.gaheid}
+
+htmlFor="observer"
+name="observer" id="observer" onChange={this.handleChange.bind(this)} value={this.state.observer}
+
+htmlFor="wound"
+name="wound" id="wound" onChange={this.handleChange.bind(this)} value={this.state.wound}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="notation"
+name="notation" id="notation" onChange={this.handleChange.bind(this)} value={this.state.notation}
+
+htmlFor="temperature"
+name="temperature" id="temperature" onChange={this.handleChange.bind(this)} value={this.state.temperature}
+
+htmlFor="infections"
+name="infections" id="infections" onChange={this.handleChange.bind(this)} value={this.state.infections}
+
+htmlFor="lameness"
+name="lameness" id="lameness" onChange={this.handleChange.bind(this)} value={this.state.lameness}
+
+htmlFor="swelling"
+name="swelling" id="swelling" onChange={this.handleChange.bind(this)} value={this.state.swelling}
+
+htmlFor="gheDate"
+name="gheDate" id="gheDate" onChange={this.handleChange.bind(this)} value={this.state.gheDate}
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="weak"
+name="weak" id="weak" onChange={this.handleChange.bind(this)} value={this.state.weak}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		gaheid : this.state.gaheid, 
+		observer : this.state.observer, 
+		wound : this.state.wound, 
+		notes : this.state.notes, 
+		notation : this.state.notation, 
+		temperature : this.state.temperature, 
+		infections : this.state.infections, 
+		lameness : this.state.lameness, 
+		swelling : this.state.swelling, 
+		gheDate : this.state.gheDate, 
+		animalID : this.state.animalID, 
+		weak : this.state.weak
+	}
+	return jsondata; 
+
+}

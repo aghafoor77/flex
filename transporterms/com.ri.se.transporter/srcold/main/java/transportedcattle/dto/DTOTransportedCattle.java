@@ -1,0 +1,85 @@
+package transportedcattle.dto;
+
+import java.util.Date;
+
+public class DTOTransportedCattle{
+
+	private String TCID;
+	private String notes;
+	private String GHEID;
+	private String destination;
+	private String departDate;
+	private String transportType;
+	private String source;
+	private String animalID;
+	private String carriernumber;
+	public DTOTransportedCattle (){
+
+	}
+	public DTOTransportedCattle ( String TCID,String notes,String GHEID,String destination,String departDate,String transportType,String source,String animalID,String carriernumber){
+		this.TCID = TCID; 
+		this.notes = notes; 
+		this.GHEID = GHEID; 
+		this.destination = destination; 
+		this.departDate = departDate; 
+		this.transportType = transportType; 
+		this.source = source; 
+		this.animalID = animalID; 
+		this.carriernumber = carriernumber; 
+	}
+
+	public String getTCID(){
+		return this.TCID;
+	}
+	public void setTCID(String TCID) {
+		this.TCID = TCID; 
+	}
+	public String getNotes(){
+		return this.notes;
+	}
+	public void setNotes(String notes) {
+		this.notes = notes; 
+	}
+	public String getGHEID(){
+		return this.GHEID;
+	}
+	public void setGHEID(String GHEID) {
+		this.GHEID = GHEID; 
+	}
+	public String getDestination(){
+		return this.destination;
+	}
+	public void setDestination(String destination) {
+		this.destination = destination; 
+	}
+	public String getDepartDate(){
+		return this.departDate;
+	}
+	public void setDepartDate(String departDate) {
+		this.departDate = departDate; 
+	}
+	public String getTransportType(){
+		return this.transportType;
+	}
+	public void setTransportType(String transportType) {
+		this.transportType = transportType; 
+	}
+	public String getSource(){
+		return this.source;
+	}
+	public void setSource(String source) {
+		this.source = source; 
+	}
+	public String getAnimalID(){
+		return this.animalID;
+	}
+	public void setAnimalID(String animalID) {
+		this.animalID = animalID; 
+	}
+	public String getCarriernumber(){
+		return this.carriernumber;
+	}
+	public void setCarriernumber(String carriernumber) {
+		this.carriernumber = carriernumber; 
+	}
+}

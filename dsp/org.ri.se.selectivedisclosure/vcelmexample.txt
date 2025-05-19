@@ -1,0 +1,986 @@
+{
+  "issuer" : "did:veid:0xC5B09bb75A2C4b6Bb0c91E9dac4d3cC3C40Fed05",
+  "holder" : "did:veid:0x71aD1108403C28f3723d09D533337BC115528039",
+  "type" : [ "VerifiableCredentials" ],
+  "@context" : [ "https://www.w3.org/ns/did/v1" ],
+  "digest-set" : {
+    "2.4.2.2.2.1" : "61eebf63690b31a25fb0ebeeeb2be53ea02e9b645699498d349537f30a4d46b8",
+    "2.4.2.2.2.2.1" : "50c068e88677b9898e1a8144e636d4144251cd4d582d531af1cc17da0386a3c0",
+    "2.4.2.1.4.2.4.2_0_.1" : "e356abe53bcc3b5535bf6080263bf5453644f8255762f07f01048429480d7322",
+    "2.4.2.3.1.5_0_.3_0_.1" : "ff9f5fafe056e3c3a5c8b9fe3342018c4ab4398fc5959b5cf0d38d9022c6091a",
+    "2.4.2.2.5.4.4.3.1" : "d6e29cd29d75ff965ae141f7f3736759b23d80409c97d109bba769a898dcaa8f",
+    "2.4.2.3.4.1" : "864847ae091c4f21eaa7ba8b5717f0d623c7ce0f156ad8bc5c9e360af852d5f3",
+    "2.4.2.2.5.4.1" : "fddb93f0c58168a2ffa09780f4521825a3d6569b978e436b746b3f0bf86c9a10",
+    "2.4.2.2.6" : "8cf774a3b9f05c436c4c90c63061e3fd153167b47c7e777d8ff4ba2910d0cedd",
+    "2.4.2.2.5.4.2" : "a8bcbe3e96e5a10f4ea912c4f92ce933cdcae05742ebacfcdfd57f565d5efd46",
+    "2.4.2.1.4.2.4.2_3_.1" : "574554744ff05f69563c72815a1f67647411764d4225aaae33887044d52c6035",
+    "2.4.2.2.5.4.3" : "2b0698552b56073e2085050daf05299c2bf242bb370157897371685ef7ba1598",
+    "2.5.3" : "c50fa0a7a26c16dcdbbfa6704a69553f88cd8cfe40994ca9c13c2b3a78c7d531",
+    "2.9.2.4" : "7150a44ec4f34ff99661a775fa763df7854e9b0aa368ad13939fd08ddc3f773f",
+    "2.4.2.1.2.1.2" : "279a8c0f35f7e62e0db8c762f4b8e66c91cd55fb0f1bb57786d7eda71c7792e5",
+    "2.4.2.1.2.1.1" : "120fedb41a0c204b04a5d1b2482c030afa1acd6632b7d135fc6493f715e301e3",
+    "2.4.2.2.4" : "e0955c5daede1f4ef1db23625e5560d5b75c5ceca223ec1763eef403d8130679",
+    "2.9.2.2" : "848752ae3f172016f2a3c865389a49289d2ba96ef6597080506d8d62e193757e",
+    "2.9.2.1" : "8c6a7266d9cacb3169e6d7c618a33283f63aa25ed702626035b570468a153fe3",
+    "2.4.2.3.1.6.1" : "f29af95586a45493d89ff17597865772c29af006bd167f4671dc17541fe7f2d2",
+    "2.4.2.2.1" : "1636f79baf08ea1351c14632fffda76a18b94a3b51b0d643ae389ee7ddb1d8d4",
+    "2.4.2.3.1.6.2" : "14912980a6b1f6b0f6ac41b85b11371092ba8dffcec4477b749912e2203d2765",
+    "2.4.2.1.4.2.4.2_2_.1" : "5a5782f127cc303473199afcc0794c9aa988532818b101acff83f7ec426d130b",
+    "2.5.1.2.2" : "fb6904689dd99a6a20bee25c831b7d1587ad003435a95dfa2c589433bb04772e",
+    "2.4.2.1.4.2.4.1.1" : "20f1a01bba2bfb1e3f7b6bcebd1ae7276e5588b39d6db38b4b43f4554a98e770",
+    "2.4.2.1.4.2.4.1.2" : "2ff3fbb56fe92ab3dfb06a4467374d32967e2e35df80715e923cbbe02ef61b3c",
+    "2.5.1.2.1" : "700da5812dba83a72e6290b88cee667ce50ca69bc00b93ce4a0d259cde077d78",
+    "2.4.2.1.4.2.4.5.1" : "fff5a8b6b369ed1b2d63fa2109b4fa53b0efa79749c1871cc7ab732389a97716",
+    "2.4.2.1.4.2.4.5.2" : "2431ccd8fe4240925a946ef5e96c5418b0d02e8dee4709be461e0414dc387d7c",
+    "2.4.2.2.5.1" : "c1507807380dc8cdf244c76ba46c9ae36117570ce4abfedb733a43db26d1f5d4",
+    "2.10" : "8cf934af2c1c18952b2986f7bab9d4b5bdf6fc57cd840679e078a84b7fbd96a3",
+    "2.4.2.2.5.4.4.5" : "f05ab5febd74a03c85d546db8505b68c303dc8bc6a615ec0db6ba33fbb8ae677",
+    "2.4.2.3.1.5_0_.3_2_.1" : "cb81b5ed6eac0b2dea6aeb77c16032d2b8bb0f24038599c71895178b4ca51bee",
+    "2.4.2.3.1.5_0_.2.1.1" : "8a83fbfadc4cf0b621dfded60d0b959645a5d9519a008a71fd0ecbf6bbccf34b",
+    "2.4.2.2.5.4.4.6.2" : "1d56c20a2fe96ab8d47ac7004edebb410162f926c27018290fa93ba75a0cd953",
+    "2.4.2.2.5.4.4.6.1" : "41764ec9df9f28b1f4dfe3e2e134eb72e1a58321e41c00a9f9bf4b4f17ddde0b",
+    "2.4.2.3.1.5_0_.2.1.2" : "40182836de5247c426077c9e4e29d92b0bafdb6f4112f84a2fe01687a1b9e937",
+    "2.4.2.2.5.4.4.2.2" : "72e6650f9e88a66b622197beb4548a22516170ff3446c68ac5f19350ecc9edc0",
+    "2.4.2.2.5.4.4.2.1" : "7d4173c05ff3b5a92a013d834726d5718bc7143690a4e0acd24f51ce247577ad",
+    "2.4.2.2.5.3.1.2.2" : "b27e92c10ec472b920ff245b9eb7ae77a8b9d7284c5f31a3177399906f82ada5",
+    "2.4.2.2.5.3.1.2.1" : "b686ba6388ec569d7d8f43dcaf99ac19a407be1da950ebab922ed140468308df",
+    "2.4.2.1.4.2.4.2_5_.1" : "6d899b8b8820595db660c398f3ae6970b9764014d6393735c53a24a54d004d4b",
+    "2.4.2.3.1.1.1" : "821a2499534a02e917614735fdba702a6d3b243e4e002494aeb67634acb104ab",
+    "2.4.2.3.1.1.2" : "5bd3f5deca6f53f52cbc21c192f89fb09756a92fb0004d4334a725f3d30864a2",
+    "2.6.3" : "bf833b59ff0ce5754363d485c2982ed173632e6333009037a0929ef4b727543e",
+    "2.4.2.3.3" : "ad945c3bafded3cb7735c673a3f2fb2574dd2d0939a4118a4eee813297894e89",
+    "2.6.1" : "e5000a2d5f848638875655853d1e4519be8b0882f8ac2267fd473f8ff2353631",
+    "2.4.2.2.5.3.1.1" : "a09d7bb9db88e1e718823ffb549f70e0a0e912b8e6a643fa2ccd9e9fcd3a9f5a",
+    "2.4.2.3.1.9.1" : "f9bd426092e288e917e83cc23064c41453919cbf47ab10e3cd4ca30daa0d9cf8",
+    "2.4.2.3.1.9.2" : "9e6933695dcf212da5012f855928eab54f3fd4464bdb3f90412a77a77f3b91aa",
+    "2.5.4.3" : "30e01e4c3fc2c932377efec40c1fb77014f9a6c993333c9e54fc803632257604",
+    "2.5.4.2" : "34d74bf5f5965d2520a622d5fb044b7f8630d388e8ec51fafb73758d82addfeb",
+    "2.1" : "f9fae222fa54ab560e306b304a4ee26ff73f388cf0942cf75a48c3fdb7e8c5f7",
+    "2.2" : "71910ece8b0fa2b082e87aa0e639c7f5fbc60a111771ec4a21ff67146551cd14",
+    "2.3" : "cd49c254391f792c3cba4356d86503faebf0a501e45bf8487b7943140ec266be",
+    "2.7" : "dc77e7de36ed9b0c9275b77d62d45834af0a14c8ee10466ab2dd5cebdc1d527d",
+    "2.8" : "a256073b71b6c8297cbd51c01c27ae50b554468648fd4b4f78ba6a6fc33af88b",
+    "2.4.2.1.2.2" : "55142f5fabdab69e66a1b654afc2a40cc6143cb20505f58576a591a0418c8392",
+    "2.4.2.1.4.2.4.2_4_.1" : "9e942c2e487cf1ad1e98cf693aba99a28bbdf2852eee23a5a01af7b77328445b",
+    "2.6.2.1" : "8b86dc554a374ad055b06100b64cabf26cdcaf3e789262a13d28b22dd8a0185a",
+    "2.6.2.2" : "152ad2ef4c5c54c27d02ed917a72c2d15a0fe5c9f93185187b728143c118d116",
+    "2.4.2.1.4.2.1" : "ceef6eeae5acc5d5be61a17755b1e6ceb5d6e4c97301d8dd69a160c1a30fd161",
+    "2.4.2.1.4.2.2" : "2b06b57221fcb49d0d72be427d35742d073af041fc11d226686203aa539a9fa2",
+    "2.4.2.1.4.2.3" : "c3d6cf63e92a91a65d49bc0e6c3240708745ab04834e9928bc12a639925ee313",
+    "2.5.2.1.1" : "5f483a21136f5b2802f889fcb9635d2d9717ccbdb36a5020fe39b215d91f42c4",
+    "2.5.2.1.2" : "b66135220799e13f040fa26018d1a11e413b176a2314cf8c82350b196b965dc2",
+    "2.4.2.2.5.4.4.1.1" : "c1b0c3812a2f5801a44dea63de387465bf46b7c7e3f0813357870e521e294d82",
+    "2.4.2.2.5.4.4.1.2" : "cc35e503c7a1a338ae542dee128ba75364fe4827f7c48f969427f1cd7377f551",
+    "2.4.2.3.1.5_0_.2.3" : "af020eacf74d4df00a34b832a60718945bd8c82bb6075089747ecee91c18ed88",
+    "2.9.2.3.1.1" : "ed0b5da9e13f6d031b54134401cdd64a1b08fefa64af33778847cda45616da9d",
+    "2.9.2.3.2" : "cd17310f0d4a9319081d420ab272344dd436cfcac444a8644f796b1b5db4905d",
+    "2.4.2.3.1.5_0_.2.2" : "419edf426d66a2d5263bad60170fc30c8c180c38815f11b3c0de4fc6d66ff5b8",
+    "2.9.2.3.1.2" : "3418e70f995f8ecd963f71df5afe344b26ec66c4732d47eea5a14a85e4e9bca4",
+    "2.4.2.1.2.3.1" : "b101bc55daf60499d2baf861e5444ff41503c2a620aa79c8d3ad6c3ad57eb065",
+    "2.4.2.1.4.2.4.2_7_.1" : "bd8fbf3aa2dbea2320353b045fc6965a7b56085c582f574ce76b0ba1d8947116",
+    "2.5.4.1.2" : "940f2c793deda08b6fbabcd65f9ef80869e14d366a902374e190573922814556",
+    "2.5.4.1.1" : "1618905664de4bc383ccae2c11d39d3613a919f8bbe4d2d577f2807d9a95c0a8",
+    "2.4.2.1.2.3.2" : "172cd9ad949081ad8e2556a4a11d68dfdfa8a7c91f8111189de6c3f1dba7535d",
+    "2.4.2.3.1.4.1" : "9559fb8958e170db2152b62b254d07119dae08cace8ac1e0ee0558cf81d3ba7b",
+    "2.4.2.3.1.8.2" : "0c1fa6d3e2c9f972c3973d5f2b5f285f0b2778497723609050287f9b1bc54b20",
+    "2.4.2.3.1.8.1" : "127a910586521f29f1bd05a4c5794a704395027c1300e5473a3669807c95cfb2",
+    "2.4.2.3.1.5_0_.3_1_.1" : "e7b6e888a660b1d56394af27deba7287eb3a5c1c670453c114cf40d98224815d",
+    "2.4.2.2.5.2.1" : "805e06c25a0b348ab10f308bdafb653707d9e227151ca97a24ee188d3db1349b",
+    "2.4.2.2.5.2.2" : "6ef2f825f544b437f8aefe0687cdcffa82ef9c8c0cb74e0aaed5de04fc3c3772",
+    "2.4.2.3.4.2.1" : "b6095586e0e736febd6997c6f9678f317beb5f6e07ba63c2313ffbcbc6366f87",
+    "2.4.2.3.4.2.2" : "47ed6d09348986c4734eb0bc0920035cef814e6af9222bf880b206c3625a778b",
+    "2.4.2.1.4.2.4.2_6_.1" : "9d937827ffbcb130f7772e8fc0f9b87a0be2e5f998be8bd7630f81c3f30d87bb",
+    "2.4.2.1.4.2.4.3.1" : "1fe5a6f0ff2a0a14bf2cf201efaed97c5ee555c914e939c26c8e0a52780a8e9f",
+    "2.4.2.1.4.2.4.3.2" : "efc79d7fcf106d25433316387689fbcf7e560999f08db1756e151967c1fe6759",
+    "2.5.1.1" : "aa2eeada0ade2d8d67d23b8105b591c8c1c1556af4a9c6463cfd3b18a6cf67be",
+    "2.4.2.1.4.1.1" : "66fe42644b3efead9e73d0a97ebadd7bfac8942281bc5e9fb5cb731764e1e59d",
+    "2.4.2.1.4.2.4.7.1" : "b439c118862d00a8ee3570d801847046e210b31a50b2ad3014a112d72f3c5d91",
+    "2.4.2.1.4.1.2" : "fc350eb55ebeab17206bb85c2e01260b4d4ac6f7fa1d9a3e73bce2f0d096c323",
+    "2.4.2.1.4.2.4.7.2" : "9c2a9ae99efa8ce9a6d8f6c6a93c171a9e6c716c73d8a24e958cec28205109e7",
+    "2.4.2.2.3.1" : "e7353a99c19045d7f34ea0a096b8f2b52cf549fd1d455874279c04426b130944",
+    "2.4.2.3.1.5_0_.1" : "9f2e223e94538bc9274f6e417f38783acf0666ca88f2ae7f4ecbe2a13bd53a0b",
+    "2.4.2.1.4.2.4.6" : "f3b78b5a48d3f18ba2e527b6082ec105962033487e5627b943c7b17e08e75576",
+    "2.4.2.1.4.2.4.4" : "d97a9856933b9667f65e6f4415883a03ef865843b1b1e38ce7bd945a9d29e732",
+    "2.9.1" : "27aa4812bf99872916ae5fc92c2c59d09fd19fd2468dbc20fb4555053dc632b7",
+    "2.4.2.2.5.4.4.4.2" : "f05be5bb19965860cb40299813a2a171a828d57601394ce753018217e7c6de4f",
+    "2.4.2.2.5.4.4.4.1" : "25e4d98e397cdd280657ac0dadeeb5f5cb5044a425036edc12faf196f3c50161",
+    "2.4.2.3.1.7" : "55328bc7e760c4025ef0e88b331a587090df27a431a85893fce2d2d2159e8c36",
+    "2.4.2.3.1.2" : "c8f846e492b7aac2b44b149cef07829b1a3c35dc17f37c8391dac758b77d3ff2",
+    "2.4.2.1.4.2.4.2_1_.1" : "771b87fca1621975b8f20dd44eba72c78fae9f0c806ecd89aed60f82f97dcfaf",
+    "2.4.2.2.5.3.2" : "55e185df8cc9b2740f258923551e0b6593241da9be7250a89a49bcbbe0b677ab",
+    "2.4.2.2.5.3.3" : "a3e746eda5ef03bb5a307f24e671c25fd3f236ceca7d7e8ab22a1346a1794fc5",
+    "2.4.2.1.3" : "ef6d606861cf384af02252349d7a70ecf30855ebddbba4218e1c81a3f44e5c8c",
+    "2.4.3" : "0d8354c0dcbcbff8ce712f8fd774de4f043b4662eba91414a01bf2a0e5f9abc7",
+    "2.5.1.2.3.1" : "19041270fa2f98062b672221a16ca34d5a0eca193bb315594ac315aafeb49198",
+    "2.4.1" : "17e27a9b3108d85088832678809da424ec86cab0656cd32154c1a6b6f1ef3d3c",
+    "2.5.1.2.3.2" : "8acf94cf39c685ad3c3164af6653b28b9a6e76b6b0e459484cffc3aabc0d21d9",
+    "2.4.2.1.1" : "2b49bb9afa0ae9363367dc0a4afd58f602e0e9395dd5baa653f4dd20b8714b16",
+    "2.4.2.1.2.4.2" : "1553aa952e098062abdb7483ebae930bda7582da52baa263912f28aed5177e94",
+    "2.4.2.3.1.3.1" : "f6e78b516eb4f57fc54d4267181c69947f026b847622e7cedbe8c915811e33d0",
+    "2.4.2.1.2.4.1" : "5f27fba64ed07d96656183384ca6a7f883e68c53ec6909b08665d4bc0881b239",
+    "2.4.2.3.1.3.2" : "2ce2adce35f0f108e11082a0192a833477347c7df4989f42d88f335b82d827b6",
+    "2.4.2.3.1.5_0_.3_3_.1" : "fa932347e0e8074000da7be0ba17987bc427d9fafd3ac8845e001741f8b92f07",
+    "2.5.2.3" : "becdae8ca5d07f7410f3b7909dd92fbba6577aef9c475c04cb3f79a032c7a3f5",
+    "2.5.2.2" : "7fa2e7a0cf680aed7997b5b3e47b7a83d3ff27954db916706f90e0df21ffa220"
+  },
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "did:veid:0xC5B09bb75A2C4b6Bb0c91E9dac4d3cC3C40Fed05#key2",
+    "publicKeyMultibase" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAPkX39SCRZjS7U59oAk17N3S5sZ9qRKTbMTvQbN8b6oWK45XbrZzMMHt3Vip2t2niWqhKP82iaNsZP3giHLn7VUTmiZmSbrhcmHiUS14Fcz8aZWQnC2FAjV1WrK9saRg99Z61fXrWwgZxhKQaSyvca1ZMafn3BtgmamH1QQ8wUqnAwCmxBuVrVHd3bcMz3WhiMbsDT5EKQFg6Dqmzm9zPcG2pGB3fM6F3CzZMuqZoHrPTHA4b1aKHQBVyBQZra43GiMC2VzN3BnjtGncK9biY9MNJv1bmXR3qTQ1Yoi9MLASruocKZ5RyJ1sSB1HWy6EkAQCtNGx9YNwwWu8dUHV8dQcrFE2uMr3KEELx"
+  } ],
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2023-08-17T11:55:58Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e356163623231313933346162702d35",
+    "proofPurpose" : "verificationMethod",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..C833Ac0K1lClf2d4kCqTguDmBJ9Yle8t5WayEqomhz96lPBsZ0JBFMEOY-6pPaSV2EdFpdKfxQUsGVA6RwgqoypRH8l1XBKcUZvy3ZeofSwHvJiMzH_njOo0UyOj22qOB4k99cShDmTSyUayBPJxNhM8X6plONpWxyZvytnxKSejbEQlkKquI61Mi2nY36UfndXJGPNffKaitVoj__VLcO54blGnstKa-H652_2B8BXxdCITlXKMcybaUWIuMGgxvt4DhmSPys2rA3Ye1U44YVjT65W3Ju30CgE5Te_CvK8tHe8ij56BoMbCLgjhijjmJz9STYmiWCSuWJpcXzRD3g"
+  },
+  "claims" : {
+    "@context" : [ "https://www.w3.org/2018/credentials/v1", "http://data.europa.eu/snb/model/context/edc-ap", "http://www.w3.org/ns/adms#", "http://data.europa.eu/m8g/", "http://www.w3.org/ns/person#", "https://www.w3.org/2018/credentials#", "http://purl.org/dc/terms/", "http://data.europa.eu/snb/model/elm/", "http://xmlns.com/foaf/0.1/", "http://www.w3.org/ns/locn#", "http://www.w3.org/ns/org#", "http://www.w3.org/1999/02/22-rdf-syntax-ns#", "http://www.w3.org/ns/regorg#", "http://www.w3.org/2004/02/skos/core#", "http://www.w3.org/2001/XMLSchema#" ],
+    "EuropeanDigitalCredential" : {
+      "2.1" : {
+        "salt" : "TiJ35mOc8pmckg6p90wLWtPqESSjvLoaj03tUFSKrKm4GozNhbKF9jzdMuWJWs8T",
+        "name" : "identifier",
+        "value" : ""
+      },
+      "2.2" : {
+        "salt" : "vT9ABJSr1XuNbNXv49QhKhqboAnXYwYc0XdsouLmwgLyzVBr0ID8OiJVxdxhUfsp",
+        "name" : "credentialSchema",
+        "value" : ""
+      },
+      "2.3" : {
+        "salt" : "cyk4dAmdFdjQpO3ZHX4aokoa8T6VUbxuRiX30U6rdxmstohpzUceVNjtQ96L2Ikl",
+        "name" : "issuanceDate",
+        "value" : ""
+      },
+      "credentialSubject" : {
+        "2.4.1" : {
+          "salt" : "qS1YrrrNr1wmgizcC5v5PX3NbZzJz8Zt9Ed4J8DBqeQgU5Eh3cfSC1MfgxSpLqQY",
+          "name" : "fullName",
+          "value" : ""
+        },
+        "hasClaim" : {
+          "LearningEntitlement" : {
+            "2.4.2.1.1" : {
+              "salt" : "qukWv5DL2d7fN7hDRJCRLiDYz0ZqMesHpIB58AB3Cfs5GL2BU3RYsDDIiYgyTe6E",
+              "name" : "description",
+              "value" : ""
+            },
+            "specifiedBy" : {
+              "entitlementStatus " : {
+                "2.4.2.1.2.1.1" : {
+                  "salt" : "2BsEnebtuTtygddMPQ2L1UOSQzja7s4kDrw3bI04U9M9TCPFcdaDeBXea8pOzmkN",
+                  "name" : "inScheme",
+                  "value" : ""
+                },
+                "2.4.2.1.2.1.2" : {
+                  "salt" : "X0VUQBqsAUGkVsFSQD55DcYp0CqpOkqAdFtUFTXMIcq65uuUAvOfhufo2BfAe94z",
+                  "name" : "notation",
+                  "value" : ""
+                }
+              },
+              "2.4.2.1.2.2" : {
+                "salt" : "HgzPU6QqzV8rGYHNDoGbGmmIGmOews8ZyZJjOFyyiNsuT9tL0kGScCmVvHfd7kxM",
+                "name" : "title",
+                "value" : ""
+              },
+              "type " : {
+                "2.4.2.1.2.3.1" : {
+                  "salt" : "sYj2AszINqVbaIS2nhyNbtBtYQricERIpOLBYTj0C0RICNw0N9LAbgiU6uuGabCw",
+                  "name" : "inScheme",
+                  "value" : ""
+                },
+                "2.4.2.1.2.3.2" : {
+                  "salt" : "fUOxz7oYUPllVKFz4hZdzQ9sk7brTFaqTdSV9stFcO5Wes4EGPi3arfpZS8LqNtO",
+                  "name" : "notation",
+                  "value" : ""
+                }
+              },
+              "entitledBy" : {
+                "2.4.2.1.2.4.1" : {
+                  "salt" : "SRyOBqwrR6UuNfYfkL02huQf5GH0emwIz04h6Lh9s38M4RaOv8qn1XfmR1ul5VUT",
+                  "name" : "NQFLevel ",
+                  "value" : ""
+                },
+                "2.4.2.1.2.4.2" : {
+                  "salt" : "UFRW3MnFNTHwOwMpNFbfzm3jScvZmfBoxwWBToGY2bPssMrh4ElIuUiBBfLj1kSM",
+                  "name" : "EQFLevel ",
+                  "value" : ""
+                }
+              }
+            },
+            "2.4.2.1.3" : {
+              "salt" : "5SBA4uBw9xCDIODAoU1QoYcefzc11JQnogAeZWIdFUUhdJqWaqeDKSkkqv5RvxpT",
+              "name" : "title",
+              "value" : ""
+            },
+            "awardedBy" : {
+              "location" : {
+                "2.4.2.1.4.1.1" : {
+                  "salt" : "OJz91Mlh7pEIiOE4C32Q1dFojCj6Q1czcNnDx8D8JDt4hcHSnZ8ftKAXQmCUL7XK",
+                  "name" : "fullAddress",
+                  "value" : ""
+                },
+                "2.4.2.1.4.1.2" : {
+                  "salt" : "NDwGW7ZmP0SE3YvPFYtaDulETWkdYN2wxm1FQLlO9dLD1s6SOjQ4K2Z6dpzcC2xm",
+                  "name" : "countryCode ",
+                  "value" : ""
+                }
+              },
+              "awardingBody" : {
+                "2.4.2.1.4.2.1" : {
+                  "salt" : "btuqLxTlNiEZZ3y092wgdTti3tKbAaXJ15VDJQUyOFq8qXaEA4fnMCDBeL4E8IKU",
+                  "name" : "legalName",
+                  "value" : ""
+                },
+                "2.4.2.1.4.2.2" : {
+                  "salt" : "LvhL8pYUapPd4QTDSD4sVFpHK9EmoicCaH1zT9ox3eoSlYIw1wjN84obbmXsleTK",
+                  "name" : "taxIdentifier",
+                  "value" : ""
+                },
+                "2.4.2.1.4.2.3" : {
+                  "salt" : "rj86yx0Y3AGHQgWTMgU8uHl6ztUTOMlTXH59YSzhXPaMcoxvLZXjYoVUdH60dHqB",
+                  "name" : "location",
+                  "value" : ""
+                },
+                "accreditation" : {
+                  "accreditingAgent" : {
+                    "2.4.2.1.4.2.4.1.1" : {
+                      "salt" : "4G0rAu9niQgTKPCGdykP4QPBoVjYFDJKAWpiLvm68zQ0PjjER1ewcN7cP6KHyGSi",
+                      "name" : "legalName",
+                      "value" : ""
+                    },
+                    "2.4.2.1.4.2.4.1.2" : {
+                      "salt" : "1uPJ0AvHepkbsdAtZD8gbf58h7l6ZElOeYQNT6A5wc3zPlQk5MTjkn7Aj3AnfkXg",
+                      "name" : "location",
+                      "value" : ""
+                    }
+                  },
+                  "additionalNote" : [ {
+                    "2.4.2.1.4.2.4.2_0_.1" : {
+                      "salt" : "cd3ZDadNQ0J5S11qGKi92YGdPDZ4njTlkJsTJllv7w0WclN1gjRHCsFrDlOYKObe",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_1_.1" : {
+                      "salt" : "w58OILsa6bFrnozzVnIyDuCYsaohixdoZJyMQwEJP4ers30pMZkfbEY82oEKRNnU",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_2_.1" : {
+                      "salt" : "gGXbydtbuqJYtHpCoauOBJWNK9vjsIlZAwRcQHHRHMAB51yBCDc9ChwOHu5Dmr6d",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_3_.1" : {
+                      "salt" : "oEvMT5F03IXrGhL0JUalwAf0XwUmbIiPaOeDUOqx7eI48TrkcIlCRbsROqkJ4Psf",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_4_.1" : {
+                      "salt" : "qracjWn2w8XvbYhDpIpsstCZ5EfO8vNgcl8eCre6zFYLZObV5x8Nr3FTs51X5DCn",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_5_.1" : {
+                      "salt" : "CwjQEdOconGPdglCePAGtkyvQOzDJKo4nzED1zoLKYS8iWvxvpc83vCvkHDq338n",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_6_.1" : {
+                      "salt" : "F9sYMF1yIfRueIQ61Ci2CHB5chDwfVriusM9veHOFGvaxn4Q20HUgOMnWdBxyr8W",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  }, {
+                    "2.4.2.1.4.2.4.2_7_.1" : {
+                      "salt" : "UCe9qiCbZqbsB9bFB75EEUSM2kxzyUh3jb5U5SPjNnrFhDERcRQpz9e7gO2tH6DM",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  } ],
+                  "organisation" : {
+                    "2.4.2.1.4.2.4.3.1" : {
+                      "salt" : "GwME23op54FYnuQodCGx2aIoWKI4bfV7dNAxs4M5Yl4hVtB9AsvPoY79WXcbAgXh",
+                      "name" : "legalName",
+                      "value" : ""
+                    },
+                    "2.4.2.1.4.2.4.3.2" : {
+                      "salt" : "l6s2xNrAgGRIKELhxhJ5idDOcNxKioJZszoDIkJp6lp7ewMyMjla1bpSXx45316H",
+                      "name" : "location",
+                      "value" : ""
+                    }
+                  },
+                  "2.4.2.1.4.2.4.4" : {
+                    "salt" : "d7BxJd5pzz1VII39060uNP8FRWJJstngefhl8CwU5ys58GmsU8hOtb9DS5JJraAR",
+                    "name" : "description",
+                    "value" : ""
+                  },
+                  "decision " : {
+                    "2.4.2.1.4.2.4.5.1" : {
+                      "salt" : "QCF6YTyzwb4GEcA2OYbyh5h3Hi6h0lFtnZsOQ66hcXGiYdkv0YSy8azEIpEkqQsm",
+                      "name" : "inScheme",
+                      "value" : ""
+                    },
+                    "2.4.2.1.4.2.4.5.2" : {
+                      "salt" : "9UkUU9duenD6nl6gi50wSeRygLlC8dE1hEvBAnHX0AuFJk4BJtISTdgaiOo3jbVH",
+                      "name" : "notation",
+                      "value" : ""
+                    }
+                  },
+                  "2.4.2.1.4.2.4.6" : {
+                    "salt" : "gjXvgYZu7HTLoaMhmwXGfS8pfdDPSpQCoZ5GHKPxzjuyzAY48TzoKNHGKRpez0iJ",
+                    "name" : "title",
+                    "value" : ""
+                  },
+                  "type " : {
+                    "2.4.2.1.4.2.4.7.1" : {
+                      "salt" : "JrQOa1c9R2f3UpjUrp99nP0C8Cp7XartWF76JlsSdvQYt0h8lojhyNgrXay48scr",
+                      "name" : "inScheme",
+                      "value" : ""
+                    },
+                    "2.4.2.1.4.2.4.7.2" : {
+                      "salt" : "gJrjI3xwBA4uEjkxCq55IQJ3m5SWnSeE14pinNy2Y9dP1vbq0raRx91FzRstRUB1",
+                      "name" : "notation",
+                      "value" : ""
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "LearningAssessment" : {
+            "2.4.2.2.1" : {
+              "salt" : "UDFchW3xKaJd5ZFNvhUxsYvSiZ5fP6q0D3vx7lo6JjWyLdmy8xz7DlGSHR194akQ",
+              "name" : "idVerification",
+              "value" : ""
+            },
+            "specifiedBy" : {
+              "2.4.2.2.2.1" : {
+                "salt" : "ZSqetUFq1a6B2BHFo5XtZKrqyRLVV2nwMgKD8ITvZwsbRXcpbosw5J4H8gNoMEAe",
+                "name" : "title",
+                "value" : ""
+              },
+              "additionalNote" : {
+                "2.4.2.2.2.2.1" : {
+                  "salt" : "imFf4GAt21oR0k058rHxmWZ57azACtm7Z0k6QeLvirEMwYjtI549sQEvrIkOcONg",
+                  "name" : "note literal",
+                  "value" : ""
+                }
+              }
+            },
+            "assessedBy" : {
+              "2.4.2.2.3.1" : {
+                "salt" : "AdCYOpqx1Kft640hiIVrCvF0xvhVFfDxGZyseW1BckZfZeayBTeCKoOZr4vG6nS9",
+                "name" : "name",
+                "value" : ""
+              }
+            },
+            "2.4.2.2.4" : {
+              "salt" : "MmIM9mCIQgYbvUnh5HBXvH2nIU6rrD1pIKrs2oi54D3QAdEmuWAt4x2PwX1EEHmO",
+              "name" : "grade",
+              "value" : ""
+            },
+            "awardedBy" : {
+              "2.4.2.2.5.1" : {
+                "salt" : "H2r9URYpuL5H1woFzqRtO1FXeC58sf1dthdfvu3ZEymq96wXcmDGoEhq1Y5J7DGZ",
+                "name" : "description",
+                "value" : ""
+              },
+              "location" : {
+                "2.4.2.2.5.2.1" : {
+                  "salt" : "eQyI8YJyqW3k9atAjGVDG4IgEV38FoXdsdfnNZXyoRly4dgUHHJkS1VeURSgPOFy",
+                  "name" : "fullAddress",
+                  "value" : ""
+                },
+                "2.4.2.2.5.2.2" : {
+                  "salt" : "yKKPJ7FKpiOfB1p8fi1jlUsUdKGAf17y19yKGtNMCDxSkEvAOspztRpoO1nqZrPn",
+                  "name" : "countryCode",
+                  "value" : ""
+                }
+              },
+              "used" : {
+                "awardedBy" : {
+                  "2.4.2.2.5.3.1.1" : {
+                    "salt" : "DjgARX4LSsXOaOENzLwr2gA1NuHmLU4u8HwKmK6ErPHX8TPJMmD64kaSd9CviaRG",
+                    "name" : "description",
+                    "value" : ""
+                  },
+                  "awardingBody" : {
+                    "2.4.2.2.5.3.1.2.1" : {
+                      "salt" : "2JPVxF2X4Nrsw2ZK9GwB7ms1XxNBGLVBOV81PWoIuM1VJAIilnGgLHBf3Bnla3Wd",
+                      "name" : "legalName",
+                      "value" : ""
+                    },
+                    "2.4.2.2.5.3.1.2.2" : {
+                      "salt" : "hvJYe50Q1pO4DQquV6re7nbjeACyfnh57rSxFHqnD7XwALKhoAYD86QUtdBZgMWU",
+                      "name" : "location",
+                      "value" : ""
+                    }
+                  }
+                },
+                "2.4.2.2.5.3.2" : {
+                  "salt" : "WcBn9tCYpwHZ9HJnWGbkbQSjU0LM7f9B0yKnx9JeiBQ6DXRVzcZcPCXEgZEwA8yq",
+                  "name" : "title",
+                  "value" : ""
+                },
+                "2.4.2.2.5.3.3" : {
+                  "salt" : "ZNzpwXT74yQi9Utmj7DGVRSAZ8LUfdTiH3TFrOdujaNUQoeNc0dPSu4wXko7RF3e",
+                  "name" : "grade",
+                  "value" : ""
+                }
+              },
+              "awardingBody" : {
+                "2.4.2.2.5.4.1" : {
+                  "salt" : "DTjQL0f2ZxPgrqOksu4ByfNDrcHEDUl3cJc6dJ6er4vdY7AYqG91JGFdBmbbxr20",
+                  "name" : "legalName",
+                  "value" : ""
+                },
+                "2.4.2.2.5.4.2" : {
+                  "salt" : "tMeIh9gRls4FFBAqFgl7tbRNYfuHfeEZmxnWMXI2GScfrZCTwFAV6DuI3iBoOhoE",
+                  "name" : "taxIdentifier",
+                  "value" : ""
+                },
+                "2.4.2.2.5.4.3" : {
+                  "salt" : "QjyvLtcuy2jA0zh4As55bI4ymbidpgaGi3lwJCFkZMwquUBmZc8au8s205hK6NeF",
+                  "name" : "location",
+                  "value" : ""
+                },
+                "accreditation" : {
+                  "decision" : {
+                    "2.4.2.2.5.4.4.1.1" : {
+                      "salt" : "Uva6Cm8EPlPZfaFzbLE9hrok0KMMpikrYmP1Mwv2aLegfn103ROkfVqq8KRbECLL",
+                      "name" : "inScheme",
+                      "value" : ""
+                    },
+                    "2.4.2.2.5.4.4.1.2" : {
+                      "salt" : "Q56Xbsx204slsjnWDHFBHspY7rZuplplncy32hrAKCeCkor306PGqyRD0BeHIdIL",
+                      "name" : "notation",
+                      "value" : ""
+                    }
+                  },
+                  "accreditingAgent" : {
+                    "2.4.2.2.5.4.4.2.1" : {
+                      "salt" : "DKIk9ypqUtnT3wwGjEGfhry4dXyelQJxquaprOJgrPe2GwQ2wN6ytZtp35MvYJJk",
+                      "name" : "legalName",
+                      "value" : ""
+                    },
+                    "2.4.2.2.5.4.4.2.2" : {
+                      "salt" : "5MGGifE9xKvrmQZtYRpMi1YI2QUmczRUujRsOXCpK7eZJ0Q2BvENxgJG4aiYpJKm",
+                      "name" : "location",
+                      "value" : ""
+                    }
+                  },
+                  "additionalNote" : {
+                    "2.4.2.2.5.4.4.3.1" : {
+                      "salt" : "Z5J11MbTJmrVEkmdM3V5GyH3jCKuoPbiPalj46pA84J7baixjRdCRVcd3QVUWH80",
+                      "name" : "note literal",
+                      "value" : ""
+                    }
+                  },
+                  "organisation" : {
+                    "2.4.2.2.5.4.4.4.1" : {
+                      "salt" : "7EZdMChcgewnEQlgNspfdWvGRVJTBIGBKvy5dGQRqYh9b4nUBHzZuOgLGci0xQ5B",
+                      "name" : "legalName",
+                      "value" : ""
+                    },
+                    "2.4.2.2.5.4.4.4.2" : {
+                      "salt" : "Rs7gEFjOiRKXI7DL3Wbbxu7ntg5GKyjMqA9EHxvgu9y1p7s7VlGV6U5bUC55IhMc",
+                      "name" : "location",
+                      "value" : ""
+                    }
+                  },
+                  "2.4.2.2.5.4.4.5" : {
+                    "salt" : "t1LBFSdT9Wlre2sIpHDqe9G2mmP8xacFA7UqD0171eHmaG8mhkYRf8QyGpt3Ia0f",
+                    "name" : "title",
+                    "value" : ""
+                  },
+                  "type" : {
+                    "2.4.2.2.5.4.4.6.1" : {
+                      "salt" : "1nju6Ejusldx5BZdcP14Z1RusPaIFXsWFthtaq5RG07rJHXu6wvCdTw9rszOBmy5",
+                      "name" : "inScheme",
+                      "value" : ""
+                    },
+                    "2.4.2.2.5.4.4.6.2" : {
+                      "salt" : "gnOCRZDkuHCIlvqQmspTygcpTa5xs8R1uG7GULso8mq6TNimubXkgcDomZ0mLr8e",
+                      "name" : "notation",
+                      "value" : ""
+                    }
+                  }
+                }
+              }
+            },
+            "2.4.2.2.6" : {
+              "salt" : "sCB9sG3uP3NpDHYjHElvPjOtOUbxfHTbirhhPomJQGBIgB78ROBTouvaybL8MkpI",
+              "name" : "title",
+              "value" : ""
+            }
+          },
+          "LearningAchievement" : {
+            "specifiedBy" : {
+              "creditPoint" : {
+                "2.4.2.3.1.1.1" : {
+                  "salt" : "PetBrYUClEscKZaeEkADf9duRrLTzbOrbnoCrJbtGQqD9Awd1DsSs8wx7ErBNWiw",
+                  "name" : "point",
+                  "value" : ""
+                },
+                "2.4.2.3.1.1.2" : {
+                  "salt" : "cPOIUUShHYdnS3nvclXhC7IOAmg3H0g6ZD68YPdxEUPndChPo8dNCEDkRMCpha71",
+                  "name" : "framework",
+                  "value" : ""
+                }
+              },
+              "2.4.2.3.1.2" : {
+                "salt" : "Hco97uuanbM7NFw6eT1EdfI3ABkB95pKyKZPM3oq8t1t5pF1PYpSzMpRRrDLUxBA",
+                "name" : "volumeOfLearning",
+                "value" : ""
+              },
+              "educationLevel" : {
+                "2.4.2.3.1.3.1" : {
+                  "salt" : "q8v9sGiWHtNznnRCC0NByz0rdFQQnkrJQxVmYBxizosYTmQ1Wv9cuDrkKcDLHoRI",
+                  "name" : "inScheme",
+                  "value" : ""
+                },
+                "2.4.2.3.1.3.2" : {
+                  "salt" : "NwtWhqAp11HY5k6Pj3cub9sWWNVmeeTMHp0eu1fyirGfWnRCk9Tvnix3MHLAZ43A",
+                  "name" : "notation",
+                  "value" : ""
+                }
+              },
+              "entryRequirement" : {
+                "2.4.2.3.1.4.1" : {
+                  "salt" : "Or2sFFnDOgokaGoBkuY5eTGoQrxHBj2Kajl1NLbfFtcC73qMaQt5FSZHgRDdynDA",
+                  "name" : "noteLiteral",
+                  "value" : ""
+                }
+              },
+              "learningOutcome" : [ {
+                "2.4.2.3.1.5_0_.1" : {
+                  "salt" : "bJC0RNtPxw76jNhxIQ7XqfOLN07J8ZMEf4R75U2rMyBJUYdgtrsBij9qLL9eQ4Wt",
+                  "name" : "title",
+                  "value" : ""
+                },
+                "type" : {
+                  "inScheme" : {
+                    "2.4.2.3.1.5_0_.2.1.1" : {
+                      "salt" : "8Yshy4RXRa4PdUFjRYFItGwunbSysnZqaSbvhc6KJGX7vkI69PNBV2H2S3W9SB9p",
+                      "name" : "type",
+                      "value" : "ConceptScheme"
+                    },
+                    "2.4.2.3.1.5_0_.2.1.2" : {
+                      "salt" : "UBnGXIYhVUBcBXRNxn7WHh6E6Eq5MA8QMeHT0zdQGfda8Dyly4NGManPRyDnZ2U7",
+                      "name" : "id",
+                      "value" : ""
+                    }
+                  },
+                  "2.4.2.3.1.5_0_.2.2" : {
+                    "salt" : "kQFnvDvL4KVwioSnSkgufqnvW6JeWInVNQLj6GRXGkAk9MhtUM4A6upBRTQAgn22",
+                    "name" : "notation",
+                    "value" : ""
+                  },
+                  "2.4.2.3.1.5_0_.2.3" : {
+                    "salt" : "THEup49lEwCB6FWEBKmDuQvDcGAKKcOZ3z3HATK1Eqzj6b8WBdb1gahm1nuykq7O",
+                    "name" : "prefLabel",
+                    "value" : ""
+                  }
+                },
+                "additionalNote" : [ {
+                  "2.4.2.3.1.5_0_.3_0_.1" : {
+                    "salt" : "miiEJhcDyxU1f1NI8z7ft8XgXFz4jlfcqHIDDumXkPRlRgUUd0XITY34FkmybIVP",
+                    "name" : "note literal",
+                    "value" : ""
+                  }
+                }, {
+                  "2.4.2.3.1.5_0_.3_1_.1" : {
+                    "salt" : "7aelTNbEQgVncggJbTTsmJn8ETXvnp0eMFNXUToqgbCghgfizHQJwCeH2VYkGp5s",
+                    "name" : "note literal",
+                    "value" : ""
+                  }
+                }, {
+                  "2.4.2.3.1.5_0_.3_2_.1" : {
+                    "salt" : "RRWRsOjz1XEGbomjMapKxG06xLuLZshXt4O1C66bGg0F9GQLTQHMTHJVgDXepdFy",
+                    "name" : "note literal",
+                    "value" : ""
+                  }
+                }, {
+                  "2.4.2.3.1.5_0_.3_3_.1" : {
+                    "salt" : "fUM52GSr7towuHuSdzpxYcdOI4j0Izk4Wzs1Rz5OrBLjc9OHOQZbd3OHdeIoqssb",
+                    "name" : "note literal",
+                    "value" : ""
+                  }
+                } ]
+              } ],
+              "ISCEDFCode" : {
+                "2.4.2.3.1.6.1" : {
+                  "salt" : "LuSzJM0FxAXbMNYa6hJqMjYEy4SdFnrPhmIp0bOhYZ7jgWuCXkIQs17F59i7HtkL",
+                  "name" : "inScheme",
+                  "value" : ""
+                },
+                "2.4.2.3.1.6.2" : {
+                  "salt" : "pJZN5cChF8SXoaUW6A3ZQ8ksGGndxxbgdGLaZ5QHaCgqoHRUjixvCggxayefAVp1",
+                  "name" : "notation",
+                  "value" : ""
+                }
+              },
+              "2.4.2.3.1.7" : {
+                "salt" : "a7lW8hLBDg5ObZk4ALDU7I1NViZzsmR6Xof088ohD7mkHokdCGXNMLtbDGe7ktyM",
+                "name" : "title",
+                "value" : ""
+              },
+              "specialisationOf" : {
+                "2.4.2.3.1.8.1" : {
+                  "salt" : "O0nYVYgUO14RDROCxQxfwMLxaAPY0iOZaHIwN1U9gTDu1C6C0kDJBbb7AVSGdV0J",
+                  "name" : "title",
+                  "value" : ""
+                },
+                "2.4.2.3.1.8.2" : {
+                  "salt" : "7cekL3DR3wHBaBbpfCqdZrMa5jtRt7EcjCxihRJbSmrjRLXB7cAGHesdJZCwycdy",
+                  "name" : "description",
+                  "value" : ""
+                }
+              },
+              "educationSubject" : {
+                "2.4.2.3.1.9.1" : {
+                  "salt" : "9BohJRRDlW0SXbn0S9wk7r7aGYL9ylaUzuQayvbdIdROo8k9rj8kwDlJjFcJ4Sw7",
+                  "name" : "inScheme",
+                  "value" : ""
+                },
+                "2.4.2.3.1.9.2" : {
+                  "salt" : "UQc63b8VQLbgBnkJp2YApKL7ECV9rIsUp93rcATiIredKQSEpP2WoGPGIQNUSHua",
+                  "name" : "notation",
+                  "value" : ""
+                }
+              }
+            },
+            "awardedBy" : { },
+            "2.4.2.3.3" : {
+              "salt" : "MMQ8kBzZ691POT4NJAEYtxwf4e6ynPYXfIbGJjBnV5GuVT5t5KxLRDAFR7Tu2Pmu",
+              "name" : "title",
+              "value" : ""
+            },
+            "influencedBy" : {
+              "2.4.2.3.4.1" : {
+                "salt" : "MOLBlyIzGj6xWYrMQOWfGZGYAEbbvKZ5CtKXvP3FYdLAXIdhxMMkwQVQV5cNPfQS",
+                "name" : "title",
+                "value" : ""
+              },
+              "type" : {
+                "2.4.2.3.4.2.1" : {
+                  "salt" : "lghj738o6VZAVW5tR7PxWoZEDrFTIq5GorgO6izJ1itA8yef2GBibeBbeCeaAJXA",
+                  "name" : "inScheme",
+                  "value" : ""
+                },
+                "2.4.2.3.4.2.2" : {
+                  "salt" : "QkHe4fe8dd7m0WVdPxCGIg9IFpLxcTQDl26Ixq3oyLApCsNZAAH4K1pFX5AzSqrs",
+                  "name" : "notation",
+                  "value" : ""
+                }
+              }
+            }
+          }
+        },
+        "2.4.3" : {
+          "salt" : "Rhd6Q90V99Yqw1c2F9OigKOzCv8M7r5GoBftgs4HISgl76iE6V9v51La9xcVojTe",
+          "name" : "nationalId",
+          "value" : ""
+        }
+      },
+      "displayParameter" : {
+        "individualDisplay" : {
+          "2.5.1.1" : {
+            "salt" : "3Qk3gvzg5KUg5ilNbK07NDCWNbD0yldVXxJePPYHJ5C0vLr03B5pA9rDhzomlDbx",
+            "name" : "displayDetail",
+            "value" : ""
+          },
+          "language" : {
+            "2.5.1.2.1" : {
+              "salt" : "6PySepQXombtrbwQhuumirjfuThQYnjFU9I1CEYRCOxQ9z7gCajHWhOfc0rwqu61",
+              "name" : "id",
+              "value" : "http://publications.europa.eu/resource/authority/language/ENG"
+            },
+            "2.5.1.2.2" : {
+              "salt" : "kX9usDSDK82ProH7t8U4QYuhFYmgJCfheBWfeCUTZYWVeXUjejxF8egVU0d4vNcw",
+              "name" : "type",
+              "value" : "Concept"
+            },
+            "inScheme" : {
+              "2.5.1.2.3.1" : {
+                "salt" : "fJsRIgNl9jRyd1E66Un2U0bAEfQIeYCyK1I9nPMY4Kc0Qrbxe9TgFUlty5lljy3H",
+                "name" : "type",
+                "value" : "ConceptScheme"
+              },
+              "2.5.1.2.3.2" : {
+                "salt" : "VqRz2eoxNgkJBZ1b73xrW290lLOdQiO6WxGNNGiC1QtreRLIMyNDxRIDSK5LVylU",
+                "name" : "id",
+                "value" : "http://publications.europa.eu/resource/authority/language"
+              }
+            }
+          }
+        },
+        "language" : {
+          "inScheme" : {
+            "2.5.2.1.1" : {
+              "salt" : "g0JEh3BAUNoAlDdw6M6tSUHNwCGNe32DjWLDfiSiuOuYvnQzKYN81OXxwguVG9JS",
+              "name" : "type",
+              "value" : "ConceptScheme"
+            },
+            "2.5.2.1.2" : {
+              "salt" : "WaFMkQQcai0TdMYNmm5apwig3hMupxDWfFkg5I1F3dPWzgMuKibdvMQD8RcDthXQ",
+              "name" : "id",
+              "value" : "http://publications.europa.eu/resource/authority/language"
+            }
+          },
+          "2.5.2.2" : {
+            "salt" : "Qxb5iIetVBcM1pp4PG8cAjQXhkg7ZkeOfCzMmldLMoO4y9xN9uYzlHTvZp93b70y",
+            "name" : "notation",
+            "value" : ""
+          },
+          "2.5.2.3" : {
+            "salt" : "fjJMCExMedReUii3lZQWJ9LUn2MWSWtuOMRHn6tCpDIkKR6K0sQgfGWqXJicXrKn",
+            "name" : "prefLabel",
+            "value" : ""
+          }
+        },
+        "2.5.3" : {
+          "salt" : "Az5frZsZqWk2ZXQltAyFQNkzlCXMUwbs9QO0pdK6KWgRg4vKGlWwGzy3v0owVlUg",
+          "name" : "title",
+          "value" : ""
+        },
+        "primaryLanguage" : {
+          "inScheme" : {
+            "2.5.4.1.1" : {
+              "salt" : "nZA4XO5WqibaicOwFaPnL7bhwtQajsCvSEI4GmlJwoWIpWOjs3CYQWBnGPUzCPf2",
+              "name" : "type",
+              "value" : "ConceptScheme"
+            },
+            "2.5.4.1.2" : {
+              "salt" : "jQjeHbzXtdIk31bWB4zqDQhySLrGHw8DwFxdX2meKheEAYDWP9nbyORMxRSinDgM",
+              "name" : "id",
+              "value" : "http://publications.europa.eu/resource/authority/language"
+            }
+          },
+          "2.5.4.2" : {
+            "salt" : "2O9c4ZGLU03Y3nfj0390LqfrwAMlRpoWIXljExK4QljTEo5Wgbl6dp2I21qjbVjm",
+            "name" : "notation",
+            "value" : ""
+          },
+          "2.5.4.3" : {
+            "salt" : "EHcjrpyJrA1FTyQ4jxz6HuVrc83EuH4XA1syj5iHdhQcKgPYjEmFQvgmnYO0kGFz",
+            "name" : "prefLabel",
+            "value" : ""
+          }
+        }
+      },
+      "credentialProfiles" : {
+        "2.6.1" : {
+          "salt" : "1yEuWL5CbPLytlIwlyM7lz6JJhLgiUF2Z6YvVDDXDfmNfIqRTd54aSa9OGls9ftL",
+          "name" : "name",
+          "value" : ""
+        },
+        "inScheme" : {
+          "2.6.2.1" : {
+            "salt" : "koJo2HIjrpPm0hDQclldcRkWIkLda0EkPds0c4HyaSQSEqsFkW2jeLYi4j9AbqZ9",
+            "name" : "type",
+            "value" : "ConceptScheme"
+          },
+          "2.6.2.2" : {
+            "salt" : "JND1TbhSm6gZYuy0opomZDTXmFe8eXbHKWEJmrMbPWaLSyMGcGKLZUMD7BS72Ou8",
+            "name" : "id",
+            "value" : "http://data.europa.eu/snb/credential/25831c2"
+          }
+        },
+        "2.6.3" : {
+          "salt" : "0U2V30vyzQmDKPsxCs6lFYahRUOAL1hTr2QVNJWZ9i3jX9ay6Y4DLxTJKGA1OavB",
+          "name" : "notation",
+          "value" : ""
+        }
+      },
+      "2.7" : {
+        "salt" : "23brjJ1pkIdRlatCmPVBVkqRrj7oB1uMzgJDKaUyfqnyXI83411Ag1LI7WTI5Euw",
+        "name" : "validFrom",
+        "value" : ""
+      },
+      "2.8" : {
+        "salt" : "Guat75xccJ8nNzA1ST7jfvBS09Pn9TcX8GSLqlH6Ywyc3ppkgeBeEE9LWFPirdvc",
+        "name" : "issued",
+        "value" : ""
+      },
+      "issuer" : {
+        "2.9.1" : {
+          "salt" : "6sJuMnzrubDGHC93TvUCdt2WNeyj4nyHWb8PSiGaEBI5fZvr97IUnMgeI1dLLgRd",
+          "name" : "notation",
+          "value" : ""
+        },
+        "eIDASÎ™dentifier" : {
+          "2.9.2.1" : {
+            "salt" : "0BaaBCZ4B671JleTF4RxhVjOiCeV77eVSgZAuLPU1Y38HWasdx4TlSOql07qMizl",
+            "name" : "schemeId",
+            "value" : "http://example.org/126839"
+          },
+          "2.9.2.2" : {
+            "salt" : "uXqthTowGm8Qf6IC3v7qJpawmUB7yp70yGQC0jYiJsqFxhXNrURLPlP2T7sGfrkr",
+            "name" : "type",
+            "value" : "LegalIdentifier"
+          },
+          "spatial" : {
+            "inScheme" : {
+              "2.9.2.3.1.1" : {
+                "salt" : "AVcWogHmnXR02HBDbuFsZ2gL1mZVzC97nF8NOL2cPrgSGeUUwUk0kFmVVSdyg8yc",
+                "name" : "type",
+                "value" : "ConceptScheme"
+              },
+              "2.9.2.3.1.2" : {
+                "salt" : "8lswqpah8PNEX8Mesm8QKyDpIMZ3neKD6Nce4tY3HwbdQHrLeRe7u4EydcXqQ00O",
+                "name" : "id",
+                "value" : "http://publications.europa.eu/resource/authority/country"
+              }
+            },
+            "2.9.2.3.2" : {
+              "salt" : "xehKy7c8zLVKIqBfrRsstRha3BiCIewI8aqlOIg4R8BN918vd7OlyhMl75yCJwnP",
+              "name" : "prefLabel",
+              "value" : ""
+            }
+          },
+          "2.9.2.4" : {
+            "salt" : "97ZlC4UlslHPdatj2PwnLmhZuXQpUUEeyNPpm5envcGyNm0zSFoyYcx5jddjX7OX",
+            "name" : "notation",
+            "value" : "126839"
+          }
+        }
+      },
+      "2.10" : {
+        "salt" : "EQqrnwNe6OQLrNaMLAngVE1FuxCDDmKKHk9A2IcgfBDPL1UHCWgegsfv9J8PlbNQ",
+        "name" : "expirationDate",
+        "value" : ""
+      }
+    }
+  },
+  "metamapper" : {
+    "EuropeanDigitalCredential.displayParameter.primaryLanguage.prefLabel" : "2.5.4.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationLevel.inScheme" : "2.4.2.3.1.3.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.specifiedBy.title" : "2.4.2.2.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.countryCode" : "2.4.2.2.5.2.2",
+    "EuropeanDigitalCredential.displayParameter.primaryLanguage.inScheme.type" : "2.5.4.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.additionalNote.note literal" : "2.4.2.2.5.4.4.3.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.prefLabel" : "2.4.2.3.1.5_0_.2.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.description" : "2.4.2.1.4.2.4.4",
+    "EuropeanDigitalCredential.issuer.eIDASÎ™dentifier.spatial.inScheme.id" : "2.9.2.3.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.description" : "2.4.2.2.5.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.decision.notation" : "2.4.2.2.5.4.4.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.type .notation" : "2.4.2.1.2.3.2",
+    "EuropeanDigitalCredential.issuer.notation" : "2.9.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.assessedBy.name" : "2.4.2.2.3.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.description" : "2.4.2.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.title" : "2.4.2.1.3",
+    "EuropeanDigitalCredential.credentialSubject.fullName" : "2.4.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._4_.note literal" : "2.4.2.1.4.2.4.2_4_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.inScheme.id" : "2.4.2.3.1.5_0_.2.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitlementStatus .inScheme" : "2.4.2.1.2.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationSubject.notation" : "2.4.2.3.1.9.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.location" : "2.4.2.2.5.4.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.title" : "2.4.2.2.5.4.4.5",
+    "EuropeanDigitalCredential.credentialSchema" : "2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.organisation.legalName" : "2.4.2.2.5.4.4.4.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.type .notation" : "2.4.2.1.4.2.4.7.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.accreditingAgent.location" : "2.4.2.1.4.2.4.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.specifiedBy.additionalNote.note literal" : "2.4.2.2.2.2.1",
+    "EuropeanDigitalCredential.issuer.eIDASÎ™dentifier.spatial.inScheme.type" : "2.9.2.3.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._2_.note literal" : "2.4.2.3.1.5_0_.3_2_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.organisation.legalName" : "2.4.2.1.4.2.4.3.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.title" : "2.4.2.3.1.5_0_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._1_.note literal" : "2.4.2.1.4.2.4.2_1_.1",
+    "EuropeanDigitalCredential.displayParameter.individualDisplay.language.id" : "2.5.1.2.1",
+    "EuropeanDigitalCredential.validFrom" : "2.7",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.legalName" : "2.4.2.1.4.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitledBy.NQFLevel " : "2.4.2.1.2.4.1",
+    "EuropeanDigitalCredential.issuanceDate" : "2.3",
+    "EuropeanDigitalCredential.issuer.eIDASÎ™dentifier.type" : "2.9.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.influencedBy.type.inScheme" : "2.4.2.3.4.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.specialisationOf.description" : "2.4.2.3.1.8.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.decision .notation" : "2.4.2.1.4.2.4.5.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.inScheme.type" : "2.4.2.3.1.5_0_.2.1.1",
+    "EuropeanDigitalCredential.displayParameter.individualDisplay.language.type" : "2.5.1.2.2",
+    "EuropeanDigitalCredential.displayParameter.individualDisplay.language.inScheme.type" : "2.5.1.2.3.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.idVerification" : "2.4.2.2.1",
+    "EuropeanDigitalCredential.displayParameter.individualDisplay.language.inScheme.id" : "2.5.1.2.3.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.taxIdentifier" : "2.4.2.1.4.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._2_.note literal" : "2.4.2.1.4.2.4.2_2_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationLevel.notation" : "2.4.2.3.1.3.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.grade" : "2.4.2.2.5.3.3",
+    "EuropeanDigitalCredential.identifier" : "2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._1_.note literal" : "2.4.2.3.1.5_0_.3_1_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.fullAddress" : "2.4.2.2.5.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.title" : "2.4.2.3.1.7",
+    "EuropeanDigitalCredential.credentialProfiles.notation" : "2.6.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.creditPoint.framework" : "2.4.2.3.1.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.title" : "2.4.2.1.4.2.4.6",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.taxIdentifier" : "2.4.2.2.5.4.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.volumeOfLearning" : "2.4.2.3.1.2",
+    "EuropeanDigitalCredential.displayParameter.primaryLanguage.inScheme.id" : "2.5.4.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.type.inScheme" : "2.4.2.2.5.4.4.6.1",
+    "EuropeanDigitalCredential.displayParameter.individualDisplay.displayDetail" : "2.5.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.notation" : "2.4.2.3.1.5_0_.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.location.fullAddress" : "2.4.2.1.4.1.1",
+    "EuropeanDigitalCredential.displayParameter.language.notation" : "2.5.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.location" : "2.4.2.1.4.2.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._3_.note literal" : "2.4.2.1.4.2.4.2_3_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._0_.note literal" : "2.4.2.3.1.5_0_.3_0_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.influencedBy.title" : "2.4.2.3.4.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._5_.note literal" : "2.4.2.1.4.2.4.2_5_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.organisation.location" : "2.4.2.1.4.2.4.3.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.title" : "2.4.2.2.5.3.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.title" : "2.4.2.3.3",
+    "EuropeanDigitalCredential.displayParameter.language.inScheme.id" : "2.5.2.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.entryRequirement.noteLiteral" : "2.4.2.3.1.4.1",
+    "EuropeanDigitalCredential.displayParameter.title" : "2.5.3",
+    "EuropeanDigitalCredential.issuer.eIDASÎ™dentifier.spatial.prefLabel" : "2.9.2.3.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.type .inScheme" : "2.4.2.1.4.2.4.7.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.ISCEDFCode.notation" : "2.4.2.3.1.6.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.accreditingAgent.location" : "2.4.2.2.5.4.4.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._0_.note literal" : "2.4.2.1.4.2.4.2_0_.1",
+    "EuropeanDigitalCredential.displayParameter.language.prefLabel" : "2.5.2.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.title" : "2.4.2.1.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.organisation.location" : "2.4.2.2.5.4.4.4.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._3_.note literal" : "2.4.2.3.1.5_0_.3_3_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.creditPoint.point" : "2.4.2.3.1.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.accreditingAgent.legalName" : "2.4.2.2.5.4.4.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.accreditingAgent.legalName" : "2.4.2.1.4.2.4.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.title" : "2.4.2.2.6",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.type .inScheme" : "2.4.2.1.2.3.1",
+    "EuropeanDigitalCredential.displayParameter.primaryLanguage.notation" : "2.5.4.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.influencedBy.type.notation" : "2.4.2.3.4.2.2",
+    "EuropeanDigitalCredential.credentialProfiles.name" : "2.6.1",
+    "EuropeanDigitalCredential.credentialProfiles.inScheme.id" : "2.6.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.decision .inScheme" : "2.4.2.1.4.2.4.5.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.type.notation" : "2.4.2.2.5.4.4.6.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._7_.note literal" : "2.4.2.1.4.2.4.2_7_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.ISCEDFCode.inScheme" : "2.4.2.3.1.6.1",
+    "EuropeanDigitalCredential.displayParameter.language.inScheme.type" : "2.5.2.1.1",
+    "EuropeanDigitalCredential.credentialSubject.nationalId" : "2.4.3",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.specialisationOf.title" : "2.4.2.3.1.8.1",
+    "EuropeanDigitalCredential.issued" : "2.8",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.description" : "2.4.2.2.5.3.1.1",
+    "EuropeanDigitalCredential.expirationDate" : "2.10",
+    "EuropeanDigitalCredential.credentialProfiles.inScheme.type" : "2.6.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.location.countryCode " : "2.4.2.1.4.1.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationSubject.inScheme" : "2.4.2.3.1.9.1",
+    "EuropeanDigitalCredential.issuer.eIDASÎ™dentifier.notation" : "2.9.2.4",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.awardingBody.legalName" : "2.4.2.2.5.3.1.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.grade" : "2.4.2.2.4",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.awardingBody.location" : "2.4.2.2.5.3.1.2.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitlementStatus .notation" : "2.4.2.1.2.1.2",
+    "EuropeanDigitalCredential.issuer.eIDASÎ™dentifier.schemeId" : "2.9.2.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody.accreditation.additionalNote._6_.note literal" : "2.4.2.1.4.2.4.2_6_.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitledBy.EQFLevel " : "2.4.2.1.2.4.2",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.accreditation.decision.inScheme" : "2.4.2.2.5.4.4.1.1",
+    "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody.legalName" : "2.4.2.2.5.4.1"
+  }
+}

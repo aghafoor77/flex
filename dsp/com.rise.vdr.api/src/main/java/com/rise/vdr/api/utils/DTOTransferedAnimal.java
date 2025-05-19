@@ -1,0 +1,99 @@
+package com.rise.vdr.api.utils;
+
+public class DTOTransferedAnimal{
+
+	private String animalID;
+	private String animalIDMother;
+	private String birthPlace;
+	private String previousFarmContact;
+	private int currentWeight;
+	private String receivedFarmName;
+	private String sex;
+	private String farmId;
+	private String transferDate;
+	private String birthDate;
+	private String breed;
+	public DTOTransferedAnimal (){
+
+	}
+	public DTOTransferedAnimal ( String animalID,String animalIDMother,String birthPlace,String previousFarmContact,int currentWeight,String receivedFarmName,String sex,String farmId,String transferDate,String birthDate,String breed){
+		this.animalID = animalID; 
+		this.animalIDMother = animalIDMother; 
+		this.birthPlace = birthPlace; 
+		this.previousFarmContact = previousFarmContact; 
+		this.currentWeight = currentWeight; 
+		this.receivedFarmName = receivedFarmName; 
+		this.sex = sex; 
+		this.farmId = farmId; 
+		this.transferDate = transferDate; 
+		this.birthDate = birthDate; 
+		this.breed = breed; 
+	}
+
+	public String getAnimalID(){
+		return this.animalID;
+	}
+	public void setAnimalID(String animalID) {
+		this.animalID = animalID; 
+	}
+	public String getAnimalIDMother(){
+		return this.animalIDMother;
+	}
+	public void setAnimalIDMother(String animalIDMother) {
+		this.animalIDMother = animalIDMother; 
+	}
+	public String getBirthPlace(){
+		return this.birthPlace;
+	}
+	public void setBirthPlace(String birthPlace) {
+		this.birthPlace = birthPlace; 
+	}
+	public String getPreviousFarmContact(){
+		return this.previousFarmContact;
+	}
+	public void setPreviousFarmContact(String previousFarmContact) {
+		this.previousFarmContact = previousFarmContact; 
+	}
+	public int getCurrentWeight(){
+		return this.currentWeight;
+	}
+	public void setCurrentWeight(int currentWeight) {
+		this.currentWeight = currentWeight; 
+	}
+	public String getReceivedFarmName(){
+		return this.receivedFarmName;
+	}
+	public void setReceivedFarmName(String receivedFarmName) {
+		this.receivedFarmName = receivedFarmName; 
+	}
+	public String getSex(){
+		return this.sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex; 
+	}
+	public String getFarmId(){
+		return this.farmId;
+	}
+	public void setFarmId(String farmId) {
+		this.farmId = farmId; 
+	}
+	public String getTransferDate(){
+		return this.transferDate;
+	}
+	public void setTransferDate(String transferDate) {
+		this.transferDate = transferDate; 
+	}
+	public String getBirthDate(){
+		return this.birthDate;
+	}
+	public void setBirthDate(String birthDate) {
+		this.birthDate = birthDate; 
+	}
+	public String getBreed(){
+		return this.breed;
+	}
+	public void setBreed(String breed) {
+		this.breed = breed; 
+	}
+}

@@ -1,0 +1,96 @@
+this.state = {
+	aeid : aeid, 
+	notes : notes, 
+	examinationDate : examinationDate, 
+	refnumber : refnumber, 
+	refType : refType, 
+	sensorData : sensorData, 
+	employeeID : employeeID, 
+	animalID : animalID, 
+	extepctedDate : extepctedDate, 
+	status : status
+}
+
+
+this.state = {
+	aeid : "", 
+	notes : "", 
+	examinationDate : "", 
+	refnumber : "", 
+	refType : "", 
+	sensorData : "", 
+	employeeID : "", 
+	animalID : "", 
+	extepctedDate : "", 
+	status : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'aeid': this.setState({ aeid: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'examinationDate': this.setState({ examinationDate: event.target.value }); break;
+		  case 'refnumber': this.setState({ refnumber: event.target.value }); break;
+		  case 'refType': this.setState({ refType: event.target.value }); break;
+		  case 'sensorData': this.setState({ sensorData: event.target.value }); break;
+		  case 'employeeID': this.setState({ employeeID: event.target.value }); break;
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'extepctedDate': this.setState({ extepctedDate: event.target.value }); break;
+		  case 'status': this.setState({ status: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="aeid"
+name="aeid" id="aeid" onChange={this.handleChange.bind(this)} value={this.state.aeid}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="examinationDate"
+name="examinationDate" id="examinationDate" onChange={this.handleChange.bind(this)} value={this.state.examinationDate}
+
+htmlFor="refnumber"
+name="refnumber" id="refnumber" onChange={this.handleChange.bind(this)} value={this.state.refnumber}
+
+htmlFor="refType"
+name="refType" id="refType" onChange={this.handleChange.bind(this)} value={this.state.refType}
+
+htmlFor="sensorData"
+name="sensorData" id="sensorData" onChange={this.handleChange.bind(this)} value={this.state.sensorData}
+
+htmlFor="employeeID"
+name="employeeID" id="employeeID" onChange={this.handleChange.bind(this)} value={this.state.employeeID}
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="extepctedDate"
+name="extepctedDate" id="extepctedDate" onChange={this.handleChange.bind(this)} value={this.state.extepctedDate}
+
+htmlFor="status"
+name="status" id="status" onChange={this.handleChange.bind(this)} value={this.state.status}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		aeid : this.state.aeid, 
+		notes : this.state.notes, 
+		examinationDate : this.state.examinationDate, 
+		refnumber : this.state.refnumber, 
+		refType : this.state.refType, 
+		sensorData : this.state.sensorData, 
+		employeeID : this.state.employeeID, 
+		animalID : this.state.animalID, 
+		extepctedDate : this.state.extepctedDate, 
+		status : this.state.status
+	}
+	return jsondata; 
+
+}

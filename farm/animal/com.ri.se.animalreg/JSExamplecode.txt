@@ -1,0 +1,145 @@
+this.state = {
+	animalID : animalID, 
+	receivedFarmID : receivedFarmID, 
+	animalIDMother : animalIDMother, 
+	notes : notes, 
+	pregnancyExamination : pregnancyExamination, 
+	sex : sex, 
+	weight : weight, 
+	dateOfBirth : dateOfBirth, 
+	breed : breed, 
+	birthPlace : birthPlace, 
+	employerID : employerID, 
+	unit : unit, 
+	receivedFarmName : receivedFarmName, 
+	previousAnimalID : previousAnimalID, 
+	aboutAnimal : aboutAnimal, 
+	others : others, 
+	status : status
+}
+
+
+this.state = {
+	animalID : "", 
+	receivedFarmID : "", 
+	animalIDMother : "", 
+	notes : "", 
+	pregnancyExamination : "", 
+	sex : "", 
+	weight : 0, 
+	dateOfBirth : "", 
+	breed : "", 
+	birthPlace : "", 
+	employerID : "", 
+	unit : "", 
+	receivedFarmName : "", 
+	previousAnimalID : "", 
+	aboutAnimal : "", 
+	others : "", 
+	status : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'receivedFarmID': this.setState({ receivedFarmID: event.target.value }); break;
+		  case 'animalIDMother': this.setState({ animalIDMother: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'pregnancyExamination': this.setState({ pregnancyExamination: event.target.value }); break;
+		  case 'sex': this.setState({ sex: event.target.value }); break;
+		  case 'weight': this.setState({ weight: event.target.value }); break;
+		  case 'dateOfBirth': this.setState({ dateOfBirth: event.target.value }); break;
+		  case 'breed': this.setState({ breed: event.target.value }); break;
+		  case 'birthPlace': this.setState({ birthPlace: event.target.value }); break;
+		  case 'employerID': this.setState({ employerID: event.target.value }); break;
+		  case 'unit': this.setState({ unit: event.target.value }); break;
+		  case 'receivedFarmName': this.setState({ receivedFarmName: event.target.value }); break;
+		  case 'previousAnimalID': this.setState({ previousAnimalID: event.target.value }); break;
+		  case 'aboutAnimal': this.setState({ aboutAnimal: event.target.value }); break;
+		  case 'others': this.setState({ others: event.target.value }); break;
+		  case 'status': this.setState({ status: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="receivedFarmID"
+name="receivedFarmID" id="receivedFarmID" onChange={this.handleChange.bind(this)} value={this.state.receivedFarmID}
+
+htmlFor="animalIDMother"
+name="animalIDMother" id="animalIDMother" onChange={this.handleChange.bind(this)} value={this.state.animalIDMother}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="pregnancyExamination"
+name="pregnancyExamination" id="pregnancyExamination" onChange={this.handleChange.bind(this)} value={this.state.pregnancyExamination}
+
+htmlFor="sex"
+name="sex" id="sex" onChange={this.handleChange.bind(this)} value={this.state.sex}
+
+htmlFor="weight"
+name="weight" id="weight" onChange={this.handleChange.bind(this)} value={this.state.weight}
+
+htmlFor="dateOfBirth"
+name="dateOfBirth" id="dateOfBirth" onChange={this.handleChange.bind(this)} value={this.state.dateOfBirth}
+
+htmlFor="breed"
+name="breed" id="breed" onChange={this.handleChange.bind(this)} value={this.state.breed}
+
+htmlFor="birthPlace"
+name="birthPlace" id="birthPlace" onChange={this.handleChange.bind(this)} value={this.state.birthPlace}
+
+htmlFor="employerID"
+name="employerID" id="employerID" onChange={this.handleChange.bind(this)} value={this.state.employerID}
+
+htmlFor="unit"
+name="unit" id="unit" onChange={this.handleChange.bind(this)} value={this.state.unit}
+
+htmlFor="receivedFarmName"
+name="receivedFarmName" id="receivedFarmName" onChange={this.handleChange.bind(this)} value={this.state.receivedFarmName}
+
+htmlFor="previousAnimalID"
+name="previousAnimalID" id="previousAnimalID" onChange={this.handleChange.bind(this)} value={this.state.previousAnimalID}
+
+htmlFor="aboutAnimal"
+name="aboutAnimal" id="aboutAnimal" onChange={this.handleChange.bind(this)} value={this.state.aboutAnimal}
+
+htmlFor="others"
+name="others" id="others" onChange={this.handleChange.bind(this)} value={this.state.others}
+
+htmlFor="status"
+name="status" id="status" onChange={this.handleChange.bind(this)} value={this.state.status}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		animalID : this.state.animalID, 
+		receivedFarmID : this.state.receivedFarmID, 
+		animalIDMother : this.state.animalIDMother, 
+		notes : this.state.notes, 
+		pregnancyExamination : this.state.pregnancyExamination, 
+		sex : this.state.sex, 
+		weight : this.state.weight, 
+		dateOfBirth : this.state.dateOfBirth, 
+		breed : this.state.breed, 
+		birthPlace : this.state.birthPlace, 
+		employerID : this.state.employerID, 
+		unit : this.state.unit, 
+		receivedFarmName : this.state.receivedFarmName, 
+		previousAnimalID : this.state.previousAnimalID, 
+		aboutAnimal : this.state.aboutAnimal, 
+		others : this.state.others, 
+		status : this.state.status
+	}
+	return jsondata; 
+
+}

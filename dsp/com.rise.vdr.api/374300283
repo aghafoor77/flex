@@ -1,0 +1,96 @@
+{
+  "issuanceDate" : "2025-01-29 02:56:21",
+  "holder" : "5955394570666a39756b4a67327256346e6845414547775a504371306b6a",
+  "validFrom" : "2025-01-29 02:56:21",
+  "issued" : "2025-01-29 02:56:21",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAfh6TP2rD7oPSBiCxXUAKkR8LzmhBQxWJpx2PuhwmL7csETxYsc1oboeHz2RSb1xS7uv7VZwPHEM6Mo7VqvUTS9S9tKqUuHFLPJfF3Rp7PCwvrUVGXvjjKDpDY48BquJKcdjt1ku2VpzxgcSwGKVTckze3tYeUPWpobEjnb2mYCQXwowfzdXF5HZMN6ruUhu2GvRhLceX3Mk7UpnQGGkiy3tu2JAukFMofzMvXzhG4et55konMpQrFKy6sXAwN3g8KnCxptTc9ZRW6AjXCVdeCgU6ctU33nFp5bFt8LYGgNY2FFr9vBKQtjDxnWFMYAMBFunLa3SGAESzgevTp7UYVjvu7CJf3G6VoYye"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:-884486132",
+  "issuer" : "3672436e6764657544564158493334514b63385a674f466a7551502a4a48",
+  "digest-set" : {
+    "1" : "681a6bcde9545a4f4494d30428cdd47589798985898a4c72ac10e00649c7db44",
+    "3" : "ec11f53c71feff53ae5b2dd039ca39f0973ba803931ef5ec6402d351f69da07e",
+    "2.1" : "defe84810b5e93e3a1870d6edf03946a577be0d61fd17af34b6788d6c9374156",
+    "2.2" : "95c22fb63cd97302a43d6134dda612c258fdb8d4919a210a52e5916bf898f601",
+    "2.3" : "7103cd9272a103e7e184752e8f5832a0f5096c4c4b3506d3163e915c02829a70",
+    "2.6" : "bfb711f3cfd3c82b65ffb9105000762c760718a623cc6bacb2393c0dc9c8497c",
+    "2.7" : "0ea9eb956f1e995c5cee63bf5a176129ea5a9c7663021c7a552b8d1d10cacbe5",
+    "2.8" : "6ed8a955808562b8d734b52968f3e28945aafa24e4e709fd5b9a6e9cd94aa033",
+    "2.10" : "35a630a0ea9d9e508167ef1137a9c3759ec2c864a05b745bb668496bb9a135d0"
+  },
+  "expirationDate" : "2025-01-29 02:56:21",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-29T13:56:21Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e36313533333663323466396263702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..OCbXvvxzAeufF4FocWalfz7MvS0bE6OE9_BCA5m14C2PF78TtNhQsYmqEUHReaFw0h8khehcJBP8nJNeQC0rqKwXRPHhrtHxvFyMgJmgTQM3N7yAC3HzfegM1quOlss48zCmn_i5lsWIxuFRGSM9WLilcDLW9enu4AtwzthGnVh9aWYpTl_h2WIq-I1TXD35rk-8jU6t8Y4ldvgRL99gvFsUjsg6Gm07w7qFO7xuu9SEcj4qEKpwScL8xTyrtGN9YV2ISZ-sKa1-4KERpOpEFD23xJFc84UTf57e1reQXR50X7FYo3_vUi2StvNJ08iM5nOiE9_vK9NfzuT3uSjyLw"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "LCz8YhYHu0bNXGAdolZt4GUwZDfuCZfBsS4dxYm7BctevOgkKIWmGL37qJdi3q0z",
+      "name" : "evidenceType",
+      "value" : "AnimalExamination"
+    },
+    "evidence" : {
+      "2.1" : {
+        "salt" : "ZhE43eGCiR9CvBQe8Pk1KrowkoJdmJqtDdhhvN3MZDe8I3wlamiN0NxYzniQLBrZ",
+        "name" : "aeid",
+        "value" : "AE-1738117941647"
+      },
+      "2.2" : {
+        "salt" : "uarmJcTPM4MxfFwhXa2FRMj7z9GOyWK2VztdGDfx4iXxuNFVUFvGEhOQeT6l032q",
+        "name" : "notes",
+        "value" : "Examination through pregnancy test."
+      },
+      "2.3" : {
+        "salt" : "NM4CBhFFLIdcbccQaF3bOaDF8FY8DEN2nGfhfUbPOE3gcQI9pkjv6ktJ5HWnRiH0",
+        "name" : "examinationDate",
+        "value" : "2020-09-30"
+      },
+      "2.6" : {
+        "salt" : "MqFT6m50Afj0JeBJ22773rE9uK3uNy4hefd3dUIpAitzeHHnG5oknif9X1PtGCIK",
+        "name" : "sensorData",
+        "value" : "sensordataid"
+      },
+      "2.7" : {
+        "salt" : "1NNvSHVq6fdLBTDlPBCAWFDu2oOfO790dmGl0UIn8KDyISelqS4OFJXERbCAwb9d",
+        "name" : "employeeID",
+        "value" : "4133307e41394a53754d3547463672635a4c2a42624e5f5846734b3b6245"
+      },
+      "2.8" : {
+        "salt" : "ylZzcSVO9g55hqi2fOA6ZE42YmmPhKEg9xfUYXnjnsw6QC7L1GD0ePolnHoVyNfy",
+        "name" : "animalID",
+        "value" : "AR-1738117939683"
+      },
+      "2.10" : {
+        "salt" : "X8gMAniO3MPsSrYawIZcMe3YfV1IEqI75eVhM6PrpbCDx2LZGbGMedMwtAKbykIJ",
+        "name" : "status",
+        "value" : "true"
+      }
+    },
+    "3" : {
+      "salt" : "5oiQZ1zKb6HFaSMvTdGJsir4wMqW1buJ6ZrR16I43k0u0nP9vv0ZYWwznLmkmbfz",
+      "name" : "uniqueNo",
+      "value" : "AE-1738117941647"
+    }
+  },
+  "metamapper" : {
+    "uniqueNo" : "3",
+    "evidenceType" : "1",
+    "evidence.animalID" : "2.8",
+    "evidence.employeeID" : "2.7",
+    "evidence.status" : "2.10",
+    "evidence.examinationDate" : "2.3",
+    "evidence.sensorData" : "2.6",
+    "evidence.aeid" : "2.1",
+    "evidence.notes" : "2.2"
+  }
+}

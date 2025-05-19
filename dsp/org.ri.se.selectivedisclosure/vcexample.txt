@@ -1,0 +1,90 @@
+{
+	"problems": [{
+		"Diabetes": [{
+			"labs": [{
+				"1.1.1.1": {
+					"salt": "HVrMIt8lFG3b6oe4ZYq83iaGGuqs0Xl9gs1JPLeXre7YxECSRX63oiDh5j9WcgSN",
+					"name": "missing_field",
+					"value": "missing_value"
+				}
+			}],
+			"medications": [{
+				"medicationsClasses": [{
+					"className2": [{
+						"associatedDrug": [{
+							"1.1.2.1.1.1.1": {
+								"salt": "y9aMnf5EDQMbksnEEk0qug6VcboASFhBgg8zcKKddOquJoLFQDo3ZLh7oEnAA97y",
+								"name": "name",
+								"value": "asprin"
+							},
+							"1.1.2.1.1.1.2": {
+								"salt": "MalncOk8VRVKQmPwM71iBiWY9CPxosmHeSRzVheE6f6KkUzxgQ0FCwum6Y3nBhYC",
+								"name": "dose",
+								"value": ""
+							},
+							"1.1.2.1.1.1.3": {
+								"salt": "4wXwAwGDw7XwnGghzE0LWhpmj81ENhqn9r5p3WauxgoTGcXvZSQJAW5n9RRgKXCe",
+								"name": "strength",
+								"value": "500 mg"
+							}
+						}],
+						"associatedDrug#2": [{
+							"1.1.2.1.1.2.1": {
+								"salt": "FaEEWCgB4rU9x9AVgmIT5chUgM10zjRXblSgJMZ89H2eZsfSHNEPXwYnawDqrDDo",
+								"name": "name",
+								"value": "somethingElse"
+							},
+							"1.1.2.1.1.2.2": {
+								"salt": "mqG2uzTwWdZVNxZ1BwCb8t12MX9RPRwJfZsQ1pFyCSQgDBMsDhAEDV9fawodMr1C",
+								"name": "dose",
+								"value": ""
+							},
+							"1.1.2.1.1.2.3": {
+								"salt": "oZN6SnzFVGGXD99qPfVS0iMpdjZOgMlyNt9CLvSTAPirWx9fnvqcnXLJasMuNMGb",
+								"name": "strength",
+								"value": "500 mg"
+							}
+						}]
+					}],
+					"className": [{
+						"associatedDrug": [{
+							"1.1.2.1.2.1.1": {
+								"salt": "Yk20IAgkbja2cK19XeBnxEIJipyROOcNvrecCOnAwmlbype27KONVRDb8YsA3SXX",
+								"name": "name",
+								"value": "asprin"
+							},
+							"1.1.2.1.2.1.2": {
+								"salt": "o5pttVOygNTIQY6MrrnbxLQNCcmnhOsMuKFVE2OeYPFpKSAdqJ0uUnRZpMI6jxXU",
+								"name": "dose",
+								"value": ""
+							},
+							"1.1.2.1.2.1.3": {
+								"salt": "Pen20WPo1lVWazi9kYvhXciLStVTDiy1jX4oJVnMs1qIbmJydyGhRdgaduwSKBxj",
+								"name": "strength",
+								"value": "500 mg"
+							}
+						}],
+						"associatedDrug#2": [{
+							"1.1.2.1.2.2.1": {
+								"salt": "sPn2KMO0lgktjth5Yy2Fvy7pJ17TKTTjrVxGjaleYTJWs6qbfbPMi6PRPCYTpAOO",
+								"name": "name",
+								"value": "somethingElse"
+							},
+							"1.1.2.1.2.2.2": {
+								"salt": "HOIMdKQcztXzLSXHEYfMzoCdp7LKhdhrdyri28DmKXIaVkSTIjjaBRrQeheGKJN0",
+								"name": "dose",
+								"value": ""
+							},
+							"1.1.2.1.2.2.3": {
+								"salt": "KAu13vQNtHhKiXlUXBHuKZaw2CM3do2jBkrhkFPpOfbK6x48u1GvRkhiH19GK7DS",
+								"name": "strength",
+								"value": "500 mg"
+							}
+						}]
+					}]
+				}]
+			}]
+		}],
+		"Asthma": [{}]
+	}]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "required": "hostname",
+    "key": "healthctrl",
+    "value": "192.168.132.136",
+    "port": 9011,
+    "healthCheck": "/application/v1/health",
+    "type": "host"
+  },
+  {
+    "required": "hostname",
+    "key": "animalctrl",
+    "value": "192.168.132.136",
+    "port": 9002,
+    "healthCheck": "/application/v1/health",
+    "type": "host"
+  },
+  {
+    "required": "hostname",
+    "key": "feedctrl",
+    "value": "192.168.132.136",
+    "port": 9013,
+    "healthCheck": "/application/v1/health",
+    "type": "host"
+  },
+  {
+    "required": "hostname",
+    "key": "prebirthctrl",
+    "value": "192.168.132.136",
+    "port": 9007,
+    "healthCheck": "/application/v1/health",
+    "type": "host"
+  },
+  {
+    "required": "hostname",
+    "key": "reportslaughterhousectrl",
+    "value": "192.168.132.136",
+    "port": 9017,
+    "healthCheck": "/application/v1/health",
+    "type": "host"
+  },
+  {
+    "required": "hostname",
+    "key": "resourcesctrl",
+    "value": "192.168.132.136",
+    "port": 9020,
+    "healthCheck": "/application/v1/health",
+    "type": "host"
+  },
+  {
+    "required": "hostname",
+    "key": "traceapictrl",
+    "value": "192.168.132.136",
+    "port": 9000,
+    "healthCheck": "/v1/health",
+    "type": "host"
+  }
+]

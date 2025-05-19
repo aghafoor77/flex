@@ -1,0 +1,159 @@
+package test.ri.se.dtos;
+
+import java.util.Date;
+
+public class DTORegisterAnimal{
+
+	private String animalID;
+	private String  receivedFarmID;
+	private String  animalIDMother;
+	private String  notes;
+	private String pregnancyExamination;
+	private String sex;
+	private int weight;
+	private String dateOfBirth;
+	private String registrationDate;
+	private String  breed;
+	private String birthPlace;
+	private String  employerID;
+	private String unit;
+	private String  receivedFarmName;
+	private String  previousAnimalID;
+	private String aboutAnimal;
+	private String others;
+	private String  status;
+	public DTORegisterAnimal (){
+
+	}
+	public DTORegisterAnimal ( String animalID,String  receivedFarmID,String  animalIDMother,String  notes,String pregnancyExamination,String sex,int weight,String dateOfBirth,String registrationDate, String  breed,String birthPlace,String  employerID,String unit,String  receivedFarmName,String  previousAnimalID,String aboutAnimal,String others,String  status){
+		this.animalID = animalID; 
+		this.receivedFarmID = receivedFarmID; 
+		this.animalIDMother = animalIDMother; 
+		this.notes = notes; 
+		this.pregnancyExamination = pregnancyExamination; 
+		this.sex = sex; 
+		this.weight = weight; 
+		this.dateOfBirth = dateOfBirth; 
+		this.registrationDate = registrationDate;
+		this.breed = breed; 
+		this.birthPlace = birthPlace; 
+		this.employerID = employerID; 
+		this.unit = unit; 
+		this.receivedFarmName = receivedFarmName; 
+		this.previousAnimalID = previousAnimalID; 
+		this.aboutAnimal = aboutAnimal; 
+		this.others = others; 
+		this.status = status; 
+	}
+
+	public String getAnimalID(){
+		return this.animalID;
+	}
+	public void setAnimalID(String animalID) {
+		this.animalID = animalID; 
+	}
+	public String  getReceivedFarmID(){
+		return this.receivedFarmID;
+	}
+	public void setReceivedFarmID(String  receivedFarmID) {
+		this.receivedFarmID = receivedFarmID; 
+	}
+	public String  getAnimalIDMother(){
+		return this.animalIDMother;
+	}
+	public void setAnimalIDMother(String  animalIDMother) {
+		this.animalIDMother = animalIDMother; 
+	}
+	public String  getNotes(){
+		return this.notes;
+	}
+	public void setNotes(String  notes) {
+		this.notes = notes; 
+	}
+	public String getPregnancyExamination(){
+		return this.pregnancyExamination;
+	}
+	public void setPregnancyExamination(String pregnancyExamination) {
+		this.pregnancyExamination = pregnancyExamination; 
+	}
+	public String getSex(){
+		return this.sex;
+	}
+	public void setSex(String sex) {
+		this.sex = sex; 
+	}
+	public int getWeight(){
+		return this.weight;
+	}
+	public void setWeight(int weight) {
+		this.weight = weight; 
+	}
+	public String getDateOfBirth(){
+		return this.dateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth; 
+	}
+	public String  getBreed(){
+		return this.breed;
+	}
+	public void setBreed(String  breed) {
+		this.breed = breed; 
+	}
+	public String getBirthPlace(){
+		return this.birthPlace;
+	}
+	public void setBirthPlace(String birthPlace) {
+		this.birthPlace = birthPlace; 
+	}
+	public String  getEmployerID(){
+		return this.employerID;
+	}
+	public void setEmployerID(String  employerID) {
+		this.employerID = employerID; 
+	}
+	public String getUnit(){
+		return this.unit;
+	}
+	public void setUnit(String unit) {
+		this.unit = unit; 
+	}
+	public String  getReceivedFarmName(){
+		return this.receivedFarmName;
+	}
+	public void setReceivedFarmName(String  receivedFarmName) {
+		this.receivedFarmName = receivedFarmName; 
+	}
+	public String  getPreviousAnimalID(){
+		return this.previousAnimalID;
+	}
+	public void setPreviousAnimalID(String  previousAnimalID) {
+		this.previousAnimalID = previousAnimalID; 
+	}
+	public String getAboutAnimal(){
+		return this.aboutAnimal;
+	}
+	public void setAboutAnimal(String aboutAnimal) {
+		this.aboutAnimal = aboutAnimal; 
+	}
+	public String getOthers(){
+		return this.others;
+	}
+	public void setOthers(String others) {
+		this.others = others; 
+	}
+	public String  getStatus(){
+		return this.status;
+	}
+	public void setStatus(String  status) {
+		this.status = status; 
+	}
+	public String getRegistrationDate() {
+		return registrationDate;
+	}
+	public void setRegistrationDate(String registrationDate) {
+		this.registrationDate = registrationDate;
+	}
+	
+	
+}

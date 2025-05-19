@@ -1,0 +1,96 @@
+{
+  "issuanceDate" : "2025-01-29 02:56:28",
+  "holder" : "5955394570666a39756b4a67327256346e6845414547775a504371306b6a",
+  "validFrom" : "2025-01-29 02:56:28",
+  "issued" : "2025-01-29 02:56:28",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrBDYh8gnX826avyCe85MiK63qRKbphS1gy5visDtjTcBnWGNmrKvip7Rz7Pcb913JzhsqeTdMYHGR1VGLVHrzSFnGzM4rvtz4UhDNfhChyz29Jh7K9HWvUHxKeu82gq8XoTZnqrHBzavYkMoq9AyV3ZTwx3TWXSsXuqxAFzfNDD5SbXeMEB4EYSXoVFV8d6XDPsnJens5dt7jt9tvyg1PVUsheYtKhZmBsSNftw1PZ3CeKmK6dECs4scgxnXSrSP9AF9P81e1hJdiysDxAWYEoPjHR71roSh12CURpXHE4FoWgsbqWjDCerxXNLN3ZJuqpWjueDoWUsFg6hcGkHhhtG5NrQuv67HFJ14k8"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:-1325820905",
+  "issuer" : "3672436e6764657544564158493334514b63385a674f466a7551502a4a48",
+  "digest-set" : {
+    "1" : "b565277ecc0063045b41423bbccce6af4d8db8d35ef428af1ab15337894c4fa6",
+    "3" : "a43c0a688a311e5885b2500cfe7e617938765d34ffb11dd49ef0c2ec7ac80f28",
+    "2.1" : "0194503e526928ab23c07fe13e2acc55619fb8acd34517a907cad9dabbfe2da8",
+    "2.2" : "1caa5cea7db3d0eb48cd5f2ce90255192ebdc7d395e66a6854fc4cd0b77cc687",
+    "2.3" : "be2a49d800537475ab506894f7c59c9922996b87e6782b06d4d6cb6981a78112",
+    "2.6" : "11bacf2c8de566d26031755482f064d07ccb27b7adc6f1ea051546790fdbc31c",
+    "2.7" : "8e668430c6c265086279c351d43d05c0a225ec78d8f4ccd84743949cf35ba8c5",
+    "2.8" : "6364208083ad3eeeca5d764ad353691cbe7b200899284283f2d7c630ba0d7281",
+    "2.10" : "8270ef1465290bc1d69785aea7ee49f110e6b93606f188e5b3e5b08aed329b44"
+  },
+  "expirationDate" : "2025-01-29 02:56:28",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-29T13:56:28Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e39383839393632353739616335702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..rU4mw4x_0ggHkrbOk026YdD2RUfQzBEGGAyPHIssSW8FF3-p8jqKo2tSqPieAKtUOVoE5b-2x5AbdY44BDLNICraajv8qnQZFRt9VNBSW0HysKChtY-pqRZBH1oPt-lr4isEmev3oCbwqZfh9oAy6NEDp-t3Rg0V0U_PYp_RDKaMISLQ7nEpWzKlvivV-x6oKfn_Sj35fNlR67w5VFYRAQ4CdUii5WDQHX83fS1j7O4ajypO0iHorsJiH0EP1mq9uCog1m-0ExiiMtYdxeqaNPpBKXNwq38LommfWz-ZbBTrwhSwzRe3RZ0EilhhP2sRo3AijLqt8GqFebaQsfnsSQ"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "zxTnZHBbRFBRvRaFDzWsn7vIDbfJIFKrpVG69pcqH0xJeQMEvik2s22Jq1pbspWz",
+      "name" : "evidenceType",
+      "value" : "AnimalExamination"
+    },
+    "evidence" : {
+      "2.1" : {
+        "salt" : "f3QMnCOkrQA1cgQIyD3EKx1u9tFFBXQjbHpoPEEn8fg8JvuNORrde0dn8Eqd81jJ",
+        "name" : "aeid",
+        "value" : "AE-1738117941647"
+      },
+      "2.2" : {
+        "salt" : "lk5dWVi1DbAmvawpHbqEXlpLFebibujkQoHj7RJWvBs6Zs5abxb8wYI2xOa8j9fz",
+        "name" : "notes",
+        "value" : "Examination through pregnancy test."
+      },
+      "2.3" : {
+        "salt" : "SXXJTQEbnfenUfkHGjHtVt98kkeemTnbs17sDdyXHlrYxmUrBuOPIwYOg2EaI311",
+        "name" : "examinationDate",
+        "value" : "2020-09-30"
+      },
+      "2.6" : {
+        "salt" : "KfLNGO8QKTA2fgU7I1zcmUWVel4lvgOJSMr62z78dfSsBpPqkOimII2Kigb35Khm",
+        "name" : "sensorData",
+        "value" : "sensordataid"
+      },
+      "2.7" : {
+        "salt" : "koBJW4SW6strnFh7pWWrvxaZJ165ys5KfPYy0MWuTWtuLxbQtNEiSjgdnkIBTFe8",
+        "name" : "employeeID",
+        "value" : "4133307e41394a53754d3547463672635a4c2a42624e5f5846734b3b6245"
+      },
+      "2.8" : {
+        "salt" : "KNV43EeDJ4KtBoVisGD26e15xNDXyrAEDuwMXjkT8FU1x2tug8bNE7xgIXsDzAAk",
+        "name" : "animalID",
+        "value" : "AR-1738117939683"
+      },
+      "2.10" : {
+        "salt" : "yUyolBMNI2e3KwFK0MjozbFqfwPG5fzDkYOyZy51A1zv4hQAvSpYPU8KjSbV1Mbf",
+        "name" : "status",
+        "value" : "true"
+      }
+    },
+    "3" : {
+      "salt" : "f5G4Y6PRuCQ5SMvDF68gX48BjNYO4AFsv4iW36w3TAunTifR7h3TW41ZD17SioFo",
+      "name" : "uniqueNo",
+      "value" : "AE-1738117941647"
+    }
+  },
+  "metamapper" : {
+    "uniqueNo" : "3",
+    "evidenceType" : "1",
+    "evidence.animalID" : "2.8",
+    "evidence.employeeID" : "2.7",
+    "evidence.status" : "2.10",
+    "evidence.examinationDate" : "2.3",
+    "evidence.sensorData" : "2.6",
+    "evidence.aeid" : "2.1",
+    "evidence.notes" : "2.2"
+  }
+}

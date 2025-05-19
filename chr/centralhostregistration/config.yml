@@ -1,0 +1,53 @@
+defaultName: ${DW_DEFAULT_NAME:-RISECentralHostRegistration}
+template: RISE, %s!
+
+
+# Database settings.
+database:
+  driverClass: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://${dbip}:3306/formas?createDatabaseIfNotExist=true&enabledTLSProtocols=TLSv1.2
+  user: ${dbuser}
+  password: ${dbpassword}
+  maxWaitForConnection: 1s
+  validationQuery: "SELECT 1"
+  validationQueryTimeout: 3s
+  minSize: 8
+  maxSize: 32
+  checkConnectionWhileIdle: false
+  evictionInterval: 10s
+  minIdleTime: 1 minute
+  checkConnectionOnBorrow: true
+       
+server:
+  type: simple
+  applicationContextPath: /application
+  adminContextPath: /admin
+  connector:
+    type: http
+    port: 9090
+
+
+# Logging settings.
+logging:
+
+  # The default level of all loggers. Can be OFF, ERROR, WARN, INFO, DEBUG, TRACE, or ALL.
+  level: INFO
+
+  # Logger-specific levels.
+  loggers:
+
+    # Sets the level for 'com.ri.se' to DEBUG.
+    com.ri.se: DEBUG
+
+    # Redirects SQL logs to a separate file
+    org.hibernate.SQL:
+      level: WARN
+
+# the key needs to match the suffix of the renderer
+viewRendererConfiguration:
+    .ftl:
+        strict_syntax: yes
+        whitespace_stripping: yes
+
+swagger:
+  resourcePackage: centralhostregistration.utils

@@ -1,0 +1,66 @@
+FROM ubuntu:22.04 as base-stage
+
+USER root
+ENV TZ=Europe/Stockholm
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+LABEL vnf="trapi" description="FORMAS TrAPI Controler" type="container"
+MAINTAINER Abdul Ghafoor abdul.ghafoor@ri.se
+
+RUN \
+    apt-get -y update 
+
+RUN apt-get install openjdk-8-jdk openjdk-8-jre -y
+
+FROM base-stage as build-stage
+COPY ./farm/health/com.ri.se.animalexamination/ /app/build/com.ri.se.animalexamination/
+COPY ./farm/health/com.ri.se.drugstreatments/ /app/build/com.ri.se.drugstreatments/
+COPY ./farm/health/com.ri.se.generalhealthexamination/ /app/build/com.ri.se.generalhealthexamination/
+COPY ./farm/animal/com.ri.se.assignanimal/ /app/build/com.ri.se.assignanimal/
+COPY ./farm/animal/com.ri.se.assignanimalstatus/ /app/build/com.ri.se.assignanimalstatus/
+COPY ./farm/health/ri.se.health/ /app/build/ri.se.health/
+
+USER root
+RUN apt-get -y install maven 
+
+# Buidling all packages and then installing in maven repo
+WORKDIR /app/build/com.ri.se.animalexamination
+RUN mvn package && mvn install
+
+WORKDIR /app/build/com.ri.se.drugstreatments
+RUN mvn package && mvn install
+
+WORKDIR /app/build/com.ri.se.assignanimalstatus
+RUN mvn package && mvn install
+
+WORKDIR /app/build/com.ri.se.assignanimal
+RUN mvn package && mvn install
+
+
+WORKDIR /app/build/com.ri.se.generalhealthexamination
+RUN mvn package && mvn install
+
+WORKDIR /app/build/ri.se.health
+RUN mvn package
+# End building all packages
+
+# Building for running microservice
+FROM base-stage as production-stage
+
+USER root
+
+ENV HOME /root
+WORKDIR /home
+
+RUN mkdir -p /home/app
+
+
+WORKDIR /home/app
+
+COPY --from=build-stage /app/build/ri.se.health/target/ri.se.health-1.0.0.jar /home/app
+COPY --from=build-stage /app/build/ri.se.health/config.yml /home/app
+COPY ./farm/health/runner.sh /home/app/runner.sh
+
+EXPOSE 9011
+
+CMD ./runner.sh

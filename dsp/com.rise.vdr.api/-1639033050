@@ -1,0 +1,89 @@
+{
+  "issuanceDate" : "2025-01-29 02:56:22",
+  "holder" : "5955394570666a39756b4a67327256346e6845414547775a504371306b6a",
+  "validFrom" : "2025-01-29 02:56:22",
+  "issued" : "2025-01-29 02:56:22",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrCR6cgo2HinhYoVu5D7MbWaecNvEUdpFJgKiFGrpr3tYEcZiriUQhF123HjsxFHpR8HSNB1XZprygTbUtJGZnd9vEQu5EbpRLxHV5kyd3LMw9F5Htpt4G3D7N4pWWJHPjWGgVxGhiZ5eQjDBdU1CfzTkmGpVhL4xEWdLZMukMJcbYtEEWSnpQtNApowdmyHfuoRPt5sPLgeGBW7DvdpncUgStyL4zdYgVmLLHAESebmGDXvmffBJpaTuZq2vnbhAW3NpfEa8nr4EHANB5iPy1JWWGrcMMxvDW6WLfcGyT7ST1KW47k3hy5ZjEfPvASucUwU8zcD9A4YHhQMtxFbRVEEpXokyYjSiRQr39J"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:-1442174331",
+  "issuer" : "3672436e6764657544564158493334514b63385a674f466a7551502a4a48",
+  "digest-set" : {
+    "1" : "25702d7da199e78023b40eaa37bf91437df6f1c408b85cf2ff95208390ce71d0",
+    "3" : "141cb23dbcc48ea666bbcb177e4cd46f22368b0858ba8d8b93c5c33615494e71",
+    "2.1" : "a6f13942277134d293ed47e3a1f6284c1c25fd5557478706e1c946fd2f801cd6",
+    "2.2" : "b13f8c90b5b0a466e727019aeae50d07103885b391ad831b484ed9bc73da1c8c",
+    "2.3" : "461dd42dde56eb8e4058603d517535fd63e3e82f3d963616f7fcd085ef8828eb",
+    "2.4" : "0f5a60561e8a8d9f540cef0dcf05df317926bb747b57ec6165f6603ae2ae6dc6",
+    "2.5" : "29f1edc830ede6389556c9bb8f20717b2c77f9e6f45242eea91eae16e380e66f",
+    "2.6" : "d011a9eb3fb26490ec6bf43c5ccce9295ed69bf75e3e5b54646297deb9af079d"
+  },
+  "expirationDate" : "2025-01-29 02:56:22",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-29T13:56:22Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e37643737393762656633663463702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..WRHD3sHWbgWo3SEWFfpmUV8jfZ7_hPRqVwEo82tqPcJQ0sRG2AG2sQ36sGMd-iy1U8-I3_Ln6q2gvLIdYvg_FwAsPHqcY6TxGLkeFSpNIEboaZgnw1S0kQdIzA_LZRNAj0vgxm2QYx5C9CwpfknommxkEZRJWUOlvn5tUPLEqYF-d2HZHeLSQhE7FCkILQpAcGsPKKiIq10Pk4jocQ3RxC7GXyPOqxmNo1TJOfDhi3mibrGl1wGOmfz0l0o-QwAT_S7g-kYNHkQUCwKCcG7tRaV-sCmEvdk_Hy_Lk_p-HqHgzAFXwt9DBkmXFQBsNMKPYq2k6nllYARTSzUCUCmmhg"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "OoYx8zoUHBWjZnS7g4vnapWmR76Pl7FtGJffUctdidJGR53M2Psb3MEeOGfr3yQd",
+      "name" : "evidenceType",
+      "value" : "SemenUtilization"
+    },
+    "evidence" : {
+      "2.1" : {
+        "salt" : "PokNla2sytUqpBD6RbwNvs2f46XpKbrFJqU2XZscnPKZXODBK2InFLWkNcGY6VWp",
+        "name" : "suid",
+        "value" : "SU-1738117940655"
+      },
+      "2.2" : {
+        "salt" : "tLwfXLUUXKvztEAJ5IxetxUe3DgNr8j2PkMO07M03V1mn1OdsGyNKlc7JTjhJULX",
+        "name" : "insemationDate",
+        "value" : "2020-08-12"
+      },
+      "2.3" : {
+        "salt" : "HESGWfSGy3M4bLHMQ8HKwNnEdFGwSORkjsACUUCyLpOC9MZYBeuIGwdN7Kohw512",
+        "name" : "notes",
+        "value" : "Artificial insemination"
+      },
+      "2.4" : {
+        "salt" : "6Mg4vsWSzBFw3VVLz0zbEtJQIdkWGd1ni1IfdCDysYzjWrp5Cm0exXlmDhkoiIzD",
+        "name" : "employeeID",
+        "value" : "4133307e41394a53754d3547463672635a4c2a42624e5f5846734b3b6245"
+      },
+      "2.5" : {
+        "salt" : "qDPaqNtEoDN6P1IX3DNE6TIoAAREt9u0Kl1uP3bO6ZTVnbWe1wXtPmQCPxGbk0WK",
+        "name" : "osid",
+        "value" : "OS-1738117940165"
+      },
+      "2.6" : {
+        "salt" : "IsnG4NdgBWGR4Qam5O0FJb6GLFLoVuCmaxXV13W7SAHSuGrUlMN6JS7dMrzNoMGG",
+        "name" : "animalID",
+        "value" : "AR-1738117939406"
+      }
+    },
+    "3" : {
+      "salt" : "qNPWRKAtg3zLuac68lB0lVGbK3PBF6JvATUGaCAAXq4HYOpQJuMllglJ0SvrLvAk",
+      "name" : "uniqueNo",
+      "value" : "SU-1738117940655"
+    }
+  },
+  "metamapper" : {
+    "uniqueNo" : "3",
+    "evidenceType" : "1",
+    "evidence.suid" : "2.1",
+    "evidence.osid" : "2.5",
+    "evidence.animalID" : "2.6",
+    "evidence.employeeID" : "2.4",
+    "evidence.insemationDate" : "2.2",
+    "evidence.notes" : "2.3"
+  }
+}

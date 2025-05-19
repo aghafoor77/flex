@@ -1,0 +1,99 @@
+version: '3'
+services:
+  chr: 
+    build:
+        context: .
+        dockerfile: chrdockerfile 
+    container_name: chr
+    ports:
+      - '9090:9090'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+  animal: 
+    build:
+      context: .
+      dockerfile: animaldockerfile 
+    container_name: animal
+    ports:
+      - '9002:9002'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+  farm: 
+    build:
+      context: .
+      dockerfile: farmdockerfile 
+    container_name: farm
+    ports:
+      - '9020:9020'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+  feed:
+    build:
+      context: .
+      dockerfile: feeddockerfile 
+    container_name: feed
+    ports:
+      - '9013:9013'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped  
+    volumes:
+      - ./data:/home/app/data
+  health: 
+    build:
+      context: .
+      dockerfile: healthdockerfile 
+    container_name: health
+    ports:
+      - '9011:9011'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data/vcs
+  prebirth:
+    build:
+      context: .
+      dockerfile: prebirthdockerfile 
+    container_name: prebirth
+    ports:
+      - '9007:9007'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped 
+  dsp: 
+    build:
+        context: .
+        dockerfile: dspdockerfile 
+    container_name: dsp
+    ports:
+      - '9000:9000'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+      - ./data/credentials:/root/veidblock_RT/credentials

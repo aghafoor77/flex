@@ -1,0 +1,413 @@
+{
+	"@context": [
+		"https://www.w3.org/2018/credentials/v1",
+		"http://data.europa.eu/snb/model/context/edc-ap",
+		"http://www.w3.org/ns/adms#",
+		"http://data.europa.eu/m8g/",
+		"http://www.w3.org/ns/person#",
+		"https://www.w3.org/2018/credentials#",
+		"http://purl.org/dc/terms/",
+		"http://data.europa.eu/snb/model/elm/",
+		"http://xmlns.com/foaf/0.1/",
+		"http://www.w3.org/ns/locn#",
+		"http://www.w3.org/ns/org#",
+		"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"http://www.w3.org/ns/regorg#",
+		"http://www.w3.org/2004/02/skos/core#"
+	],
+	"elm:EuropeanDigitalCredential": {
+		"elm:credentialProfiles": {
+			"skos:inScheme": {
+				"dc:identifier": "http://data.europa.eu/snb/credential/25831c2",
+				"dc:type": "ConceptScheme"
+			},
+			"skos:name": "",
+			"skos:notation": ""
+		},
+		"cred:credentialSchema": "",
+		"elm:displayParameter": {
+			"dc:title": "",
+			"dc:language": {
+				"skos:prefLabel": "",
+				"skos:notation": "",
+				"skos:inScheme": {
+					"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+					"dc:type": "ConceptScheme"
+				}
+			},
+			"elm:individualDisplay": {
+				"elm:displayDetail": {
+					"elm:image":"",
+					"page":""
+				},
+				"dc:language": {
+					"skos:prefLabel": "",
+					"skos:notation": "",
+					"skos:inScheme": {
+						"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+						"dc:type": "ConceptScheme"
+					}
+				}
+			},
+			"elm:primaryLanguage": {
+				"skos:prefLabel": "",
+				"skos:notation": "",
+				"skos:inScheme": {
+					"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+					"dc:type": "ConceptScheme"
+				}
+			}
+		},
+		"adms:identifier": "",
+		"cred:issuanceDate": "",
+		"cred:expirationDate": "",
+		"cred:issued": "",
+		"cred:issuer": {
+			"elm:eidasLegalIdentifier": {
+				"elm:schemeId": "http://example.org/126839",
+				"dc:type": "LegalIdentifier",
+				"skos:notation": "126839",
+				"dc:spatial": {
+					"skos:prefLabel": "",
+					"skos:inScheme": {
+						"dc:identifier": "http://publications.europa.eu/resource/authority/country",
+						"dc:type": "ConceptScheme"
+					}
+				}
+			}
+		},
+		"cred:credentialSubject": {
+			"foaf:fullName": "",
+			"elm:hasClaim": {
+				"elm:LearningAssessment": {
+					"elm:awardedBy": {
+						"elm:awardingBody": [{
+							"rov:legalName": "",
+							"elm:location": "",
+							"elm:taxIdentifier": "",
+							"elm:accreditation": [{
+								"elm:accreditingAgent": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"elm:organisation": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"dc:title": "",
+								"dc:type": {
+									"skos:notation": "",
+									"skos:inScheme": ""
+								},
+								"elm:decision": {
+									"skos:notation": "",
+									"skos:inScheme": ""
+								},
+								"elm:additionalNote": {
+									"elm:noteLiteral": ""
+								}
+							}]
+						}],
+						"elm:location": {
+							"elm:address": {
+								"elm:countryCode":{
+									"skos:prefLabel": "",
+									"skos:notation": "",
+									"skos:inScheme": {
+										"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+										"dc:type": "ConceptScheme"
+									}
+								},
+								"elm:fullAddress":""
+							}
+						},
+						"dc:description": [""],
+						"elm:used": {
+							"elm:awardedBy": {
+								"elm:awardingBody": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"dc:description": [""]
+							},
+							"elm:grade": {"elm:noteLiteral":""},
+							"dc:title": ""
+						}
+					},
+					"elm:grade": {"elm:noteLiteral":""},
+					"elm:idVerification": {
+						"skos:prefLabel": "",
+						"skos:notation": "",
+						"skos:inScheme": {
+							"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+							"dc:type": "ConceptScheme"
+						}
+					},
+					"dc:title": "",
+					"elm:assessedBy": {
+						"skos:prefLabel": ""
+					},
+					"elm:specifiedBy": {
+						"dc:title": "",
+						"elm:additionalNote": {
+							"elm:noteLiteral": ""
+						}
+					}
+				},
+				"elm:LearningAchievement": {
+					"elm:awardedBy": {
+						"elm:awardingBody": [{
+							"rov:legalName": "",
+							"elm:location": "",
+							"elm:taxIdentifier": "",
+							"elm:accreditation": [{
+								"elm:accreditingAgent": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"elm:organisation": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"dc:title": "",
+								"dc:description": "",
+								"dc:type": {
+									"skos:notation": "",
+									"skos:inScheme": ""
+								},
+								"elm:decision": {
+									"skos:notation": "",
+									"skos:inScheme": ""
+								},
+								"elm:additionalNote": [{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+								}],
+								"elm:supplementaryDocument":{
+									"elm:contentUrl":""
+								}
+							}]
+						}],
+						"elm:location": {
+							"elm:address": {
+								"elm:countryCode":{
+									"skos:prefLabel": "",
+									"skos:notation": "",
+									"skos:inScheme": {
+										"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+										"dc:type": "ConceptScheme"
+									}
+								},
+								"elm:fullAddress":""
+							}
+						},
+						"dc:description": "",
+						"elm:used": {
+							"elm:awardedBy": {
+								"elm:awardingBody": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"dc:description": ""
+							},
+							"elm:grade": "",
+							"dc:title": ""
+						}
+					},
+					"dc:title": "",
+					"elm:specifiedBy": {
+						"dc:title": "",
+						"elm:learningOutcome": [{
+							"dc:title": "",
+							"dc:type": {
+								"skos:prefLabel": "",
+								"skos:notation": "",
+								"skos:inScheme": {
+									"dc:identifier":"",
+									"dc:type": "ConceptScheme"
+								}
+							},
+							"elm:additionalNote": [{
+								"elm:noteLiteral": ""
+							}, 
+							 {
+								"elm:noteLiteral": ""
+							},
+							 {
+								"elm:noteLiteral": ""
+							},
+							 {
+								"elm:noteLiteral": ""
+							}]
+						}],
+						"elm:educationLevel": {
+							"skos:inScheme": "",
+							"skos:notation": ""
+						},
+						"elm:entryRequirement": {
+							"elm:noteLiteral": ""
+						},
+						"elm:specialisationOf": {
+							"dc:title": "",
+							"dc:description": ""
+						},
+						"elm:creditPoint": {
+							"elm:framework": "",
+							"elm:point": ""
+						},
+						"elm:ISCEDFCode": {
+							"skos:inScheme": "",
+							"skos:notation": ""
+						},
+						"elm:educationSubject": {
+							"skos:inScheme": "",
+							"skos:notation": ""
+						},
+						"elm:volumeOfLearning": ""
+					},
+					"elm:influencedBy": {
+						"dc:title": "",
+						"dc:type": {
+							"skos:notation": "",
+							"skos:inScheme": ""
+						}
+					},
+					"elm:learningOpportunity":{
+						"dc:title":"",
+						"dc:type":{
+							"skos:prefLabel": "",
+							"skos:notation": "",
+							"skos:inScheme": {
+								"dc:identifier":"",
+								"dc:type": "ConceptScheme"
+						},
+						"elm:providedBy":{
+							"rov:legalName":"",
+              				"elm:location":""
+						}
+					},
+					"dc:description": ""
+					}
+				},
+				"elm:LearningEntitlement": {
+					"dc:title": "",
+					"elm:awardedBy": {
+						"elm:awardingBody": [{
+							"rov:legalName": "",
+							"elm:location": "",
+							"elm:taxIdentifier": "",
+							"elm:accreditation": [{
+								"elm:accreditingAgent": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"elm:organisation": {
+									"rov:legalName": "",
+									"elm:location": ""
+								},
+								"dc:title": "",
+								"dc:description": "",
+								"dc:type": {
+									"skos:notation": "",
+									"skos:inScheme": ""
+								},
+								"elm:decision": {
+									"skos:notation": "",
+									"skos:inScheme": ""
+								},
+								"elm:additionalNote": [{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+									}, 
+									{
+									"elm:noteLiteral": ""
+								}],
+								"elm:supplementaryDocument":{
+									"elm:contentUrl":""
+								}
+							}]
+						}],
+						"elm:location": {
+							"elm:address": {
+								"elm:countryCode":{
+									"skos:prefLabel": "",
+									"skos:notation": "",
+									"skos:inScheme": {
+										"dc:identifier": "http://publications.europa.eu/resource/authority/language",
+										"dc:type": "ConceptScheme"
+									}
+								},
+								"elm:fullAddress":""
+							}
+						}
+					},
+					"elm:specifiedBy": {
+						"elm:entitledBy": {
+							"elm:EQFLevel": {
+								"skos:notation": "",
+								"skos:inScheme": ""
+							},
+							"elm:NQFLevel": {
+								"skos:notation": "",
+								"skos:inScheme": ""
+							}
+						},
+						"elm:entitlementStatus": {
+							"notation": "",
+							"inScheme": ""
+						},
+						"dc:title": "",
+						"dc:type": {
+							"skos:notation": "",
+							"skos:inScheme": ""
+						}
+					},
+					"dc:description": ""
+				}
+			},
+			"elm:nationalId": "",
+			"elm:additionalNote":{
+				"elm:noteLiteral":""
+			}
+		},
+		"cred:validFrom": ""
+	}
+
+}

@@ -1,0 +1,94 @@
+{
+  "issuanceDate" : "2025-01-16 02:38:43",
+  "holder" : "6a77646c68597a6361684d3b6d2a7e576b557665504342534e4959377447",
+  "validFrom" : "2025-01-16 02:38:43",
+  "issued" : "2025-01-16 02:38:43",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrAQzWtuM1hryuroRtMW1bc31dn5fUBGoy1ECoQHX9fzEXxbZ1C4ZKKrmB7vRzLCHDBWsnUUBsC57mpJzyuFA6sUPN4rvLcAZfMj4wzcKzqt7mdB56rztG4ZFEijyDsNM5ej1XbCz2G92TtnEagYPAi64SK19Wuy7Bozg3CrPj7zAUzmYjLNC9GFiZiQr45hpiKPSBNr8V54X9mC856ypfFZjwDPstF6wPoQyyVrrug7Jcv4gTuESNL8ABRB8qmLWcvDGR7ioH2UsGT2JvBu5Ch9YB8MnrzF7ECDMSRbvH3SviQkZTUg7F3ePE2sVQryoN3yNAYaDN4wY9nEXzMUjFp2L9aV5Xvv4hnExvk"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:1442160220",
+  "issuer" : "4433372a5164534c782d382d456b56756c795449744a2a4f783164705257",
+  "digest-set" : {
+    "11" : "103c4448c13370ad31fc436b47a403a78479d343b04554bff616ce15c7f9acc3",
+    "1" : "e9323a012700b4e298a9158c1056bdeab7e70a5c91d82ba8bbd693ad93a12fae",
+    "2" : "2bfb3376a181b0863ee179c192e251494f96c22be329dbc95c53ac5b721fef8d",
+    "3" : "f314de1ab5e005eaaa3dbaf7b1ad46928e111bf8a7afc3a8ae2b59bb8013f138",
+    "5" : "79a7c24faac8ec13f5f71218999efb76afe770f7f850ea26bf52538ab43c7652",
+    "7" : "73bcfc9c2c04d07045bcac30cad94e46f0923c205cf833ec3e1785f63c9e8b58",
+    "8" : "cf65ff45557680fedf72df1941a894f0121b244d411bd82360616882e0d33a86",
+    "9" : "16d9f95efab3574b22fcdc79e2645f85a7f4cd3a3c5b51f372f32c7d24ced48c",
+    "10" : "f4976e8b6591f194936d24def6eadf1bbef21bee8109b223f8509af6b45b2e94"
+  },
+  "expirationDate" : "2025-01-16 02:38:43",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-16T01:38:43Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e38323264376661316364326637702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..dhHvkiouBW1HPyRtTFFEONVJE3njnNm5JTtR4DXovYBZOvBfIQETc9EN2c7BOGM4WoiUwKtfv6U-TbDyqgkcwZsC6n3qRiR5Fg6_2fXJ3T9Wm91VSTj1NKbLSLhKhwZu5Wblaos_JaaPhBwT4BZEyeLd4ig3C1G4NZBPO79J7SvreNSKqSUboSRfng9ZjzzuGPcfjSMO9Q377-x_j5Aa6r8YcxwvYCDqqhudB6g-qSpog9S6cp0JiMq3RTivSRxdNTReWbyCtFRRQIu0svFUnSFHKCeiUrOerV-MaS3GAAL7QSJy1xSPY-HzpkPbd_R-uRxAyT6SghbkQKidFOE7UA"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "Hu77OKa81BSaXRNrOYniaZxQBpgBTX7qZdIXWWdlgWccflRICmOmEAjMKlimgYpp",
+      "name" : "animalID",
+      "value" : "AR-1736989577406"
+    },
+    "2" : {
+      "salt" : "X3IheD94gArD00a957KvMUYNATO03doPOw7svh4a8ac9cOEu4UvmXne3iWNrDQLf",
+      "name" : "animalIDMother",
+      "value" : "AR-1736989576845"
+    },
+    "3" : {
+      "salt" : "nhKDSoopPPFVch8Omnj1a3ooxswjN1PGPG1jM6nbcMs9IFmZTsNeAjAGL0SCp9zq",
+      "name" : "birthPlace",
+      "value" : "Uppsala Farm"
+    },
+    "5" : {
+      "salt" : "rjrgGxGXnBym3o7y03DMfIHBcffXQgEcnYz9BhODwRWM2StUFIYCPWvQjyhVmxDO",
+      "name" : "currentWeight",
+      "value" : 0
+    },
+    "7" : {
+      "salt" : "jxSlEDhCHHwmv5hG330M6lkmm5fMJIaIzkuA3tTUfOKLvFfbCAPwfTzoGDIihe9x",
+      "name" : "sex",
+      "value" : "Cow"
+    },
+    "8" : {
+      "salt" : "bjH7f3LeeQI9PPCZs69g92cnjEJVa4LbgWJHXPh2woRHhG1dViOEF2q1piNxpitg",
+      "name" : "farmId",
+      "value" : "AR-1736989577406"
+    },
+    "9" : {
+      "salt" : "4ypBp0101pwN0EMKpq1E7DmH2fpGVRcdsFHbRQOCp3MQd31rs4xBRd5eJsPb1K2J",
+      "name" : "transferDate",
+      "value" : "2025-01-16 02:38:42"
+    },
+    "10" : {
+      "salt" : "JaaNeO7mRNKhxp8GvReGxt7EKu7lk1IVMyerFnMZ4Sj24r6Q4EdahXteuawzrC3N",
+      "name" : "birthDate",
+      "value" : "2021-08-10"
+    },
+    "11" : {
+      "salt" : "cjNXhgb2ti3W2DSGtQhZvhq07Qzh1OzMtG3PhCciFaoejodmIrJbMIAFwWhDtQZy",
+      "name" : "breed",
+      "value" : "Svensk Fjällras"
+    }
+  },
+  "metamapper" : {
+    "animalIDMother" : "2",
+    "birthPlace" : "3",
+    "currentWeight" : "5",
+    "sex" : "7",
+    "farmId" : "8",
+    "transferDate" : "9",
+    "animalID" : "1",
+    "birthDate" : "10",
+    "breed" : "11"
+  }
+}

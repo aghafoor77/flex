@@ -1,0 +1,68 @@
+this.state = {
+	suid : suid, 
+	insemationDate : insemationDate, 
+	notes : notes, 
+	employeeID : employeeID, 
+	osid : osid, 
+	animalID : animalID
+}
+
+
+this.state = {
+	suid : "", 
+	insemationDate : "", 
+	notes : "", 
+	employeeID : "", 
+	osid : "", 
+	animalID : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'suid': this.setState({ suid: event.target.value }); break;
+		  case 'insemationDate': this.setState({ insemationDate: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'employeeID': this.setState({ employeeID: event.target.value }); break;
+		  case 'osid': this.setState({ osid: event.target.value }); break;
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="suid"
+name="suid" id="suid" onChange={this.handleChange.bind(this)} value={this.state.suid}
+
+htmlFor="insemationDate"
+name="insemationDate" id="insemationDate" onChange={this.handleChange.bind(this)} value={this.state.insemationDate}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="employeeID"
+name="employeeID" id="employeeID" onChange={this.handleChange.bind(this)} value={this.state.employeeID}
+
+htmlFor="osid"
+name="osid" id="osid" onChange={this.handleChange.bind(this)} value={this.state.osid}
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		suid : this.state.suid, 
+		insemationDate : this.state.insemationDate, 
+		notes : this.state.notes, 
+		employeeID : this.state.employeeID, 
+		osid : this.state.osid, 
+		animalID : this.state.animalID
+	}
+	return jsondata; 
+
+}

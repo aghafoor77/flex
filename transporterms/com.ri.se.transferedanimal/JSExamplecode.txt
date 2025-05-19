@@ -1,0 +1,89 @@
+this.state = {
+	animalID : animalID, 
+	animalIDMother : animalIDMother, 
+	birthPlace : birthPlace, 
+	previousFarmContact : previousFarmContact, 
+	receivedFarmName : receivedFarmName, 
+	sex : sex, 
+	farmId : farmId, 
+	birthDate : birthDate, 
+	breed : breed
+}
+
+
+this.state = {
+	animalID : "", 
+	animalIDMother : "", 
+	birthPlace : "", 
+	previousFarmContact : "", 
+	receivedFarmName : "", 
+	sex : "", 
+	farmId : "", 
+	birthDate : "", 
+	breed : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'animalIDMother': this.setState({ animalIDMother: event.target.value }); break;
+		  case 'birthPlace': this.setState({ birthPlace: event.target.value }); break;
+		  case 'previousFarmContact': this.setState({ previousFarmContact: event.target.value }); break;
+		  case 'receivedFarmName': this.setState({ receivedFarmName: event.target.value }); break;
+		  case 'sex': this.setState({ sex: event.target.value }); break;
+		  case 'farmId': this.setState({ farmId: event.target.value }); break;
+		  case 'birthDate': this.setState({ birthDate: event.target.value }); break;
+		  case 'breed': this.setState({ breed: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="animalIDMother"
+name="animalIDMother" id="animalIDMother" onChange={this.handleChange.bind(this)} value={this.state.animalIDMother}
+
+htmlFor="birthPlace"
+name="birthPlace" id="birthPlace" onChange={this.handleChange.bind(this)} value={this.state.birthPlace}
+
+htmlFor="previousFarmContact"
+name="previousFarmContact" id="previousFarmContact" onChange={this.handleChange.bind(this)} value={this.state.previousFarmContact}
+
+htmlFor="receivedFarmName"
+name="receivedFarmName" id="receivedFarmName" onChange={this.handleChange.bind(this)} value={this.state.receivedFarmName}
+
+htmlFor="sex"
+name="sex" id="sex" onChange={this.handleChange.bind(this)} value={this.state.sex}
+
+htmlFor="farmId"
+name="farmId" id="farmId" onChange={this.handleChange.bind(this)} value={this.state.farmId}
+
+htmlFor="birthDate"
+name="birthDate" id="birthDate" onChange={this.handleChange.bind(this)} value={this.state.birthDate}
+
+htmlFor="breed"
+name="breed" id="breed" onChange={this.handleChange.bind(this)} value={this.state.breed}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		animalID : this.state.animalID, 
+		animalIDMother : this.state.animalIDMother, 
+		birthPlace : this.state.birthPlace, 
+		previousFarmContact : this.state.previousFarmContact, 
+		receivedFarmName : this.state.receivedFarmName, 
+		sex : this.state.sex, 
+		farmId : this.state.farmId, 
+		birthDate : this.state.birthDate, 
+		breed : this.state.breed
+	}
+	return jsondata; 
+
+}

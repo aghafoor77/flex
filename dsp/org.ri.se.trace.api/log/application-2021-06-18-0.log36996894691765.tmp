@@ -1,0 +1,65 @@
+INFO   [11:22:35.768] [main] i.d.s.DefaultServerFactory -  Registering jersey handler with root path prefix: / 
+INFO   [11:22:35.777] [main] i.d.s.DefaultServerFactory -  Registering admin handler with root path prefix: / 
+INFO   [11:22:35.777] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: assets for path /assets/* 
+INFO   [11:22:35.917] [main] i.d.a.AssetsBundle -  Registering AssetBundle with name: swagger-assets for path /swagger-static/* 
+INFO   [11:22:36.013] [main] o.r.Reflections -  Reflections took 74 ms to scan 1 urls, producing 48 keys and 57 values  
+INFO   [11:22:36.293] [main] o.r.s.t.a.u.RestClientSideOperations -  ===> Fetching IP address of host ganachectrl 
+INFO   [11:22:37.011] [main] o.r.s.t.a.m.TraceApplication -  <============Wallet path================= 
+INFO   [11:22:37.012] [main] o.r.s.t.a.m.TraceApplication -  ===> /home/ag/veidblock_RT/credentials 
+INFO   [11:22:37.016] [main] o.r.s.t.a.m.TraceApplication -  ========================================> 
+INFO   [11:22:37.017] [main] o.r.s.t.a.m.TraceApplication -  <============Blockchain path================= 
+INFO   [11:22:37.017] [main] o.r.s.t.a.m.TraceApplication -  ===> http://172.17.0.3:8545 
+INFO   [11:22:37.017] [main] o.r.s.t.a.m.TraceApplication -  ========================================> 
+INFO   [11:22:37.437] [main] o.r.s.t.a.m.TraceApplication -  ===> Creating DB Entity ! 
+INFO   [11:22:38.593] [main] i.d.s.ServerFactory -  Starting tapi 
+INFO   [11:22:39.156] [main] o.e.j.s.SetUIDListener -  Opened application@459d2ee6{HTTP/1.1, (http/1.1)}{0.0.0.0:9000} 
+INFO   [11:22:39.162] [main] o.e.j.s.SetUIDListener -  Opened admin@5342eec5{HTTP/1.1, (http/1.1)}{0.0.0.0:8277} 
+INFO   [11:22:39.177] [main] o.e.j.s.Server -  jetty-9.4.35.v20201120; built: 2020-11-20T21:17:03.964Z; git: bdc54f03a5e0a7e280fab27f55c3c75ee8da89fb; jvm 11.0.10+8-LTS-162 
+INFO   [11:22:40.829] [main] i.d.j.DropwizardResourceConfig -  The following paths were found for the configured resources:
+
+    GET     /swagger (io.federecio.dropwizard.swagger.SwaggerResource)
+    GET     /swagger.{type:json|yaml} (io.swagger.jaxrs.listing.ApiListingResource)
+    GET     /tapi/idms/v1/account (org.ri.se.trace.api.resource.AccountResource)
+    POST    /tapi/idms/v1/account (org.ri.se.trace.api.resource.AccountResource)
+    POST    /tapi/idms/v1/auth (org.ri.se.trace.api.resource.AccountResource)
+    GET     /tapi/idms/v1/deposit (org.ri.se.trace.api.resource.AccountResource)
+    POST    /tapi/sc/v1/deploy/{name} (org.ri.se.trace.api.resource.SmartContractResource)
+    GET     /tapi/sc/v1/scaddresses (org.ri.se.trace.api.resource.SmartContractResource)
+    GET     /tapi/v1/all/size (org.ri.se.trace.api.resource.TraceResource)
+    POST    /tapi/v1/identity (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/local/attres (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    OPTIONS /tapi/v1/local/attres/hello (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    POST    /tapi/v1/local/attres/hello (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    GET     /tapi/v1/local/attres/identity/{identity} (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    POST    /tapi/v1/local/attres/min (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    GET     /tapi/v1/local/attres/name/{name} (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    GET     /tapi/v1/local/attres/owner/ownslocal (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    DELETE  /tapi/v1/local/attres/{id} (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    GET     /tapi/v1/local/attres/{ipfshash} (org.ri.se.trace.api.resource.AttachedEvidenceResource)
+    GET     /tapi/v1/own/size (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/size/{id} (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/status (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/status/all (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/status/own (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/status/{id} (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/status/{id}/{no} (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/tracegraph/{id} (org.ri.se.trace.api.resource.TraceResource)
+    POST    /tapi/v1/transact (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/{id} (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/{id}/last (org.ri.se.trace.api.resource.TraceResource)
+    GET     /tapi/v1/{id}/{no} (org.ri.se.trace.api.resource.TraceResource)
+ 
+INFO   [11:22:40.844] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@a4dcede{/,null,AVAILABLE} 
+INFO   [11:22:40.864] [main] i.d.s.AdminEnvironment -  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+ 
+INFO   [11:22:40.869] [main] o.e.j.s.h.ContextHandler -  Started i.d.j.MutableServletContextHandler@1610c03c{/,null,AVAILABLE} 
+INFO   [11:22:40.894] [main] o.e.j.s.AbstractConnector -  Started application@459d2ee6{HTTP/1.1, (http/1.1)}{0.0.0.0:9000} 
+INFO   [11:22:40.914] [main] o.e.j.s.AbstractConnector -  Started admin@5342eec5{HTTP/1.1, (http/1.1)}{0.0.0.0:8277} 
+INFO   [11:22:40.915] [main] o.e.j.s.Server -  Started @9137ms 
+INFO   [11:22:43.035] [JettyShutdownThread] o.e.j.s.AbstractConnector -  Stopped application@459d2ee6{HTTP/1.1, (http/1.1)}{0.0.0.0:9000} 
+INFO   [11:22:43.038] [JettyShutdownThread] o.e.j.s.AbstractConnector -  Stopped admin@5342eec5{HTTP/1.1, (http/1.1)}{0.0.0.0:8277} 
+INFO   [11:22:43.044] [JettyShutdownThread] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@1610c03c{/,null,STOPPED} 
+INFO   [11:22:43.062] [JettyShutdownThread] o.e.j.s.h.ContextHandler -  Stopped i.d.j.MutableServletContextHandler@a4dcede{/,null,STOPPED} 

@@ -1,0 +1,45 @@
+{
+  "dtoFacilityList" : [ {
+    "facilityId" : "FFID-1",
+    "address" : "plot No 10, Norra Lunsen",
+    "maxcapacity" : 100,
+    "temporaryactivity" : "Vinter",
+    "anlaggningsnumber" : "AN1245789",
+    "farmId" : "FID-01002",
+    "type" : "Cows",
+    "areasize" : "200",
+    "fromDate" : "1980-01-15",
+    "movementacrossEU" : true,
+    "facilityNr" : "FN-1",
+    "specieskept" : "Cows, Bull",
+    "breedingmaterials" : "Blandad"
+  }, {
+    "facilityId" : "FFID-2",
+    "address" : "Plot No 31, Norra Lunsen, Uppsala",
+    "maxcapacity" : 200,
+    "temporaryactivity" : "Grazing",
+    "anlaggningsnumber" : "AN658992",
+    "farmId" : "FID-01002",
+    "type" : "ALL Weather",
+    "areasize" : "600",
+    "fromDate" : "2002-04-21",
+    "movementacrossEU" : true,
+    "facilityNr" : "FN-2",
+    "specieskept" : "Horses, Cows, Bulls",
+    "breedingmaterials" : "Blandad"
+  } ],
+  "farm" : {
+    "farmId" : "FID-01002",
+    "farmName" : "FLEX",
+    "owner" : "owner",
+    "dateTime" : "1980-1-15",
+    "country" : "Sweden",
+    "notes" : "Use to produce meat animal",
+    "city" : "Uppsala",
+    "street" : "Centralvagen",
+    "postalcode" : "19213",
+    "farmContactNo" : "0046725587898",
+    "farmCompany" : "FLEX AB",
+    "email" : "info@flex.se"
+  }
+}

@@ -1,0 +1,55 @@
+version: '3'
+services:
+  ganache: 
+    build:
+        context: .
+        dockerfile: ganachedockerfile 
+    container_name: ganache
+    ports:
+      - '8545:8545'
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data   
+  chr: 
+    build:
+        context: .
+        dockerfile: chrdockerfile 
+    container_name: chr
+    ports:
+      - '9090:9090'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+  ipfs: 
+    build:
+        context: .
+        dockerfile: ipfsdockerfile 
+    container_name: ipfs
+    ports:
+      - '4001:4001'
+      - '5001:5001'
+      - '8080:8080'
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+  dsp: 
+    build:
+        context: .
+        dockerfile: dspdockerfile 
+    container_name: dsp
+    ports:
+      - '9000:9000'
+    environment:
+      - dbip=${dbip}
+      - dbuser=${dbuser}
+      - dbpassword=${dbpassword}
+    restart: unless-stopped
+    volumes:
+      - ./data:/home/app/data
+      - ./data/credentials:/root/veidblock_RT/credentials
+      
+

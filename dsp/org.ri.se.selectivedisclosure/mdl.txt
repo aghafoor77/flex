@@ -1,0 +1,17 @@
+{
+  "expiryDate": 1804892400000,
+  "dateofBirth": 571273200000,
+  "address": {
+    "houseNo": "12",
+    "street": "Stallagatan 11",
+    "postCode": "19432",
+    "city": "UV",
+    "country": "SE"
+  },
+  "name": "Abdul Ghafoor",
+  "socialSecuirtyNumber": "3473970SE88989STM",
+  "issueDate": 1647039600000,
+  "isActive": true,
+  "drivingLicenceNo": "SE12212349786",
+  "vehicleType": "Car"
+}

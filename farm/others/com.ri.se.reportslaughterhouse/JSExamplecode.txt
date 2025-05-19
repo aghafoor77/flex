@@ -1,0 +1,103 @@
+this.state = {
+	rid : rid, 
+	notes : notes, 
+	slaughterhousename : slaughterhousename, 
+	response : response, 
+	sex : sex, 
+	numberofanimals : numberofanimals, 
+	reportingDate : reportingDate, 
+	employeeID : employeeID, 
+	slaughterhousecontact : slaughterhousecontact, 
+	age : age, 
+	breed : breed
+}
+
+
+this.state = {
+	rid : "", 
+	notes : "", 
+	slaughterhousename : "", 
+	response : "", 
+	sex : "", 
+	numberofanimals : 0, 
+	reportingDate : "", 
+	employeeID : "", 
+	slaughterhousecontact : "", 
+	age : "", 
+	breed : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'rid': this.setState({ rid: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'slaughterhousename': this.setState({ slaughterhousename: event.target.value }); break;
+		  case 'response': this.setState({ response: event.target.value }); break;
+		  case 'sex': this.setState({ sex: event.target.value }); break;
+		  case 'numberofanimals': this.setState({ numberofanimals: event.target.value }); break;
+		  case 'reportingDate': this.setState({ reportingDate: event.target.value }); break;
+		  case 'employeeID': this.setState({ employeeID: event.target.value }); break;
+		  case 'slaughterhousecontact': this.setState({ slaughterhousecontact: event.target.value }); break;
+		  case 'age': this.setState({ age: event.target.value }); break;
+		  case 'breed': this.setState({ breed: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="rid"
+name="rid" id="rid" onChange={this.handleChange.bind(this)} value={this.state.rid}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="slaughterhousename"
+name="slaughterhousename" id="slaughterhousename" onChange={this.handleChange.bind(this)} value={this.state.slaughterhousename}
+
+htmlFor="response"
+name="response" id="response" onChange={this.handleChange.bind(this)} value={this.state.response}
+
+htmlFor="sex"
+name="sex" id="sex" onChange={this.handleChange.bind(this)} value={this.state.sex}
+
+htmlFor="numberofanimals"
+name="numberofanimals" id="numberofanimals" onChange={this.handleChange.bind(this)} value={this.state.numberofanimals}
+
+htmlFor="reportingDate"
+name="reportingDate" id="reportingDate" onChange={this.handleChange.bind(this)} value={this.state.reportingDate}
+
+htmlFor="employeeID"
+name="employeeID" id="employeeID" onChange={this.handleChange.bind(this)} value={this.state.employeeID}
+
+htmlFor="slaughterhousecontact"
+name="slaughterhousecontact" id="slaughterhousecontact" onChange={this.handleChange.bind(this)} value={this.state.slaughterhousecontact}
+
+htmlFor="age"
+name="age" id="age" onChange={this.handleChange.bind(this)} value={this.state.age}
+
+htmlFor="breed"
+name="breed" id="breed" onChange={this.handleChange.bind(this)} value={this.state.breed}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		rid : this.state.rid, 
+		notes : this.state.notes, 
+		slaughterhousename : this.state.slaughterhousename, 
+		response : this.state.response, 
+		sex : this.state.sex, 
+		numberofanimals : this.state.numberofanimals, 
+		reportingDate : this.state.reportingDate, 
+		employeeID : this.state.employeeID, 
+		slaughterhousecontact : this.state.slaughterhousecontact, 
+		age : this.state.age, 
+		breed : this.state.breed
+	}
+	return jsondata; 
+
+}

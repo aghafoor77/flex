@@ -1,0 +1,47 @@
+this.state = {
+	hostname : hostname, 
+	hostip : hostip, 
+	registrationDate : registrationDate
+}
+
+
+this.state = {
+	hostname : "", 
+	hostip : "", 
+	registrationDate : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'hostname': this.setState({ hostname: event.target.value }); break;
+		  case 'hostip': this.setState({ hostip: event.target.value }); break;
+		  case 'registrationDate': this.setState({ registrationDate: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="hostname"
+name="hostname" id="hostname" onChange={this.handleChange.bind(this)} value={this.state.hostname}
+
+htmlFor="hostip"
+name="hostip" id="hostip" onChange={this.handleChange.bind(this)} value={this.state.hostip}
+
+htmlFor="registrationDate"
+name="registrationDate" id="registrationDate" onChange={this.handleChange.bind(this)} value={this.state.registrationDate}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		hostname : this.state.hostname, 
+		hostip : this.state.hostip, 
+		registrationDate : this.state.registrationDate
+	}
+	return jsondata; 
+
+}

@@ -1,0 +1,75 @@
+this.state = {
+	tmid : tmid, 
+	outDate : outDate, 
+	notes : notes, 
+	purpose : purpose, 
+	inDate : inDate, 
+	tmType : tmType, 
+	employeeID : employeeID
+}
+
+
+this.state = {
+	tmid : "", 
+	outDate : "", 
+	notes : "", 
+	purpose : "", 
+	inDate : "", 
+	tmType : "", 
+	employeeID : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'tmid': this.setState({ tmid: event.target.value }); break;
+		  case 'outDate': this.setState({ outDate: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'purpose': this.setState({ purpose: event.target.value }); break;
+		  case 'inDate': this.setState({ inDate: event.target.value }); break;
+		  case 'tmType': this.setState({ tmType: event.target.value }); break;
+		  case 'employeeID': this.setState({ employeeID: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="tmid"
+name="tmid" id="tmid" onChange={this.handleChange.bind(this)} value={this.state.tmid}
+
+htmlFor="outDate"
+name="outDate" id="outDate" onChange={this.handleChange.bind(this)} value={this.state.outDate}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="purpose"
+name="purpose" id="purpose" onChange={this.handleChange.bind(this)} value={this.state.purpose}
+
+htmlFor="inDate"
+name="inDate" id="inDate" onChange={this.handleChange.bind(this)} value={this.state.inDate}
+
+htmlFor="tmType"
+name="tmType" id="tmType" onChange={this.handleChange.bind(this)} value={this.state.tmType}
+
+htmlFor="employeeID"
+name="employeeID" id="employeeID" onChange={this.handleChange.bind(this)} value={this.state.employeeID}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		tmid : this.state.tmid, 
+		outDate : this.state.outDate, 
+		notes : this.state.notes, 
+		purpose : this.state.purpose, 
+		inDate : this.state.inDate, 
+		tmType : this.state.tmType, 
+		employeeID : this.state.employeeID
+	}
+	return jsondata; 
+
+}

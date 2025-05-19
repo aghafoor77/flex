@@ -1,0 +1,496 @@
+{
+  "context" : [ "context", "context", "context", "context", "context", "context", "context", "context", "context", "context", "context", "context", "context", "context", "context" ],
+  "EuropeanDigitalCredential" : {
+    "credentialProfiles" : {
+      "inScheme" : {
+        "identifier" : "EuropeanDigitalCredential.credentialProfiles.inScheme.identifier",
+        "type" : "EuropeanDigitalCredential.credentialProfiles.inScheme.type"
+      },
+      "name" : "EuropeanDigitalCredential.credentialProfiles.name",
+      "notation" : "EuropeanDigitalCredential.credentialProfiles.notation"
+    },
+    "credentialSchema" : "EuropeanDigitalCredential.credentialSchema",
+    "displayParameter" : {
+      "title" : "EuropeanDigitalCredential.displayParameter.title",
+      "language" : {
+        "prefLabel" : "EuropeanDigitalCredential.displayParameter.language.prefLabel",
+        "notation" : "EuropeanDigitalCredential.displayParameter.language.notation",
+        "inScheme" : {
+          "identifier" : "EuropeanDigitalCredential.displayParameter.language.inScheme.identifier",
+          "type" : "EuropeanDigitalCredential.displayParameter.language.inScheme.type"
+        }
+      },
+      "individualDisplay" : {
+        "displayDetail" : {
+          "image" : "EuropeanDigitalCredential.displayParameter.individualDisplay.displayDetail.image",
+          "page" : "EuropeanDigitalCredential.displayParameter.individualDisplay.displayDetail.page"
+        },
+        "language" : {
+          "prefLabel" : "EuropeanDigitalCredential.displayParameter.individualDisplay.language.prefLabel",
+          "notation" : "EuropeanDigitalCredential.displayParameter.individualDisplay.language.notation",
+          "inScheme" : {
+            "identifier" : "EuropeanDigitalCredential.displayParameter.individualDisplay.language.inScheme.identifier",
+            "type" : "EuropeanDigitalCredential.displayParameter.individualDisplay.language.inScheme.type"
+          }
+        }
+      },
+      "primaryLanguage" : {
+        "prefLabel" : "EuropeanDigitalCredential.displayParameter.primaryLanguage.prefLabel",
+        "notation" : "EuropeanDigitalCredential.displayParameter.primaryLanguage.notation",
+        "inScheme" : {
+          "identifier" : "EuropeanDigitalCredential.displayParameter.primaryLanguage.inScheme.identifier",
+          "type" : "EuropeanDigitalCredential.displayParameter.primaryLanguage.inScheme.type"
+        }
+      }
+    },
+    "identifier" : "EuropeanDigitalCredential.identifier",
+    "issuanceDate" : "EuropeanDigitalCredential.issuanceDate",
+    "expirationDate" : "EuropeanDigitalCredential.expirationDate",
+    "issued" : "EuropeanDigitalCredential.issued",
+    "issuer" : {
+      "eidasLegalIdentifier" : {
+        "schemeId" : "EuropeanDigitalCredential.issuer.eidasLegalIdentifier.schemeId",
+        "type" : "EuropeanDigitalCredential.issuer.eidasLegalIdentifier.type",
+        "notation" : "EuropeanDigitalCredential.issuer.eidasLegalIdentifier.notation",
+        "spatial" : {
+          "prefLabel" : "EuropeanDigitalCredential.issuer.eidasLegalIdentifier.spatial.prefLabel",
+          "inScheme" : {
+            "identifier" : "EuropeanDigitalCredential.issuer.eidasLegalIdentifier.spatial.inScheme.identifier",
+            "type" : "EuropeanDigitalCredential.issuer.eidasLegalIdentifier.spatial.inScheme.type"
+          }
+        }
+      }
+    },
+    "credentialSubject" : {
+      "fullName" : "EuropeanDigitalCredential.credentialSubject.fullName",
+      "hasClaim" : {
+        "LearningAssessment" : {
+          "awardedBy" : {
+            "awardingBody" : [ {
+              "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.legalName",
+              "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.location",
+              "taxIdentifier" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.taxIdentifier",
+              "accreditation" : [ {
+                "accreditingAgent" : {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.accreditingAgent.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.accreditingAgent.location"
+                },
+                "type" : {
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.type.notation",
+                  "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.type.inScheme"
+                },
+                "organisation" : {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.organisation.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.organisation.location"
+                },
+                "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.title",
+                "decision" : {
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.decision.notation",
+                  "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.decision.inScheme"
+                },
+                "additionalNote" : {
+                  "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.awardingBody._0_.accreditation._0_.additionalNote.noteLiteral"
+                },
+                "description" : "europeandigitalcredential.credentialsubject.hasclaim.learningassessment.awardedby.awardingbody._0_.accreditation._0_.description",
+                "supplementaryDocument" : {
+                  "contentUrl" : "europeandigitalcredential.credentialsubject.hasclaim.learningassessment.awardedby.awardingbody._0_.accreditation._0_.supplementarydocument.contenturl"
+                }
+              } ]
+            } ],
+            "location" : {
+              "address" : {
+                "countryCode" : {
+                  "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.address.countryCode.prefLabel",
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.address.countryCode.notation",
+                  "inScheme" : {
+                    "identifier" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.address.countryCode.inScheme.identifier",
+                    "type" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.address.countryCode.inScheme.type"
+                  }
+                },
+                "fullAddress" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.location.address.fullAddress"
+              }
+            },
+            "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.description",
+            "used" : {
+              "awardedBy" : {
+                "awardingBody" : [ {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.awardingBody.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.awardingBody.location",
+                  "taxIdentifier" : null,
+                  "accreditation" : [ ]
+                } ],
+                "location" : {
+                  "address" : {
+                    "countryCode" : {
+                      "prefLabel" : null,
+                      "notation" : null,
+                      "inScheme" : {
+                        "identifier" : null,
+                        "type" : null
+                      }
+                    },
+                    "fullAddress" : null
+                  }
+                },
+                "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.description",
+                "used" : null
+              },
+              "title" : null,
+              "grade" : null
+            }
+          },
+          "grade" : {
+            "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.grade.noteLiteral"
+          },
+          "idVerification" : {
+            "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.idVerification.prefLabel",
+            "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.idVerification.notation",
+            "inScheme" : {
+              "identifier" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.idVerification.inScheme.identifier",
+              "type" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.idVerification.inScheme.type"
+            }
+          },
+          "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.title",
+          "assessedBy" : {
+            "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.assessedBy.prefLabel"
+          },
+          "specifiedBy" : {
+            "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.specifiedBy.title",
+            "additionalNote" : {
+              "noteLiteral" : null
+            },
+            "learningOutcome" : [ ],
+            "educationLevel" : {
+              "inScheme" : null,
+              "notation" : null
+            },
+            "entryRequirement" : {
+              "noteLiteral" : null
+            },
+            "specialisationOf" : {
+              "title" : null,
+              "description" : null
+            },
+            "creditPoint" : {
+              "framework" : null,
+              "point" : null
+            },
+            "educationSubject" : {
+              "inScheme" : null,
+              "notation" : null
+            },
+            "volumeOfLearning" : null,
+            "entitledBy" : {
+              "EQFLevel" : {
+                "notation" : null,
+                "inScheme" : null
+              },
+              "NQFLevel" : {
+                "notation" : null,
+                "inScheme" : null
+              }
+            },
+            "entitlementStatus" : {
+              "notation" : null,
+              "inScheme" : null
+            },
+            "type" : {
+              "notation" : null,
+              "inScheme" : null
+            },
+            "ISCEDFCode" : {
+              "inScheme" : null,
+              "notation" : null
+            }
+          }
+        },
+        "LearningAchievement" : {
+          "awardedBy" : {
+            "awardingBody" : [ {
+              "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.legalName",
+              "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.location",
+              "taxIdentifier" : null,
+              "accreditation" : [ {
+                "accreditingAgent" : {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.accreditingAgent.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.accreditingAgent.location"
+                },
+                "type" : {
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.type.notation",
+                  "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.type.inScheme"
+                },
+                "organisation" : {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.organisation.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.organisation.location"
+                },
+                "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.title",
+                "decision" : {
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.decision.notation",
+                  "inScheme" : null
+                },
+                "additionalNote" : {
+                  "noteLiteral" : null
+                },
+                "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.description",
+                "supplementaryDocument" : {
+                  "contentUrl" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.awardingBody._0_.accreditation._0_.supplementaryDocument.contentUrl"
+                }
+              } ]
+            } ],
+            "location" : {
+              "address" : {
+                "countryCode" : {
+                  "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.location.address.countryCode.prefLabel",
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.location.address.countryCode.notation",
+                  "inScheme" : {
+                    "identifier" : null,
+                    "type" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.location.address.countryCode.inScheme.type"
+                  }
+                },
+                "fullAddress" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.location.address.fullAddress"
+              }
+            },
+            "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.description",
+            "used" : {
+              "awardedBy" : {
+                "awardingBody" : [ {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.awardingBody.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.awardedBy.awardingBody.location",
+                  "taxIdentifier" : null,
+                  "accreditation" : [ ]
+                } ],
+                "location" : {
+                  "address" : {
+                    "countryCode" : {
+                      "prefLabel" : null,
+                      "notation" : null,
+                      "inScheme" : {
+                        "identifier" : null,
+                        "type" : null
+                      }
+                    },
+                    "fullAddress" : null
+                  }
+                },
+                "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.used.awardedBy.description",
+                "used" : null
+              },
+              "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.awardedBy.used.title",
+              "grade" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.used.grade"
+            }
+          },
+          "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.title",
+          "specifiedBy" : {
+            "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.title",
+            "additionalNote" : {
+              "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAssessment.specifiedBy.additionalNote.noteLiteral"
+            },
+            "learningOutcome" : [ {
+              "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.title",
+              "type" : {
+                "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.prefLabel",
+                "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.notation",
+                "inScheme" : {
+                  "identifier" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.inScheme.identifier",
+                  "type" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.type.inScheme.type"
+                },
+                "inSchemeStr" : {
+                  "identifier" : null,
+                  "type" : null
+                },
+                "providedBy" : {
+                  "legalName" : null,
+                  "location" : null
+                }
+              },
+              "additionalNote" : [ {
+                "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._0_.noteLiteral"
+              }, {
+                "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._1_.noteLiteral"
+              }, {
+                "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._2_.noteLiteral"
+              }, {
+                "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.learningOutcome._0_.additionalNote._3_.noteLiteral"
+              } ]
+            } ],
+            "educationLevel" : {
+              "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationLevel.inScheme",
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationLevel.notation"
+            },
+            "entryRequirement" : {
+              "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.entryRequirement.noteLiteral"
+            },
+            "specialisationOf" : {
+              "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.specialisationOf.title",
+              "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.specialisationOf.description"
+            },
+            "creditPoint" : {
+              "framework" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.creditPoint.framework",
+              "point" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.creditPoint.point"
+            },
+            "educationSubject" : {
+              "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationSubject.inScheme",
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.educationSubject.notation"
+            },
+            "volumeOfLearning" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.volumeOfLearning",
+            "entitledBy" : {
+              "EQFLevel" : {
+                "notation" : null,
+                "inScheme" : null
+              },
+              "NQFLevel" : {
+                "notation" : null,
+                "inScheme" : null
+              }
+            },
+            "entitlementStatus" : {
+              "notation" : null,
+              "inScheme" : null
+            },
+            "type" : {
+              "notation" : null,
+              "inScheme" : null
+            },
+            "ISCEDFCode" : {
+              "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.ISCEDFCode.inScheme",
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.specifiedBy.ISCEDFCode.notation"
+            }
+          },
+          "influencedBy" : {
+            "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.influencedBy.title",
+            "type" : {
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.influencedBy.type.notation",
+              "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.influencedBy.type.inScheme"
+            }
+          },
+          "learningOpportunity" : {
+            "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.title",
+            "type" : {
+              "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.type.prefLabel",
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.type.notation",
+              "inScheme" : {
+                "identifier" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.type.inScheme.identifier",
+                "type" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.type.inScheme.type"
+              },
+              "inSchemeStr" : {
+                "identifier" : null,
+                "type" : null
+              },
+              "providedBy" : {
+                "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.type.providedBy.legalName",
+                "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.type.providedBy.location"
+              }
+            },
+            "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.learningOpportunity.description"
+          }
+        },
+        "LearningEntitlement" : {
+          "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.title",
+          "awardedBy" : {
+            "awardingBody" : [ {
+              "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.legalName",
+              "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.location",
+              "taxIdentifier" : null,
+              "accreditation" : [ {
+                "accreditingAgent" : {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.accreditingAgent.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.accreditingAgent.location"
+                },
+                "type" : {
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.type.notation",
+                  "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.type.inScheme"
+                },
+                "organisation" : {
+                  "legalName" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.organisation.legalName",
+                  "location" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.organisation.location"
+                },
+                "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.title",
+                "decision" : {
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.decision.notation",
+                  "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.decision.inScheme"
+                },
+                "additionalNote" : {
+                  "noteLiteral" : null
+                },
+                "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.description",
+                "supplementaryDocument" : {
+                  "contentUrl" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.awardingBody._0_.accreditation._0_.supplementaryDocument.contentUrl"
+                }
+              } ]
+            } ],
+            "location" : {
+              "address" : {
+                "countryCode" : {
+                  "prefLabel" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.location.address.countryCode.prefLabel",
+                  "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.location.address.countryCode.notation",
+                  "inScheme" : {
+                    "identifier" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningAchievement.awardedBy.location.address.countryCode.inScheme.identifier",
+                    "type" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.location.address.countryCode.inScheme.type"
+                  }
+                },
+                "fullAddress" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.awardedBy.location.address.fullAddress"
+              }
+            },
+            "description" : null,
+            "used" : null
+          },
+          "specifiedBy" : {
+            "title" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.title",
+            "additionalNote" : {
+              "noteLiteral" : null
+            },
+            "learningOutcome" : [ ],
+            "educationLevel" : {
+              "inScheme" : null,
+              "notation" : null
+            },
+            "entryRequirement" : {
+              "noteLiteral" : null
+            },
+            "specialisationOf" : {
+              "title" : null,
+              "description" : null
+            },
+            "creditPoint" : {
+              "framework" : null,
+              "point" : null
+            },
+            "educationSubject" : {
+              "inScheme" : null,
+              "notation" : null
+            },
+            "volumeOfLearning" : null,
+            "entitledBy" : {
+              "EQFLevel" : {
+                "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitledBy.EQFLevel.notation",
+                "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitledBy.EQFLevel.inScheme"
+              },
+              "NQFLevel" : {
+                "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitledBy.NQFLevel.notation",
+                "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitledBy.NQFLevel.inScheme"
+              }
+            },
+            "entitlementStatus" : {
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitlementStatus.notation",
+              "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.entitlementStatus.inScheme"
+            },
+            "type" : {
+              "notation" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.type.notation",
+              "inScheme" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.specifiedBy.type.inScheme"
+            },
+            "ISCEDFCode" : {
+              "inScheme" : null,
+              "notation" : null
+            }
+          },
+          "description" : "EuropeanDigitalCredential.credentialSubject.hasClaim.LearningEntitlement.description"
+        }
+      },
+      "nationalId" : "EuropeanDigitalCredential.credentialSubject.nationalId",
+      "additionalNote" : {
+        "noteLiteral" : "EuropeanDigitalCredential.credentialSubject.additionalNote.noteLiteral"
+      }
+    },
+    "validFrom" : "EuropeanDigitalCredential.validFrom"
+  }
+}

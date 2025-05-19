@@ -1,0 +1,82 @@
+this.state = {
+	dtid : dtid, 
+	assignedDate : assignedDate, 
+	reason : reason, 
+	drungs : drungs, 
+	refnumber : refnumber, 
+	examinedBy : examinedBy, 
+	animalID : animalID, 
+	reftype : reftype
+}
+
+
+this.state = {
+	dtid : "", 
+	assignedDate : "", 
+	reason : "", 
+	drungs : "", 
+	refnumber : "", 
+	examinedBy : "", 
+	animalID : "", 
+	reftype : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'dtid': this.setState({ dtid: event.target.value }); break;
+		  case 'assignedDate': this.setState({ assignedDate: event.target.value }); break;
+		  case 'reason': this.setState({ reason: event.target.value }); break;
+		  case 'drungs': this.setState({ drungs: event.target.value }); break;
+		  case 'refnumber': this.setState({ refnumber: event.target.value }); break;
+		  case 'examinedBy': this.setState({ examinedBy: event.target.value }); break;
+		  case 'animalID': this.setState({ animalID: event.target.value }); break;
+		  case 'reftype': this.setState({ reftype: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="dtid"
+name="dtid" id="dtid" onChange={this.handleChange.bind(this)} value={this.state.dtid}
+
+htmlFor="assignedDate"
+name="assignedDate" id="assignedDate" onChange={this.handleChange.bind(this)} value={this.state.assignedDate}
+
+htmlFor="reason"
+name="reason" id="reason" onChange={this.handleChange.bind(this)} value={this.state.reason}
+
+htmlFor="drungs"
+name="drungs" id="drungs" onChange={this.handleChange.bind(this)} value={this.state.drungs}
+
+htmlFor="refnumber"
+name="refnumber" id="refnumber" onChange={this.handleChange.bind(this)} value={this.state.refnumber}
+
+htmlFor="examinedBy"
+name="examinedBy" id="examinedBy" onChange={this.handleChange.bind(this)} value={this.state.examinedBy}
+
+htmlFor="animalID"
+name="animalID" id="animalID" onChange={this.handleChange.bind(this)} value={this.state.animalID}
+
+htmlFor="reftype"
+name="reftype" id="reftype" onChange={this.handleChange.bind(this)} value={this.state.reftype}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		dtid : this.state.dtid, 
+		assignedDate : this.state.assignedDate, 
+		reason : this.state.reason, 
+		drungs : this.state.drungs, 
+		refnumber : this.state.refnumber, 
+		examinedBy : this.state.examinedBy, 
+		animalID : this.state.animalID, 
+		reftype : this.state.reftype
+	}
+	return jsondata; 
+
+}

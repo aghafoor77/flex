@@ -1,0 +1,40 @@
+this.state = {
+	AID : AID, 
+	ADG : ADG
+}
+
+
+this.state = {
+	AID : "", 
+	ADG : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'AID': this.setState({ AID: event.target.value }); break;
+		  case 'ADG': this.setState({ ADG: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="AID"
+name="AID" id="AID" onChange={this.handleChange.bind(this)} value={this.state.AID}
+
+htmlFor="ADG"
+name="ADG" id="ADG" onChange={this.handleChange.bind(this)} value={this.state.ADG}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		AID : this.state.AID, 
+		ADG : this.state.ADG
+	}
+	return jsondata; 
+
+}

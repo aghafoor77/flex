@@ -1,0 +1,43 @@
+FROM ubuntu:22.04 as base-stage
+
+USER root
+ENV TZ=Europe/Stockholm
+RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+
+LABEL vnf="trapi" description="FORMAS TrAPI Controler" type="container"
+MAINTAINER Abdul Ghafoor abdul.ghafoor@ri.se
+
+RUN \
+    apt-get -y update && \
+    apt-get -y install curl unzip man wget telnet net-tools iputils-ping vim 
+
+
+FROM base-stage as build-stage
+
+USER root
+
+# Building for running microservice
+FROM base-stage as production-stage
+
+USER root
+
+ENV HOME /root
+WORKDIR /home
+
+RUN mkdir -p /home/app
+
+WORKDIR /home/app
+
+COPY ./ /home/app
+
+EXPOSE 3000
+WORKDIR /home/app/farmdash
+COPY ./runner.sh /home/app/farmdash/runner.sh
+RUN apt-get update  
+RUN apt-get -y install nodejs npm
+RUN npm rebuild --force node-sass
+EXPOSE 3000
+
+CMD ./runner.sh
+
+

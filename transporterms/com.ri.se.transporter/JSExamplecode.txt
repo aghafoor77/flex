@@ -1,0 +1,61 @@
+this.state = {
+	TID : TID, 
+	notes : notes, 
+	animalPeryear : animalPeryear, 
+	ownerId : ownerId, 
+	isOrganization : isOrganization
+}
+
+
+this.state = {
+	TID : "", 
+	notes : "", 
+	animalPeryear : "", 
+	ownerId : "", 
+	isOrganization : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'TID': this.setState({ TID: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'animalPeryear': this.setState({ animalPeryear: event.target.value }); break;
+		  case 'ownerId': this.setState({ ownerId: event.target.value }); break;
+		  case 'isOrganization': this.setState({ isOrganization: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="TID"
+name="TID" id="TID" onChange={this.handleChange.bind(this)} value={this.state.TID}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="animalPeryear"
+name="animalPeryear" id="animalPeryear" onChange={this.handleChange.bind(this)} value={this.state.animalPeryear}
+
+htmlFor="ownerId"
+name="ownerId" id="ownerId" onChange={this.handleChange.bind(this)} value={this.state.ownerId}
+
+htmlFor="isOrganization"
+name="isOrganization" id="isOrganization" onChange={this.handleChange.bind(this)} value={this.state.isOrganization}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		TID : this.state.TID, 
+		notes : this.state.notes, 
+		animalPeryear : this.state.animalPeryear, 
+		ownerId : this.state.ownerId, 
+		isOrganization : this.state.isOrganization
+	}
+	return jsondata; 
+
+}

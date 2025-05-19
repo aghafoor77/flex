@@ -1,0 +1,674 @@
+{
+  "issuanceDate" : "2024-12-16 01:39:15",
+  "holder" : "did:veid:0x71aD1108403C28f3723d09D533337BC115528039",
+  "validFrom" : "2024-12-16 01:39:15",
+  "issued" : "2024-12-16 01:39:15",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrBFtAik7gGzxocqCFUquoDE1Sw17pip5FpEJRXzeD1K82UwPidv1KXJ5SHCs3iKX5rmZeq4ovoaKPehfEHNAZbUVk96BjK5oCjqbcULJtHGfiAvUgfpkFKFHAktzi2JW9v53cHnoEKmnsMc1sDoaoSUuC7JJguaUq6YjXHbBbqVb8H7ej4YQfYoTLApsDKn7whvpog7L6dGPgzKLj7aDpwi8tYDJhbSeDmjAjBuheGzzWVRoYRysYpTRnfXb2ZHHF3H9H3DXawsCXFNT1ETtvVbhduBcw1nmyTnERSQ3TCXtcpJvRojdwuLGPw7AtFAG8axrJexKPQnRRWr9Cn1X2jKYMm5eQZ5HpF4mck"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:3250079",
+  "issuer" : "did:veid:0xC5B09bb75A2C4b6Bb0c91E9dac4d3cC3C40Fed05",
+  "digest-set" : {
+    "2_0_.6" : "4794790f394192bf83ae95c73688ef86a5495b259b7b208c2a8154b87fa16bdc",
+    "2_0_.2" : "3f49f3e67b8037862c1fa9c1e89767a3e4f80391241f523789b5625815b8c122",
+    "2_4_.8" : "cc4dcda23c52a622a40178014b36913922be5d08f47cbc246679113911bff000",
+    "2_0_.3" : "e67271dccc84483858fecf9449cf13df09d3c90faf7b5333cc7dcc2b4b12bf3a",
+    "2_0_.4" : "ce7d8197460c111567c1acea48d6c3e97bbac4770f6fc59e73b139d5ef928f33",
+    "2_4_.6" : "f214ccee76994379ac6da0dcdfd42a6ffa4348501c521d106ed6ec113be176a8",
+    "2_0_.5" : "5deba6ab5b1c8a0cbb3931c6ea398fa8ce2dd2b14e3db352c251f7a22abf2ef6",
+    "2_4_.7" : "ae470254f97d1811c5adf626045925af1832032e3c6faefeb15e118274394a97",
+    "1.17" : "99c2008e69a1be9effbabf1e5e8e44778c2eafa2de70a109e3060956b19ba66a",
+    "1.15" : "3f7176d2f0e60cb159338d39af2b407b9451825b01c74aaa0101cdcbde6ae59c",
+    "2_3_.2" : "d81270f6f3625b256c5bc543c52e43c50d2608bb769021e76e44f584247de22d",
+    "2_7_.8" : "255f70265a6cbc8a90afdccb5b8c7c540efcaccc004fe1620bbd360aaba95f3a",
+    "2_3_.1" : "8baebde92c899bfa7cd35190626f074147b0ed020bac6fe2683b7fb84928d3e9",
+    "2_7_.7" : "9f4fbead6aa649ebd4d02bb7b44c82adee6eb68cd55c1ad769e9112182dcf1cc",
+    "2_3_.4" : "da0706ee539df2cc72e31079662d6753811bcf16db3ff0df0c04e4fd5824e23d",
+    "2_7_.6" : "8abcd5d9cf4e217b2296c955dd46feb6f17291e2d97a2108c4aed0a911829d17",
+    "2_3_.3" : "0ce6e6dae88b38db5c5a6299e99170302e1ce80e9461ece06ab43cdf47a86985",
+    "2_7_.5" : "e3c18bcbcbfc3f654429345ec1374eb0453aa28f62b0d1864a4ca6beb0c2bea7",
+    "2_7_.4" : "d961a970f1ed03047b2ea3d1ccf18617e31d1d300de52cc6f0483d8e6bad503d",
+    "2_7_.3" : "6c12299ebd7d59197bd662d80368a01a6f587cfc40ed782f9ae53ef0b3da221a",
+    "2_7_.2" : "6f76dbae7b404a4aa87b4df7e0ef1cd37411e2fd8f0726d75295dbde156d541f",
+    "2_7_.1" : "5255b70da0bbf349bc054916d956ea63abb93bca66f36a0f9e0d0cbb8fe35c5c",
+    "2_1_.3" : "6f6d939c368bf18672cdc9a0205e98d48a94556932477f87602781136ad88651",
+    "2_1_.4" : "6e956bc182d8850da703295fe1a7d80f496e8c790c7309cf0c7f23710d57e8c1",
+    "2_1_.5" : "675dd226793c61f345fc82bec7b515a80dae47f19f2d6cd9a681f89d79ce8bf4",
+    "2_1_.6" : "b34f5d12571fefd0ce3170d94554e29e49062a83d4bacdf6a19f514062ff2854",
+    "2_8_.1" : "09d5ff82c88f28541f66141967003052bb59c6808e1371356daf883e31e03a4c",
+    "1.1" : "67d57492a4a8d4514a3d31cd7b950d9ec268e0f94017f253587427df2414f24c",
+    "1.3" : "21aded89cca6d93f8f839f1679a508c596315e2aa835f38a0ccc2df08d9ec773",
+    "1.4" : "e665564f28238e32585ce4b6a19aae18282db37d508bc280438df51d4e276f3f",
+    "1.5" : "a0b786d6a3c8b8dcbbad29e820447286b8c648405dc64af4db3d91509c6b6938",
+    "2_4_.4" : "84acb384036e415daa0c5a70c02fe7a93ec9f38627be94dc1b634d5c6f76c33b",
+    "2_8_.9" : "52e77bcfabb583c42ca295e2e80b30a8dacbf6c8c6b0cef5819f402ee083d760",
+    "1.6" : "e9edb784783cfb992de36fdbbfdb0b362852e191256be91fa69197d15962b892",
+    "2_4_.5" : "f9a23d42d7581c8287b8a58968af93e8a9ff80cb22c578bb4b295184c7efeacc",
+    "2_8_.8" : "0a489702d4915127390be1355d0102ea2d044d4f7a00594e3eeeadf6b34ad450",
+    "1.7" : "48a5bf4f638421d06a087dabbdb8b2d03230eb963cae99610ec11365d229d2f5",
+    "2_4_.2" : "8489c477478515bbdf253d5a11296d07a518135eb9cae5bc8274aa228d20b5e5",
+    "2_8_.7" : "549deb1295dc80c55b0dbd4ba2c389cd82ae183f87c4a1bfe71b32937f333a94",
+    "1.8" : "47de2b415302910a489cfe9db6587920624ab3edf3bd55c861c7afcacf732040",
+    "2_0_.1" : "9694610ed2e8a7a857ae6677783aca8bacb2c3aea0583ed5d30b32b9a526e952",
+    "2_4_.3" : "a1d2d8ac3934160c76e9818584b03f6b7f2ecffbd67041803301dc1662b3c1f9",
+    "2_8_.6" : "32c4612177a0a3f3f0f2ff27d4a8963934e3c75a4c52b0387973fd287ecd44dc",
+    "1.9" : "60f050a8fcadc0fd7f31564a88f12f9a76b3b06fc6ca2edabba30a3344ab74d4",
+    "2_8_.5" : "3c8b5a566fc5fa803f090a329a10a7173fb8cd1e817be1abbc3c803a75d1de5e",
+    "2_4_.1" : "f9265ea2eafb130ce757280de63ba57ef6ffb58efffe837e8f5be0e4d3e143cf",
+    "2_8_.4" : "23267b1e49d639a181395a553f6a95204548abdf88dc5b40e94b5bb586c786b1",
+    "2_8_.3" : "a991fdb5ba6ed8a5db42076ebde13e5b1c8efa32189c6444379ba445f74737ca",
+    "2_8_.2" : "0790cb9763b469d6ca37f60773c58652a0ff01d9544b3ba4f04c68a06d51ff02",
+    "2_2_.5" : "0a384caa2934bbc8baef9d0fd06299cb88d04148ace15aede451bcf6074c718f",
+    "2_2_.4" : "2ffab07cc144ef74af20e9868883cedc1c0d7b6e6c03f0d17b608d443ddce60c",
+    "2_6_.8" : "d5c1f8f2c6ef8bb7fb8b81e8e0a14262c1c5f3f49527f7a8c5ce0cf178dd6d64",
+    "2_2_.6" : "d907217d29fcc496dad5fb24ce877be42b5b58f3a0f365f1d93bc3a1c15a832f",
+    "2_6_.10" : "6af41c50398105fad29cf76e8e36b895e18d461593a0165716f763386908a063",
+    "2_9_.3" : "071f91c5e4fa1bd4d5a8af4d3fb09b675f78d98e88fd595170067e9442d7fb7b",
+    "2_9_.4" : "2f82af6e416a0f77d505f6181af5ee5448ee0e18c435ce26d5ed25acc9e21743",
+    "2_9_.5" : "4aee5c651c0097e6afabb1dfce39f8d3fb1098ca05a501bdc2dc1cf0932b601b",
+    "2_9_.6" : "0da3b4c8eaa2f08768b32aa1a7d44a3a7f635217a14624cbbf288e9c24b88c37",
+    "2_9_.7" : "90f3b7be490e17c9dac301aae5702cb5b90464fb595531d052ce60f7f5571944",
+    "2_9_.8" : "3111edf876a65eeed74062bc6aa4155d3f037c0d89ac433746309dc64cd7175f",
+    "2_9_.9" : "821d55bc23dc5353e4492a4f4849897fb4f18fcc92309835f7f0afb3ae1ad2eb",
+    "2_5_.5" : "a41a97bf0652ff7f4b7575af96910c14bfec111ef4d00dd15408c4e6de20cde4",
+    "2_5_.6" : "41190884b4498c75a6b8b386f19ba021c1dcb5055343020c8807e57398524fc2",
+    "2_1_.1" : "790e8ae70cc08300f6bf08338e166fd49f66e09ad78bf4dca7094f60616c10eb",
+    "2_5_.3" : "7d4b2ea4746df6fa5097afa6a4dee86c027c4448719f4444902c8aa24000d1cb",
+    "2_1_.2" : "10a46a43890e6ec0edcee1988414e222a754e164da81ce835f229a8249d61efc",
+    "2_5_.4" : "11907985c559627220c262d5dc22aecbb1de8ac1932df11d579388653698bc3a",
+    "2_5_.1" : "9d1fb44813212a1021128b360b5118ef1a84d964fe183a67ff930fb2f2cf0dde",
+    "2_5_.2" : "c017e412c45157a8ec00164eb3eeef9bca0cb1ae78751d84c530b6ecf60928cf",
+    "2_9_.1" : "88a94ced2e04f032ad62a2382da9b51c989b82488d395fdacf9a404eff6aa0f2",
+    "2_9_.2" : "88cc01106c0b7859fb3fe2d5a12b33f7958ca5485c9c6f9ca2b4318073bc3e05",
+    "2_3_.9" : "ae32902747e4c47c87ac02b4800254c1ac00e0123c83eaac5869410afb77b6ec",
+    "2_3_.6" : "654665c45469ce61ada1ff84ec1f870246497c12752a6306fd0086079a85daff",
+    "2_3_.5" : "84f5d0e8373a85ebbc829670bfc2ea4d9d4b78354b1c63d29c9fcff64bf29bf7",
+    "2_3_.8" : "74f77a78f1999b23ae064ff72c7421febebf845cae5e6c122aa71d51820fdc80",
+    "2_3_.7" : "73a70332cac5857a3ffb956d4dc0e85468698b3482ab35f58c4ba204222d2426",
+    "2_7_.9" : "be93468a6b082d4b1a859aefd150e8365e3a9827f998c3f52a381250031e0529",
+    "1.12" : "d34adcf7fb7ed8c23c8283ca30e8c4047138730a9bee386d060f4af80e7d4cd7",
+    "1.10" : "517a69bd2c18606d4fe0839861324ad022931c2812b4eca2a44e28bdfccc0f3e",
+    "1.11" : "2d077993e4152a0b9c18dae87e1d1867a515e8253088f861e804f95550dc7330",
+    "2_2_.1" : "6c3d60182b2dca61a76007e9c79963be3db117f9acf49f63f458460f6ce36334",
+    "2_6_.6" : "d0248ee7f08e75f6955af9eed5d6c321126543873ad0638662997a8fbc543132",
+    "2_6_.7" : "c84d12aebc586b8eeb67842999e4fc5a384c8c2496837db6cef1b7bbfdb25661",
+    "2_2_.3" : "73cad921380e7f22861b14bee1acbfbe785dca6e51b3233065eeb64f689b6ce8",
+    "2_6_.4" : "da1d18a2c2e3e29b0a89d879829882dc67472b2d4c6ce77fd4e48c6e2f2c5897",
+    "2_2_.2" : "63a163d1fd467d686aa06357892d212285829d6b387ba8d610f1b3f8fd0900a7",
+    "2_6_.5" : "42598193028349d65149fe921bec4ac291ce7ef687e0cf2567752184acd50ebb",
+    "2_6_.2" : "cb29f679beaccd5a06035694268d6e1475245d22b26b76f8924b899e24682172",
+    "2_6_.3" : "833517dd4260a9abfc9a6f28c44f5d966940ed1b791b6768cb83ba6bc890f6d7",
+    "2_6_.1" : "eb940d4b8a2b5431a615a8340085f5f80a0b31dc5703692a1c264f07ae60e01a"
+  },
+  "expirationDate" : "2024-12-16 01:39:16",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2024-12-16T12:39:16Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e3934616430386633343864702d35",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..kWB4axHkHWkz-wPxqknBb4oOurSlehVf7TSgWVsmSfnpQAFuZ31VB7C_FiAetrwBfoVRWDt9gibyxO00iXa1woopodscw95PMOpU_9JfvjrRCjlBzvy6TDmj8-vTx1sgAOzxAIP7SOD1-nnq-lk5mRtCwYe3hgegixbPY3RVqLGjaRbB12s3NQsdnaE_Qp2WLH6l_p3Qq-Mb1oMtWHozVjkkG7MebG0DZ5y5J9m75arfUpUTMFM3fO3K-ihmMQ9wowPyHsVKA_FMzw5EMoEjR1OJ0UnWS1zvR-qtKpZmsUWPrCICELRQjuiRhmYCrbflnEnqRCAjtUUuW3eJ6qH9cQ"
+  },
+  "claims" : {
+    "dtoRegisterAnimal1" : {
+      "1.1" : {
+        "salt" : "N8IpOg3EXWK2CMJoaesUHz3Wqwl0SehBK8jeITeF94vDvo1mz8tFwOPnPVxrY0hb",
+        "name" : "animalID",
+        "value" : "AR-33-567-40"
+      },
+      "1.3" : {
+        "salt" : "74KQwM6cu5z7vQner80lZYSrk5stDFKYIheNJGKoyg6qjssMpDUn4HWRCVjTfXnB",
+        "name" : "animalIDMother",
+        "value" : ""
+      },
+      "1.4" : {
+        "salt" : "mtTkPnLCApvDfgJrDEjKsJE5YbRGNPQp8HzXCLAbrRimOOzCuBuRbFBp7q65zECc",
+        "name" : "notes",
+        "value" : "Natural birth"
+      },
+      "1.5" : {
+        "salt" : "kyk8mt226U7z5oB2o4Xk83GrVscVygiLbT2gMEFR21MBHo9UiQbt6DB5LS50cL0k",
+        "name" : "pregnancyExamination",
+        "value" : ""
+      },
+      "1.6" : {
+        "salt" : "iorlYd2pwhxCYye7ZTbKb5lnSEAWjuhWeDHKKeEVyMZdOx8rgRlztcX0PbeROtKA",
+        "name" : "sex",
+        "value" : "Cow"
+      },
+      "1.7" : {
+        "salt" : "KMiONEhauDGybcgfu7jwA01Oel8sjlRgbPdt0dc8F0bTcD6q0Fh7L4f1Q2f2FHRj",
+        "name" : "weight",
+        "value" : 10
+      },
+      "1.8" : {
+        "salt" : "yyS8xcdazsLuIjRQt16lDiEdQGgJGtyXdQjnO5oVqTg5jX9GLDAmAKGtuyUDtzbY",
+        "name" : "dateOfBirth",
+        "value" : "2021-08-10"
+      },
+      "1.9" : {
+        "salt" : "X4apL53mQji4xh1JLAXl9PQR3SwrCvTHVxz8GrVzTZ7r2kAyW5UhWY9aiirXRpXG",
+        "name" : "breed",
+        "value" : ""
+      },
+      "1.10" : {
+        "salt" : "SrIu2ZIvnFW5iE6TQKFR7i3glI0QrazWxaxnFW2WeOiO8bAQIACDNZwCIQV8Hioq",
+        "name" : "birthPlace",
+        "value" : "Uppsala Farm"
+      },
+      "1.11" : {
+        "salt" : "6gZcpzHHZRZcFs3iHtNI7PvGEIeA9V78TaG4HyCgZh8IeD3R536Y3Paf7KFcVTX5",
+        "name" : "employerID",
+        "value" : ""
+      },
+      "1.12" : {
+        "salt" : "e0bDjvyuJ2PpgnBfhRgM4y3fCvZGSbPZi4Zb1pMCcifH1uuxoV7tt5p42IZ7BT4R",
+        "name" : "unit",
+        "value" : "kg"
+      },
+      "1.15" : {
+        "salt" : "IC3alpZbekaloTwPas3aQbvF8QPfJEdibRmK1knnpwNX3dJd6McGIaSVbTbcaeA8",
+        "name" : "aboutAnimal",
+        "value" : "This is newly born animal"
+      },
+      "1.17" : {
+        "salt" : "jjb3c6U57skPWoGjLY1qFq0QAK4TocQhQO6Ok09dxXLvxi7tCUTvNvgIwifa0UBy",
+        "name" : "status",
+        "value" : "Active"
+      }
+    },
+    "evidence" : [ {
+      "2_0_.1" : {
+        "salt" : "KWX5gSwI1dPD3PsQcEUD6WCWS17epkI0kLosPCPZsuaCSJu5JzwwXCgByqvvFE2T",
+        "name" : "suid",
+        "value" : "SU-90-23-34"
+      },
+      "2_0_.2" : {
+        "salt" : "VpEGgMag63S6D5flXTDPCMEnFwuMsIDscdwPdBtmkxkt86Va3CYwbdbgeVCWydd4",
+        "name" : "insemationDate",
+        "value" : "2020-08-12"
+      },
+      "2_0_.3" : {
+        "salt" : "2f2oKhoaso7KmwqqT9Aq4S8LB0eBzvhuiu4i725vSSEe1zOWcOQqX3RfMjzpZPHO",
+        "name" : "notes",
+        "value" : "Artificial insemination"
+      },
+      "2_0_.4" : {
+        "salt" : "rZXUhIh9iSQ3ViXE5YEibZmRx7NOo3XSQH3Gbu8rijUtPUBAkbllp1BRX7H2DJzz",
+        "name" : "employeeID",
+        "value" : "HR-00-11-22"
+      },
+      "2_0_.5" : {
+        "salt" : "GIHHzZSXsiFzKf5BdaSje0H4K9x8zO5J1yF3HnRpyzG3tfkJnC7T1MT245e0GX2b",
+        "name" : "osid",
+        "value" : "OS-00-12-38"
+      },
+      "2_0_.6" : {
+        "salt" : "cd6Knw3WbNrr0uh9P1YTKAP6tDFKzfub5g7Mii7wSZy8LtBu6bnfGpyY5wvqwHug",
+        "name" : "animalID",
+        "value" : "AR-34-567-37"
+      }
+    }, {
+      "2_1_.1" : {
+        "salt" : "hOFzjQid9a8ADS2qXgv0ZfEITaFtfs8pFIQI0PvILoTKwGOfBsZ9ZuDE2MEfuxVY",
+        "name" : "suid",
+        "value" : "SU-90-23-34"
+      },
+      "2_1_.2" : {
+        "salt" : "GXoM1IGQD0HsnFTtaIadjwKbVsM06PqhhcV7SaDvQQG32jZsHcYdjoUVkcIew6E9",
+        "name" : "insemationDate",
+        "value" : "2020-08-12"
+      },
+      "2_1_.3" : {
+        "salt" : "pZvoW3IpZLJzCPLkrnalUwHamuYxKFkwgEemrgWM8fXB39y7MinSdJTc6PA4xBAk",
+        "name" : "notes",
+        "value" : "Artificial insemination"
+      },
+      "2_1_.4" : {
+        "salt" : "FfK6y9LSBtElgvXandsd26CEVmRdv4JWvPUnOBo5v3Y9pm2HEL9satNWVS1LiDei",
+        "name" : "employeeID",
+        "value" : "HR-00-11-22"
+      },
+      "2_1_.5" : {
+        "salt" : "cz0bH22yGNWy1sTcrNHiECL5h0N7M3nxvntEEgoQDsEGGCxDTel7o4AliqJ32UnO",
+        "name" : "osid",
+        "value" : "OS-00-12-38"
+      },
+      "2_1_.6" : {
+        "salt" : "0wlr7qwMepK51jXAGZDb6WP3rAWX4VzjO9uxyXnHEWqtnH1s6VdVSdGKVROuLLgi",
+        "name" : "animalID",
+        "value" : "AR-34-567-37"
+      }
+    }, {
+      "2_2_.1" : {
+        "salt" : "lwU2RwaOdWRhIVgjRo1L4kxH3Zbd3mTT9TMzatMYT6ILzSjJbSMcwbQoTkwUQIEl",
+        "name" : "osid",
+        "value" : "OS-00-12-38"
+      },
+      "2_2_.2" : {
+        "salt" : "Jx9C4fmawzpblqz4H0cTcKA7hxWgnf2eY7ITr9GI4RjyMYV6T06WCAABuVXtAWn0",
+        "name" : "notes",
+        "value" : "Received ordered and will be used for two cows."
+      },
+      "2_2_.3" : {
+        "salt" : "zZkfiDUydB9AlWLdkgVYKcniE7rW4g6PBe4XnUlE73wjr7Dq16Cj3SBBdAke4Hon",
+        "name" : "resDate",
+        "value" : "2020-05-24"
+      },
+      "2_2_.4" : {
+        "salt" : "mQadXTBWj37oENVMZrQGrdZKb5tB1J1iZODqxX1hw4QHYeqBWO10OaTmAVKa5Oyh",
+        "name" : "employeeID",
+        "value" : "HR-00-11-22"
+      },
+      "2_2_.5" : {
+        "salt" : "RCThm8Hsk1vN2uKcxYNgB4vfw1qV0jC0ZsvzFdGTX57N4CgPtuz3XxSUTcOavi9k",
+        "name" : "repliedBy",
+        "value" : "genetics@gen.se"
+      },
+      "2_2_.6" : {
+        "salt" : "33XfbbNX63h1Nq1woI0vgS8kUvvcXUbCXwa8NEV56F50e9Lo9fpKWApHZ2FwPKNK",
+        "name" : "billingURL",
+        "value" : "http://www.invoices.se/OS-00-12-38"
+      }
+    }, {
+      "2_3_.1" : {
+        "salt" : "aD3wIoPgEkFlBRA6sntx7swJF1RMOJphrvXkd0QYY4CH9KbARHtx2PMkuB8Kanck",
+        "name" : "fpid",
+        "value" : "FP-11-34-484"
+      },
+      "2_3_.2" : {
+        "salt" : "vZCyKGERQ8UtYFnFHh9uQI5kQLRzc1arJgiQYDFz1TBUTVNCWSRYOGvdvMKo2pkn",
+        "name" : "certiOfIngredients",
+        "value" : ""
+      },
+      "2_3_.3" : {
+        "salt" : "7pdPrUrwVNaD2bS79CkGBh3hzER3CaOIHy0nKfv2Zhj17ToqDZtb05peV2h9zpaK",
+        "name" : "notes",
+        "value" : ""
+      },
+      "2_3_.4" : {
+        "salt" : "BATl0rOQcUkM8AGuOKq8xkb2CY8WsTiDH3GA2l9wZwpZESAWuFvtY2OP3aDU1hCD",
+        "name" : "feedName",
+        "value" : "GreenLeaves"
+      },
+      "2_3_.5" : {
+        "salt" : "bnPvngnmBIt5UFYwwgUbm1NHxNUiw7tDf22Oukk5eFthfwQU5eokQV9PTKac3hSH",
+        "name" : "pricae",
+        "value" : "1000"
+      },
+      "2_3_.6" : {
+        "salt" : "UuolO9b3ZJxT3fdFKVBXhhihSXy0Fn6yrK9fEc0MxUVciHVXkHlzyl2yo97UhjUB",
+        "name" : "feedType",
+        "value" : "concentrates"
+      },
+      "2_3_.7" : {
+        "salt" : "l76a1uFsVt4GNIqnoEIIiC3HKqflT8W0B7SwpVD1LXTpzw1oC947sap95PGjK84H",
+        "name" : "percentage",
+        "value" : "100"
+      },
+      "2_3_.8" : {
+        "salt" : "LEkiOMEGOhGqFmSyuBSnzpGS76xkZdwEA4H2BgnhaDpArcmpYDpjsfQLIHmqzLCd",
+        "name" : "creationDate",
+        "value" : "2021-09-11"
+      },
+      "2_3_.9" : {
+        "salt" : "WtCSicY3xkK7OmHVuQkI7JTU1BknL7uoKfOwwTih4VDqt3yH7YnjtrTfOYyMSJgs",
+        "name" : "foodSource",
+        "value" : "corn, rice, wheat, soybean, canola, sugarcane"
+      }
+    }, {
+      "2_4_.1" : {
+        "salt" : "stGUgpPXt3aHa9YB9yaqbNe3CCsetIu9fONmjKgcYJUuneaFlVvfaZOuHRlC1Xlo",
+        "name" : "dtid",
+        "value" : "DT-333-454-333"
+      },
+      "2_4_.2" : {
+        "salt" : "5wFllEW7kaaz61hVq7PyTcPeS6f217Rc7vLKJNphOTQ4onU3irxVgrChbZQOwkm1",
+        "name" : "assignedDate",
+        "value" : "2021/09/19"
+      },
+      "2_4_.3" : {
+        "salt" : "6BR9mfJc571KJyEdgZQDgqjppjB25QTvvzemWQwyLYK3NMrerG9qzKO0tSfnBcYZ",
+        "name" : "reason",
+        "value" : "Feeling tempa and coughing"
+      },
+      "2_4_.4" : {
+        "salt" : "pM5OcN9p1jnrpHnjIj3N2pfEwklVJqOlNI7VU2fals3zB7USMj46FP9FTXuX47uN",
+        "name" : "drungs",
+        "value" : "Paracetamole"
+      },
+      "2_4_.5" : {
+        "salt" : "rEDVSijLgTpJo2r8sQD2V0M0II3ij5uLtxKeP4KeA2rtP1DxJjE7NCES3yufeZbH",
+        "name" : "refnumber",
+        "value" : "GHE-11-11-120"
+      },
+      "2_4_.6" : {
+        "salt" : "QMt3AenZXiIUdPlrOwQ2onw0XM4d628tZWRPrEY2JjjuJ4xHNu9DBZw5QCzCiHL2",
+        "name" : "examinedBy",
+        "value" : "HR-343-567-983"
+      },
+      "2_4_.7" : {
+        "salt" : "AlSsto9YiyCgvgAXvSGkKJHzaiQv2rBUp5yeXvtO3maCtU5Tc1wTqkmsVTYrzzde",
+        "name" : "animalID",
+        "value" : "AR-33-567-40"
+      },
+      "2_4_.8" : {
+        "salt" : "xw2rTxyN6ONqHzEaMJCmVtMk8rFP4sAW9X5RI3Df6J8WWeVS7bCSCIRLrFCtWkB4",
+        "name" : "reftype",
+        "value" : "Medical"
+      }
+    }, {
+      "2_5_.1" : {
+        "salt" : "h0nb8JcCdgWROhGOyhxxTviHESsIwPRY0P9X4uVBSsEizSvQI99T5DivubofclQR",
+        "name" : "osid",
+        "value" : "OS-00-12-38"
+      },
+      "2_5_.2" : {
+        "salt" : "QpX3xtzZuSkzjjzZx4VtP8nJcbbYvwuQctI6nfcSYDMbmPsL6MfnqmAvC2AcyIHn",
+        "name" : "notes",
+        "value" : "Received ordered and will be used for two cows."
+      },
+      "2_5_.3" : {
+        "salt" : "muGE5jbAlaTbVxlWhu8BzAiEvorgAvKZoA6u6SLwEnSCk8DX4erCfBJUGC4N0tSg",
+        "name" : "resDate",
+        "value" : "2020-05-24"
+      },
+      "2_5_.4" : {
+        "salt" : "0mAaRZl9OpsaXlyRunh9ymR6BpJLD6EQ93QHuwHOBfJXJ6AAANAMc8Nx0ExrtNn1",
+        "name" : "employeeID",
+        "value" : "HR-00-11-22"
+      },
+      "2_5_.5" : {
+        "salt" : "IPLCZCeMtfAjjwoeOej74KN7up0yqVZagQWNnbK9M9ezjmsWl74Cf9IpJjQBZbf3",
+        "name" : "repliedBy",
+        "value" : "genetics@gen.se"
+      },
+      "2_5_.6" : {
+        "salt" : "D9TnuqOP3yRolEwqKJMbjGtFpACxH52jMXljL2z1d3WtxvtqwGtga8e7sTv0vwgb",
+        "name" : "billingURL",
+        "value" : "http://www.invoices.se/OS-00-12-38"
+      }
+    }, {
+      "2_6_.1" : {
+        "salt" : "EMe99McHjx47SMop3otUOFJyvnd8JzgR7lBMC1HwLuII6POsQFJNhY7lp3LZDXAx",
+        "name" : "aeid",
+        "value" : "AE-11-53-56"
+      },
+      "2_6_.2" : {
+        "salt" : "wLfb419Tpbw9azBsFhNSEZdSuEKmDl1tbCuQk307fXkl6dWRQDnZU7AFGl1POJk4",
+        "name" : "notes",
+        "value" : "This is early examination through pregnancy test."
+      },
+      "2_6_.3" : {
+        "salt" : "kOAUbDCYzbtlENIwsiqYCzQ8Py6Mnhs4iX30eT0YxPq6RsoqZtyN3rDlrJieDUNC",
+        "name" : "examinationDate",
+        "value" : "2020-08-30"
+      },
+      "2_6_.4" : {
+        "salt" : "6KaXNXj7nfKTzBKxtipwrVO1XqNp7bFpzdknkCfYwgV8MnRpZ5fhLmaQhEYkwwd5",
+        "name" : "refnumber",
+        "value" : "exteranl ocument"
+      },
+      "2_6_.5" : {
+        "salt" : "2PecbFbiV8BkkzXJ2U6aCHFbEYpvSTcttZE06iDEe31qLTqKsvXV6RvCyujkq6XG",
+        "name" : "refType",
+        "value" : "medicine"
+      },
+      "2_6_.6" : {
+        "salt" : "zBJa4gv21CqVfBBArlA58ms6Thdh6yG0tWE9D49RNGCAvtmNgqpQyFpqjZk9pji9",
+        "name" : "sensorData",
+        "value" : "sensordataid"
+      },
+      "2_6_.7" : {
+        "salt" : "FRzeggXwsSD8EEt0VppiNmUfA2585apGamN3klmCcLpoKBj2zhu3cSxZEoBlu7wv",
+        "name" : "employeeID",
+        "value" : "HR-00-11-22"
+      },
+      "2_6_.8" : {
+        "salt" : "OnQ4OoExO4AgtvYEY9rYrBvDQdvuLZ9kKZlQoJkdsQU5bDKtca2sVBsYeZStv0Wt",
+        "name" : "animalID",
+        "value" : "AR-34-567-37"
+      },
+      "2_6_.10" : {
+        "salt" : "qXSq7cbWR9zYn1p4lVRuiBoAdBAJw5alQN2lAJOup07KBMzsSkmH7BZXgRVsFsCk",
+        "name" : "status",
+        "value" : "false"
+      }
+    }, {
+      "2_7_.1" : {
+        "salt" : "By13TjKBxJKKgxluE8begt4vRIgCRcV0X3swmRzhB143zpkRuLBFJfc7xKRp5JJE",
+        "name" : "fpid",
+        "value" : "FP-11-34-484"
+      },
+      "2_7_.2" : {
+        "salt" : "uvyijsoR3pnxVBhdtbaIJcH1nxldfnTVTVgGh0WufFR2YWhfjJj97rRmH4ZB1nNT",
+        "name" : "certiOfIngredients",
+        "value" : ""
+      },
+      "2_7_.3" : {
+        "salt" : "VdS6KbX1FEGS2TNAh2x2cuKFOrtDmvQALqfuoolduK8MrysN5uZNDsHxptt30yPE",
+        "name" : "notes",
+        "value" : ""
+      },
+      "2_7_.4" : {
+        "salt" : "qIODNtRMmIcMMcLutO1yyYJNKGDmBVhDShothOWHoi6gDgyurdwpXxuQCQig9yoU",
+        "name" : "feedName",
+        "value" : "GreenLeaves"
+      },
+      "2_7_.5" : {
+        "salt" : "3NVRbgw0JI8zemQbzVQZWWurO84XRKk3C3kvBOf7MSf1ecU1E4aFNlBCbSO3mfEK",
+        "name" : "pricae",
+        "value" : "1000"
+      },
+      "2_7_.6" : {
+        "salt" : "Z7mMbyXKJLbAz86VzorYSu9duTnqmgoWjedULyjfAy8dPjUp5n1JAoDbyctaAj3j",
+        "name" : "feedType",
+        "value" : "concentrates"
+      },
+      "2_7_.7" : {
+        "salt" : "3on4ZQj2ptTeydQmT9ZdmlHPhmZOdSEEQCpgH7jPCYdywL90TBm1bEpBgQnmofF1",
+        "name" : "percentage",
+        "value" : "100"
+      },
+      "2_7_.8" : {
+        "salt" : "d3v63mSleD2tTHcTDv2Pr52HLMPkrCmDO7rYgydxWPYiyt2fgU6u3eDrJzy8eMMZ",
+        "name" : "creationDate",
+        "value" : "2021-09-11"
+      },
+      "2_7_.9" : {
+        "salt" : "rRz7a0YpjqrOZ05l6MwpPHX0PqfpBKhDXlPiMXTjb2fDkgUI9AjhHtLVplIAToKR",
+        "name" : "foodSource",
+        "value" : "corn, rice, wheat, soybean, canola, sugarcane"
+      }
+    }, {
+      "2_8_.1" : {
+        "salt" : "tIRsLacCgCRhsiDVumpPHuy7eWjErG0ytkhTdVYIR5wRh15486NQ85ZlGAv2t8MK",
+        "name" : "fpid",
+        "value" : "FP-11-34-484"
+      },
+      "2_8_.2" : {
+        "salt" : "gJjdw8UCnCMRUc6DsHl0VCOis5QouLqmku6L8M7pWGNKGsbxAA1Yhcibr10DaCBy",
+        "name" : "certiOfIngredients",
+        "value" : ""
+      },
+      "2_8_.3" : {
+        "salt" : "iyBBuQ6IN3CH5t4wZzbx0XENm7nhhlCuqyRpy0W7TH3FIU0aVvPQPaoLJyKTSxVF",
+        "name" : "notes",
+        "value" : ""
+      },
+      "2_8_.4" : {
+        "salt" : "DvqtaMsgwpB5uIJOsfdBKltOldUEa86QhvlcaYuME2SqsNMEwdVpvJIClpOupTfp",
+        "name" : "feedName",
+        "value" : "GreenLeaves"
+      },
+      "2_8_.5" : {
+        "salt" : "blm43Hos26lWXMnVkmgNaCTguvUoQ4F9xuW10XvkFfE4GZqdjSuoYRBxF9ucTCZN",
+        "name" : "pricae",
+        "value" : "1000"
+      },
+      "2_8_.6" : {
+        "salt" : "uKJFrw8kqsgWhYj4DWjnmMqDdi7PjajODKutsNoAZo1fNcTZqa4GnYfCa00rkln5",
+        "name" : "feedType",
+        "value" : "concentrates"
+      },
+      "2_8_.7" : {
+        "salt" : "T6DkfM9NWlfrOVaBQaNXOSHNrbZjLQu3DXdo6enUiugArvxpXU6Wurc6lCFZug8m",
+        "name" : "percentage",
+        "value" : "100"
+      },
+      "2_8_.8" : {
+        "salt" : "erMorcN2FpPJrRH6JQnWpY6VjxFRz5RQHIg6vZxE7iUijgp6SUZWo4VBOp40zDDz",
+        "name" : "creationDate",
+        "value" : "2021-09-11"
+      },
+      "2_8_.9" : {
+        "salt" : "wTVNCVwjH2oOUWvUG7HbI7ISD66qiKTs1IwaWIZD5qaPAJpMrmDrJZUYD9UuD4yl",
+        "name" : "foodSource",
+        "value" : "corn, rice, wheat, soybean, canola, sugarcane"
+      }
+    }, {
+      "2_9_.1" : {
+        "salt" : "eFNfvRK5e4gxfxblLcLk5xRmMB9JSY5H1A41h1ap0ZqgaTHOj2FffoA4V5MAuITQ",
+        "name" : "fpid",
+        "value" : "FP-11-34-484"
+      },
+      "2_9_.2" : {
+        "salt" : "clpXDrZUOmeq69kBeUjey0Z9mAdnWbhLpylcZBm18xguTcFEzVeOO8X0BBCelA1E",
+        "name" : "certiOfIngredients",
+        "value" : ""
+      },
+      "2_9_.3" : {
+        "salt" : "lykBmiLnmVZUr0zgQTDtEiS0bc1hi46728e8iwbNGSy23Kg7M3bPh5K0llXxW6Ul",
+        "name" : "notes",
+        "value" : ""
+      },
+      "2_9_.4" : {
+        "salt" : "9Z7hXUEJ4Un1oN9VYKKZRPwUFgZKyszyQ23LZRJ8vwRc3ymLXVNeqvCKyVfIY2UO",
+        "name" : "feedName",
+        "value" : "GreenLeaves"
+      },
+      "2_9_.5" : {
+        "salt" : "DtsU5VQ8fSLm38uwtWrRWH5736uU5Xe5ftTe7CefWOg7jMq8oQX00ctb55AxIinf",
+        "name" : "pricae",
+        "value" : "1000"
+      },
+      "2_9_.6" : {
+        "salt" : "SrhMaLySPDCF56b9jUpK9S2K1ap0NlEboERm3xt5rlq1l3nQBqZMEVIam6ctIMpx",
+        "name" : "feedType",
+        "value" : "concentrates"
+      },
+      "2_9_.7" : {
+        "salt" : "oUtUd6fun1rZczyTtZYRxGwDkDnjf8u0Ny7Tm4TiVYpFB2oOFekqv8jrk2znsT2C",
+        "name" : "percentage",
+        "value" : "100"
+      },
+      "2_9_.8" : {
+        "salt" : "cuqrZQ84q0X2lGFtRtkjF3OdaZDg4kWr6mwr7xXJNlUMjy4q5RPxDXOa2uMYCxgo",
+        "name" : "creationDate",
+        "value" : "2021-09-11"
+      },
+      "2_9_.9" : {
+        "salt" : "oQRn0BtK4MLjOrOANjICJIPu29zMJou1xoKmfWU5BGdvbLOCGu4NNOYgZ3OGJCUq",
+        "name" : "foodSource",
+        "value" : "corn, rice, wheat, soybean, canola, sugarcane"
+      }
+    } ]
+  },
+  "metamapper" : {
+    "evidence._3_.percentage" : "2_3_.7",
+    "evidence._7_.feedType" : "2_7_.6",
+    "evidence._4_.examinedBy" : "2_4_.6",
+    "evidence._9_.foodSource" : "2_9_.9",
+    "evidence._9_.certiOfIngredients" : "2_9_.2",
+    "evidence._6_.aeid" : "2_6_.1",
+    "evidence._1_.suid" : "2_1_.1",
+    "evidence._1_.osid" : "2_1_.5",
+    "dtoRegisterAnimal1.aboutAnimal" : "1.15",
+    "evidence._6_.sensorData" : "2_6_.6",
+    "evidence._7_.pricae" : "2_7_.5",
+    "evidence._3_.feedType" : "2_3_.6",
+    "evidence._6_.examinationDate" : "2_6_.3",
+    "evidence._8_.foodSource" : "2_8_.9",
+    "evidence._4_.refnumber" : "2_4_.5",
+    "evidence._4_.animalID" : "2_4_.7",
+    "evidence._7_.foodSource" : "2_7_.9",
+    "evidence._3_.fpid" : "2_3_.1",
+    "evidence._3_.feedName" : "2_3_.4",
+    "evidence._7_.creationDate" : "2_7_.8",
+    "evidence._3_.creationDate" : "2_3_.8",
+    "evidence._5_.notes" : "2_5_.2",
+    "evidence._3_.notes" : "2_3_.3",
+    "evidence._8_.fpid" : "2_8_.1",
+    "evidence._2_.osid" : "2_2_.1",
+    "evidence._1_.notes" : "2_1_.3",
+    "dtoRegisterAnimal1.unit" : "1.12",
+    "evidence._4_.assignedDate" : "2_4_.2",
+    "evidence._5_.osid" : "2_5_.1",
+    "evidence._7_.notes" : "2_7_.3",
+    "evidence._9_.notes" : "2_9_.3",
+    "evidence._3_.foodSource" : "2_3_.9",
+    "evidence._8_.feedType" : "2_8_.6",
+    "evidence._9_.feedName" : "2_9_.4",
+    "dtoRegisterAnimal1.notes" : "1.4",
+    "evidence._0_.animalID" : "2_0_.6",
+    "evidence._4_.reftype" : "2_4_.8",
+    "dtoRegisterAnimal1.breed" : "1.9",
+    "evidence._2_.repliedBy" : "2_2_.5",
+    "dtoRegisterAnimal1.employerID" : "1.11",
+    "evidence._9_.pricae" : "2_9_.5",
+    "evidence._8_.creationDate" : "2_8_.8",
+    "evidence._4_.dtid" : "2_4_.1",
+    "evidence._9_.creationDate" : "2_9_.8",
+    "evidence._5_.repliedBy" : "2_5_.5",
+    "evidence._9_.fpid" : "2_9_.1",
+    "evidence._0_.employeeID" : "2_0_.4",
+    "evidence._9_.feedType" : "2_9_.6",
+    "evidence._2_.resDate" : "2_2_.3",
+    "evidence._1_.employeeID" : "2_1_.4",
+    "dtoRegisterAnimal1.weight" : "1.7",
+    "evidence._2_.employeeID" : "2_2_.4",
+    "evidence._6_.animalID" : "2_6_.8",
+    "evidence._8_.pricae" : "2_8_.5",
+    "evidence._6_.status" : "2_6_.10",
+    "dtoRegisterAnimal1.pregnancyExamination" : "1.5",
+    "evidence._2_.billingURL" : "2_2_.6",
+    "evidence._6_.employeeID" : "2_6_.7",
+    "evidence._0_.insemationDate" : "2_0_.2",
+    "evidence._6_.refType" : "2_6_.5",
+    "evidence._5_.employeeID" : "2_5_.4",
+    "dtoRegisterAnimal1.status" : "1.17",
+    "evidence._7_.certiOfIngredients" : "2_7_.2",
+    "evidence._8_.feedName" : "2_8_.4",
+    "evidence._5_.resDate" : "2_5_.3",
+    "evidence._0_.suid" : "2_0_.1",
+    "dtoRegisterAnimal1.animalIDMother" : "1.3",
+    "evidence._4_.drungs" : "2_4_.4",
+    "evidence._6_.notes" : "2_6_.2",
+    "evidence._0_.osid" : "2_0_.5",
+    "dtoRegisterAnimal1.dateOfBirth" : "1.8",
+    "evidence._3_.pricae" : "2_3_.5",
+    "evidence._0_.notes" : "2_0_.3",
+    "evidence._2_.notes" : "2_2_.2",
+    "evidence._8_.notes" : "2_8_.3",
+    "dtoRegisterAnimal1.animalID" : "1.1",
+    "dtoRegisterAnimal1.sex" : "1.6",
+    "evidence._1_.animalID" : "2_1_.6",
+    "evidence._4_.reason" : "2_4_.3",
+    "evidence._9_.percentage" : "2_9_.7",
+    "evidence._8_.certiOfIngredients" : "2_8_.2",
+    "evidence._3_.certiOfIngredients" : "2_3_.2",
+    "evidence._7_.feedName" : "2_7_.4",
+    "dtoRegisterAnimal1.birthPlace" : "1.10",
+    "evidence._5_.billingURL" : "2_5_.6",
+    "evidence._1_.insemationDate" : "2_1_.2",
+    "evidence._7_.fpid" : "2_7_.1",
+    "evidence._7_.percentage" : "2_7_.7",
+    "evidence._8_.percentage" : "2_8_.7",
+    "evidence._6_.refnumber" : "2_6_.4"
+  }
+}

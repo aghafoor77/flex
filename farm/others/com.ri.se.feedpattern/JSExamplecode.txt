@@ -1,0 +1,89 @@
+this.state = {
+	fpid : fpid, 
+	certiOfIngredients : certiOfIngredients, 
+	notes : notes, 
+	feedName : feedName, 
+	pricae : pricae, 
+	feedType : feedType, 
+	percentage : percentage, 
+	creationDate : creationDate, 
+	foodSource : foodSource
+}
+
+
+this.state = {
+	fpid : "", 
+	certiOfIngredients : "", 
+	notes : "", 
+	feedName : "", 
+	pricae : "", 
+	feedType : "", 
+	percentage : "", 
+	creationDate : "", 
+	foodSource : ""
+}
+
+
+
+handleChange(event) {
+	switch (event.target.id) {
+		  case 'fpid': this.setState({ fpid: event.target.value }); break;
+		  case 'certiOfIngredients': this.setState({ certiOfIngredients: event.target.value }); break;
+		  case 'notes': this.setState({ notes: event.target.value }); break;
+		  case 'feedName': this.setState({ feedName: event.target.value }); break;
+		  case 'pricae': this.setState({ pricae: event.target.value }); break;
+		  case 'feedType': this.setState({ feedType: event.target.value }); break;
+		  case 'percentage': this.setState({ percentage: event.target.value }); break;
+		  case 'creationDate': this.setState({ creationDate: event.target.value }); break;
+		  case 'foodSource': this.setState({ foodSource: event.target.value }); break;
+		  default: return '';
+	}
+}
+
+
+
+htmlFor="fpid"
+name="fpid" id="fpid" onChange={this.handleChange.bind(this)} value={this.state.fpid}
+
+htmlFor="certiOfIngredients"
+name="certiOfIngredients" id="certiOfIngredients" onChange={this.handleChange.bind(this)} value={this.state.certiOfIngredients}
+
+htmlFor="notes"
+name="notes" id="notes" onChange={this.handleChange.bind(this)} value={this.state.notes}
+
+htmlFor="feedName"
+name="feedName" id="feedName" onChange={this.handleChange.bind(this)} value={this.state.feedName}
+
+htmlFor="pricae"
+name="pricae" id="pricae" onChange={this.handleChange.bind(this)} value={this.state.pricae}
+
+htmlFor="feedType"
+name="feedType" id="feedType" onChange={this.handleChange.bind(this)} value={this.state.feedType}
+
+htmlFor="percentage"
+name="percentage" id="percentage" onChange={this.handleChange.bind(this)} value={this.state.percentage}
+
+htmlFor="creationDate"
+name="creationDate" id="creationDate" onChange={this.handleChange.bind(this)} value={this.state.creationDate}
+
+htmlFor="foodSource"
+name="foodSource" id="foodSource" onChange={this.handleChange.bind(this)} value={this.state.foodSource}
+
+
+
+
+getJSON(){
+	let jsondata =  {
+		fpid : this.state.fpid, 
+		certiOfIngredients : this.state.certiOfIngredients, 
+		notes : this.state.notes, 
+		feedName : this.state.feedName, 
+		pricae : this.state.pricae, 
+		feedType : this.state.feedType, 
+		percentage : this.state.percentage, 
+		creationDate : this.state.creationDate, 
+		foodSource : this.state.foodSource
+	}
+	return jsondata; 
+
+}

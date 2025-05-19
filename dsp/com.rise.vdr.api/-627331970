@@ -1,0 +1,96 @@
+{
+  "issuanceDate" : "2025-01-29 02:56:25",
+  "holder" : "5955394570666a39756b4a67327256346e6845414547775a504371306b6a",
+  "validFrom" : "2025-01-29 02:56:25",
+  "issued" : "2025-01-29 02:56:25",
+  "type" : [ "VerifiableCredentials" ],
+  "verificationMethod" : [ {
+    "type" : "RsaSignature2018",
+    "id" : "key2",
+    "publicKeyBase58" : "z2TuPVgMCHJy5atawrsADEzjP7MCVbyyCA89UW6Wvjp9HrBDmeRffX7SG7sXqHn6VJGWFijnfQa9Bna3YyeWkHLxPMQEuh1tucX7QPebaqkM9T51EzsGHRnwchky518o6SacZ1inVeuZym9YMfbwtpcgAajXoMvuMhq4aXr5SNYpdaK82KMxkaxuFLuntvRh9MLkNioEeu1rqeYUP3afi3L8peX5R2Z6vnppWQheCqRXxu9Xrvo2y76GXZbd9o25uPTSjgEEBieCvEnD7nTv1sA7WTQHM35um4x9o48xDVQYesJip9JQvWg7RWLtyXFNVGt1dsm5oHiwkJFovFYCWi38Ds94MVyeHxf9jbkyNh68EcyiBLFELnCYxyU1rvZjSVZBJd23kC5weD4mrUp"
+  } ],
+  "@context" : [ "https://www.w3.org/2018/credentials/v1" ],
+  "did" : "did:veid:-1134001816",
+  "issuer" : "3672436e6764657544564158493334514b63385a674f466a7551502a4a48",
+  "digest-set" : {
+    "1" : "4657a5aa47b8ea5ae35e8c2a723ee00f4a82a80bbc7ee3067317a255401a97e3",
+    "3" : "fc441ec187025302ba5ff7a3913fba89e653f4c0ca26715838adcf10d4d8d4ad",
+    "2.1" : "1678a35bc6838ac72c262e701ccc9e02bbd73034b0e16725d849dede14751328",
+    "2.2" : "b290c92deee6a42b4285c8e9a45cf04a14a581ff08800d8fe1a20b76c829771d",
+    "2.3" : "5ccff3b0fe1fb1ebafec41602724b82648ece90d60018f4e5b7d5465b6646039",
+    "2.6" : "30d730daee696705ed28c91c4cfbecfa9478af252834f0499cc1b15f34937d2d",
+    "2.7" : "4ca41fa75032846fdace2413ee938e3bf334448149a60ce897f0665dbbfceb32",
+    "2.8" : "28ccf9e777534df1d9e0db90de406e32a33a4cd826b471ac5251d2fafe41bb35",
+    "2.10" : "bbf9868c7fabb498aca561104108977a7ed1125206dc6dae03642a0a8d6a9413"
+  },
+  "expirationDate" : "2025-01-29 02:56:25",
+  "proof" : {
+    "type" : "RsaSignature2018",
+    "created" : "2025-01-29T13:56:25Z",
+    "domain" : "http://schema.org",
+    "nonce" : "3078312e34613031343132343339356265702d31",
+    "proofPurpose" : "VERIFICATIONMETHOD",
+    "verificationMethod" : "http://www.veidblock.com/keyagreementmethod",
+    "jws" : "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJhbGciOiJSUzI1NiJ9..qfzjwceSK9wtOa896hgNs645P0iUjuzg5NdP0-QOjkxvastTVodZSjNoAc8K59kk5M8EhEGExWCd6cc4HnQPvAKmueiu5HBpjbFscYAzGjR4CyfobAB_PWcx-_sGKDGAJjK0xPSJ5GVQQbHLq1bESTZs5nGWOTtMi-DJphBiMVOmldtfMLf7ViiV-Nmzv2aFoZ-mkEsqsWwG-aIXZdz8WYKS42kEVCSEP9g79h3NQndVRWhSxfIA5P58L_ffOP9kI6WdifaYmA7vI35EQEtD100y-jBr_hBP4yorTr6v14LTugs0iozPJpcjfdVU4fBJvbCGfsNmZLMq8T0zjd3gfw"
+  },
+  "claims" : {
+    "1" : {
+      "salt" : "sCXarvFyC6QYckdOXZIamolCh9foHIG8229hIkMKC3YovjFPc3NXOQX7Xeyf791n",
+      "name" : "evidenceType",
+      "value" : "AnimalExamination"
+    },
+    "evidence" : {
+      "2.1" : {
+        "salt" : "FaAcd67LkpoDoXXs66CI33TrzXHqrf56RbQuIOJ6byNycBQqTTalD98T2D3aNIrW",
+        "name" : "aeid",
+        "value" : "AE-1738117941647"
+      },
+      "2.2" : {
+        "salt" : "NduxnTx49nm5opQmxdyhOtJay9o21IzOfUkNDZRTgq4ZFcESrOZ5MWWajDygbhPq",
+        "name" : "notes",
+        "value" : "Examination through pregnancy test."
+      },
+      "2.3" : {
+        "salt" : "rxyu0zUvIyA37W3h4quc3m2z7V9U6MbmYMmdJj6JDTucSkTu2kn5wMUadx4gJEip",
+        "name" : "examinationDate",
+        "value" : "2020-09-30"
+      },
+      "2.6" : {
+        "salt" : "waUXJa2TmInmPhoJxYCjFnJtpq8kXAr93XFjLF1vHBnV2dQUehhXsl6rAsLLVPJz",
+        "name" : "sensorData",
+        "value" : "sensordataid"
+      },
+      "2.7" : {
+        "salt" : "fwuPP5xPDhWsQq3bb4JG0qUsfUhtVCpCu7sdFkoMRgCt7k1G8evhFnUSjgSp4T05",
+        "name" : "employeeID",
+        "value" : "4133307e41394a53754d3547463672635a4c2a42624e5f5846734b3b6245"
+      },
+      "2.8" : {
+        "salt" : "xVwQeUsANw74c7nN4WIT9LMLwByeravtOJhS4jwT9BYXHe2XGaqsNVftoK9eCZEW",
+        "name" : "animalID",
+        "value" : "AR-1738117939683"
+      },
+      "2.10" : {
+        "salt" : "UvZFhgB34iuOunYHMxPjDgmYTDMKUEH1P5LNHKoY9GVhXEA9iZB2yhHB9p6e4BbS",
+        "name" : "status",
+        "value" : "true"
+      }
+    },
+    "3" : {
+      "salt" : "dNleuKWaqd8LnnzL6PWXQQZKoyUwCz8jnNpNU2olpF3xPz1KyJidsrD6QFml17vL",
+      "name" : "uniqueNo",
+      "value" : "AE-1738117941647"
+    }
+  },
+  "metamapper" : {
+    "uniqueNo" : "3",
+    "evidenceType" : "1",
+    "evidence.animalID" : "2.8",
+    "evidence.employeeID" : "2.7",
+    "evidence.status" : "2.10",
+    "evidence.examinationDate" : "2.3",
+    "evidence.sensorData" : "2.6",
+    "evidence.aeid" : "2.1",
+    "evidence.notes" : "2.2"
+  }
+}
