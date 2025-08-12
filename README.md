@@ -36,6 +36,11 @@ docker run -d   --name ipfs-node   -v ipfs_staging:/export   -v ipfs_data:/data/
 ---
 
 ## **Web Application**
+Run Web Module developed in reactjs:
+```bash
+/flex/webmodules/formasweb/farmdash/tempdash
+```
 Access via:  
+
 [http://localhost:5001/webui](http://localhost:5001/webui)
 
