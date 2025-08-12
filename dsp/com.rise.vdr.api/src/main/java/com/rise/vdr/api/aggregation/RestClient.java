@@ -21,7 +21,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class RestClient {
 	
-	private boolean showLog = true;
+	private boolean showLog = false;
 	
 	private HttpClient httpClient = null;
 	private String baseUrl = null;

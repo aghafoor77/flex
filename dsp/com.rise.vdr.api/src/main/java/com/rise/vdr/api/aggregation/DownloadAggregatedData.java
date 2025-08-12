@@ -288,7 +288,7 @@ public class DownloadAggregatedData {
 		try {
 			RestClient rc = RestClient.builder().baseUrl(ip).build();
 			Representation rep = rc.get(":" + port + "/application" + resource, null);
-			System.out.println(rep.getBody().toString());
+			//System.out.println(rep.getBody().toString());
 			if(rep.getCode() !=200) {
 				return null;
 			}

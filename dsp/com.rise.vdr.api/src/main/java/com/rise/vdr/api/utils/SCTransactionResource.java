@@ -1,5 +1,7 @@
 package com.rise.vdr.api.utils;
 
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Base64;
 import java.util.HashMap;
@@ -167,6 +169,7 @@ public class SCTransactionResource {
 		return Response.status(Response.Status.OK).build();
 	}
 
+	public static int evdNo = 0;
 	@POST
 	@Path("/submitwithal")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -176,6 +179,8 @@ public class SCTransactionResource {
 			@ApiResponse(code = 500, message = "Internal Server error !") })
 	public Response submitWithAccessLevel(@Valid AccessLevelEntity accessLevelEntity) {
 
+	System.out.println(System.currentTimeMillis());
+	long start = System.currentTimeMillis();
 		DownloadAggregatedData downloadAggregatedData = new DownloadAggregatedData();
 		String ip = "http://localhost";
 		Map<String, Object> animals = accessLevelEntity.getAnimals();
@@ -200,7 +205,7 @@ public class SCTransactionResource {
 			evidences.put("DATA", "ALL");
 			evidences.forEach((keye, valuee) -> {
 				// key
-				System.out.println(keye + " " + valuee);
+				//System.out.println(keye + " " + valuee);
 				EvidenceObject temp = objectHolder.get(keye);
 				ALEvidenceObject fe = new ALEvidenceObject();
 				fe.setEvidence(temp);
@@ -208,8 +213,10 @@ public class SCTransactionResource {
 				alec.add(fe);
 
 			});
+			evdNo = alec.size();
 			finalEvidence.put(key, alec);
 		});
+		
 		new TransactionManager(sctransactionService, scevidenceService, scsecretkeyService).manageWithAccess(
 				"/ip4/127.0.0.1/tcp/5001", accessLevelEntity.getTransporter(), accessLevelEntity.getSlaughterhouse(),
 				accessLevelEntity.getFrom(), finalEvidence);
@@ -219,11 +226,26 @@ public class SCTransactionResource {
 		});
 
 		try {
-
+			
+			long end = System.currentTimeMillis();
+			System.out.println("Diff: "+(end - start));
+			reportResult(evdNo, start, end);
 			return Response.status(Response.Status.OK).build();
 		} catch (Exception e) {
 			return Response.status(Response.Status.INTERNAL_SERVER_ERROR).build();
 		}
+
+	}
+	private static void reportResult(int evd, long start, long end) {
+
+		String filePath = "results.txt";
+        String textToAppend = (end-start)+"\n";
+
+        try (FileWriter writer = new FileWriter(filePath, true)) {
+            writer.write(textToAppend);
+        } catch (IOException e) {
+            System.err.println("An error occurred: " + e.getMessage());
+        }
 
 	}
 
