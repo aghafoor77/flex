@@ -16,10 +16,11 @@ import Circle from "../mcomp/Circle";
 
 import endpoints from "../config/Configuration";
 
-class RegisteredAnimalsList extends Component {
+class CarrierList extends Component {
 
 	constructor() {
 		super();
+		this.handleDetailClick = this.handleDetailClick.bind(this);
 		this.state = {
 			ardata: [],
 			alert: {
@@ -27,11 +28,12 @@ class RegisteredAnimalsList extends Component {
 			}
 		};
 		this.fetchRegisteredAnimals();
+		 
 
 	}
 
 	handleDetailClick(e, item) {
-		//history.push(`/animals/registeredanimals/${item.animalID}`);
+		this.props.history.push('/transporter/assigncarrier/'+item.cid);
 	}
 
 	setAlert(title, message) {
@@ -58,14 +60,8 @@ class RegisteredAnimalsList extends Component {
 
 	getBadge = status => {
 		switch (status) {
-			case "IN": return (<Circle key='mykey' bgColor='#A1D363' width='10' height='10'></Circle>)
-			case "OUT": return (<Circle key='mykey' bgColor='#1C89BF' width='10' height='10'></Circle>)
-			case "FEEDING": return (<Circle key='mykey' bgColor='#1C89BF' width='10' height='10'></Circle>)
-			case "Sell": return (<Circle key='mykey' bgColor='#FF8552' width='10' height='10'></Circle>)
-			case "Slaughter": return (<Circle key='mykey' bgColor='#393E41' width='10' height='10'></Circle>)
-			case "Deregister": return (<Circle key='mykey' bgColor='#E94F37' width='10' height='10'></Circle>)
-			case "Active": return (<Circle key='mykey' bgColor='#A1D363' width='10' height='10'></Circle>)
-			case "TRANSFERED": return (<Circle key='mykey' bgColor='#ff33e9' width='10' height='10'></Circle>)
+			case true: return (<Circle key='mykey' bgColor='#30a60e' width='10' height='10'></Circle>)
+			case false: return (<Circle key='mykey' bgColor='#df0405' width='10' height='10'></Circle>)
 			case null: return (<Circle key='mykey' bgColor='#E94F37' width='10' height='10'></Circle>)
 			default: return (<Circle key='mykey' bgColor='#E94F37' width='10' height='10'></Circle>)
 		}
@@ -91,7 +87,7 @@ class RegisteredAnimalsList extends Component {
 	}
 
 	fetchRegisteredAnimals() {
-		let url = window.sessionStorage.getItem(endpoints.AR) + '/application/v1/registeranimal'
+		let url = window.sessionStorage.getItem(endpoints.TRS) + '/application/v1/carrier'
 		fetch(url, {
 			method: "GET",
 			headers: {
@@ -103,7 +99,7 @@ class RegisteredAnimalsList extends Component {
 				if (res.status === 200) {
 					res.json()
 						.then(data => {
-
+							console.log(data);
 							if (data.length === 0) {
 								this.setState({ ardata: [] });
 							} else {
@@ -151,16 +147,14 @@ class RegisteredAnimalsList extends Component {
 							<CDataTable
 								items={this.state.ardata}
 								fields={[
-									//
-									{ label: '', key: 'status', _style: { width: '3%' } },
-									{ label: 'No.', key: 'animalID', _style: { width: '10%' } },
-									{ label: 'Parent', key: 'animalIDMother', _style: { width: '15%' } },
-									{ label: 'Sex', key: 'sex', _style: { width: '15%' } },
-									{ label: 'Date of Birth', key: 'dateOfBirth', _style: { width: '15%' } },
-									{ label: 'Place of Birth', key: 'birthPlace', _style: { width: '10%' } },
-									{ label: 'Registrar', key: 'employerID', _style: { width: '10%' } },
-									{ label: 'Breed', key: 'breed', _style: { width: '10%' } },
-									{ label: 'Examination Report', key: 'pregnancyExamination', _style: { width: '5%' } }
+									{ label: 'CID', key: 'cid', _style: { width: '10%' } },
+									{ label: 'Carrier #', key: 'carrierNumber', _style: { width: '10%' } },
+									{ label: 'Animals', key: 'species', _style: { width: '15%' } },
+									{ label: 'Transport Type', key: 'transportType', _style: { width: '10%' } },
+									{ label: 'TID', key: 'tid', _style: { width: '10%' } },
+									{ label: 'Long Distance', key: 'longDistance', _style: { width: '5%' } },									
+									{ label: 'notes', key: 'notes', _style: { width: '20%' } },
+									{ label: 'book', key: 'book', _style: { width: '5%' } }
 								]}
 								hover
 								striped
@@ -168,18 +162,28 @@ class RegisteredAnimalsList extends Component {
 								itemsPerPage={7}
 								pagination
 								clickableRows
-								onRowClick={(item) => this.props.history.push(`/animal/reglist/${item.animalID}`)}
+								onRowClick={(item) => this.props.history.push(`/animal/reglist/${item.cid}`)}
 								scopedSlots={{
-									'pregnancyExamination':
+									'book':
 										(item) => (
 											<td>
-												<CButton block color="info" id={item.animalID} onClick={(e) => this.handleDetailClick(e, item)}>Detail</CButton>
+											<CButton
+											  block
+											  color="info"
+											  id={item.cid}
+											  onClick={(e) => {
+											    e.stopPropagation(); // Prevent row click event
+											    this.handleDetailClick(e, item);
+											  }}
+											>
+											  Book
+											</CButton>
 											</td>
 										),
-									'status':
+									'longDistance':
 										(item) => (
 											<td>
-												{this.getBadge(item.status)}
+												{this.getBadge(item.longDistance)}
 											</td>
 										),
 										
@@ -193,4 +197,4 @@ class RegisteredAnimalsList extends Component {
 	}
 }
 
-export default RegisteredAnimalsList
+export default CarrierList

@@ -78,7 +78,7 @@ class Facilities extends Component {
 
 	fetchFacilities() {
 		
-		let url = window.sessionStorage.getItem(endpoints.HR) +"/application/v1/facility/byfarm/farmId";//window.sessionStorage.getItem(endpoints.MB) + '/application/v1/movebullforherd'
+		let url = window.sessionStorage.getItem(endpoints.HR) +"/application/v1/facility/byfarm/FID-01002";//window.sessionStorage.getItem(endpoints.MB) + '/application/v1/movebullforherd'
 		fetch(url, {
 			method: "GET",
 			headers: {

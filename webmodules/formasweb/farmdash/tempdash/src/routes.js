@@ -76,16 +76,22 @@ const SaleReport2SlaughterhouseResponse = React.lazy(() => import('./views/sell/
 const GenericView = React.lazy(() => import('./views/genericview/GenericView'));
 const AnimalResourceGraph = React.lazy(() => import('./views/genericview/AnimalResourceGraph'));
 const GenericGraphView = React.lazy(() => import('./views/genericview/GenericGraphView'));
-
 const WalletHandling = React.lazy(() => import('./views/wallet/WalletHandling'));
 const EditProfile = React.lazy(() => import('./views/farmer/EditProfile'));
-
 const ServicesStatusHandling = React.lazy(() => import('./views/wallet/ServicesStatusHandling'));
-
-
 const Test = React.lazy(() => import('./views/identity/Test'));
 
+const CarrierList = React.lazy(() => import('./views/transporter/CarrierList'));
+const CarrierAnimals = React.lazy(() => import('./views/transporter/CarrierAnimals'));
+const AnimalListStatus = React.lazy(() => import('./views/transporter/AnimalListStatus'));
 
+
+const TrasactionalData = React.lazy(() => import('./views/genericview/TrasactionalData'));
+const EvidenceData = React.lazy(() => import('./views/genericview/EvidenceData'));
+
+
+
+const SlaughterhouseAnimalStatus = React.lazy(() => import('./views/slaughterhouse/SlaughterhouseAnimalStatus'));
 
 
 //const SellEdit = React.lazy(() => import('./views/sell/SellEdit'));
@@ -188,18 +194,30 @@ const routes = [
   { path: '/movements/r2shuslist', name: 'Sale Orders', component: SaleReport2SlaughterhouseList },
   { path: '/movements/deregister/:animalID', name: 'Deregister', component: AnimalDeregisterEdit }, 
   { path: '/movements/deregister', name: 'Deregister', component: AnimalDeregister }, 
-  { path: '/movements/gv', name: 'GenericView', component: GenericView }, 
+  { path: '/transport/order', name: 'GenericView', component: GenericView }, 
   { path: '/movements/arg', name: 'AnimalResourceGraph', component: AnimalResourceGraph }, 
   { path: '/movements/ggv', name: 'GenericGraphView', component: GenericGraphView }, 
-  
-  
   { path: '/identity/test', name: 'Test', component: Test }, 
-
   { path: '/identity/register', name: 'Identity Registration', component: RegisterIdentity },
   { path: '/dt/wallet', name: 'WalletHandling', component: WalletHandling },
   { path: '/dt/status', name: 'ServicesStatus', component: ServicesStatusHandling },
   { path: '/dt/profile', name: 'Profile', component: EditProfile },
-          
+
+  //================= Transporter =========================
+  
+  { path: '/transporter/carrierlist', name: 'Carriers', component: CarrierList},
+  { path: '/transporter/assigncarrier/:cid', name: 'Carriers', component: CarrierAnimals},
+  { path: '/transporter/animal/status', name: 'Carriers', component: AnimalListStatus},
+  
+  
+  
+  { path: '/slaughterhouse/downloader', name: 'Slaughterhouse', component: SlaughterhouseAnimalStatus},
+  { path: '/slaughterhouse/traceable', name: 'GenericGraphView', component: GenericGraphView },
+  
+  { path: '/generic/trasactions', name: 'Trasactional Data', component: TrasactionalData},
+  { path: '/generic/evidencedata/:trasactionID', name: 'Evidence Data', component: EvidenceData},
+  
+            
   //{ path: '/animals/test', name: 'Test Animal', component: TestAnimal },
 
   { path: '/charts', name: 'Charts', component: Charts },

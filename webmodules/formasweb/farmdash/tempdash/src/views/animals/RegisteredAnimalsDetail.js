@@ -83,7 +83,7 @@ class RegisteredAnimalsDetail extends Component {
 	}
 
 	fetchHealthRec() {
-		let url = window.sessionStorage.getItem(endpoints.MB) + '/application/v1/temporarymovementgroup/animal/' + this.props.match.params.animalID
+		let url = window.sessionStorage.getItem(endpoints.MB) + '/application/v1/generalhealthexamination/animal/' + this.props.match.params.animalID
 		fetch(url, {
 			method: "GET",
 			headers: {

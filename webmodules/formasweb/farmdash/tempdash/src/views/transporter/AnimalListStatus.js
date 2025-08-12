@@ -16,10 +16,11 @@ import Circle from "../mcomp/Circle";
 
 import endpoints from "../config/Configuration";
 
-class RegisteredAnimalsList extends Component {
+class AnimalListStatus extends Component {
 
 	constructor() {
 		super();
+		this.handleDetailClick = this.handleDetailClick.bind(this);
 		this.state = {
 			ardata: [],
 			alert: {
@@ -28,10 +29,11 @@ class RegisteredAnimalsList extends Component {
 		};
 		this.fetchRegisteredAnimals();
 
+
 	}
 
 	handleDetailClick(e, item) {
-		//history.push(`/animals/registeredanimals/${item.animalID}`);
+		this.props.history.push('/transporter/assigncarrier/' + item.cid);
 	}
 
 	setAlert(title, message) {
@@ -42,30 +44,24 @@ class RegisteredAnimalsList extends Component {
 		this.setState({ alert: { display: false } });
 	}
 
-	 displayAlert() {
-    return ( this.state.alert.display === true ? (<CCardHeader><CAlert color="danger">
-      <CRow>
-        <CCol xs="11">
-          {this.state.alert.title}: {this.state.alert.message}
-        </CCol>
-        <CCol xs="1">
-          <CButton block onClick={(e) => this.hideAlertClick(e)}>X</CButton>
-        </CCol>
-      </CRow></CAlert></CCardHeader>) : null); 
-  }
-/* ["#393E41", "#E94F37", "#1C89BF", "#A1D363",
-                 "#85FFC7", "#297373", "#FF8552", "#A40E4C"]; */
+	displayAlert() {
+		return (this.state.alert.display === true ? (<CCardHeader><CAlert color="danger">
+			<CRow>
+				<CCol xs="11">
+					{this.state.alert.title}: {this.state.alert.message}
+				</CCol>
+				<CCol xs="1">
+					<CButton block onClick={(e) => this.hideAlertClick(e)}>X</CButton>
+				</CCol>
+			</CRow></CAlert></CCardHeader>) : null);
+	}
+	/* ["#393E41", "#E94F37", "#1C89BF", "#A1D363",
+					 "#85FFC7", "#297373", "#FF8552", "#A40E4C"]; */
 
 	getBadge = status => {
 		switch (status) {
-			case "IN": return (<Circle key='mykey' bgColor='#A1D363' width='10' height='10'></Circle>)
-			case "OUT": return (<Circle key='mykey' bgColor='#1C89BF' width='10' height='10'></Circle>)
-			case "FEEDING": return (<Circle key='mykey' bgColor='#1C89BF' width='10' height='10'></Circle>)
-			case "Sell": return (<Circle key='mykey' bgColor='#FF8552' width='10' height='10'></Circle>)
-			case "Slaughter": return (<Circle key='mykey' bgColor='#393E41' width='10' height='10'></Circle>)
-			case "Deregister": return (<Circle key='mykey' bgColor='#E94F37' width='10' height='10'></Circle>)
-			case "Active": return (<Circle key='mykey' bgColor='#A1D363' width='10' height='10'></Circle>)
-			case "TRANSFERED": return (<Circle key='mykey' bgColor='#ff33e9' width='10' height='10'></Circle>)
+			case true: return (<Circle key='mykey' bgColor='#30a60e' width='10' height='10'></Circle>)
+			case false: return (<Circle key='mykey' bgColor='#df0405' width='10' height='10'></Circle>)
 			case null: return (<Circle key='mykey' bgColor='#E94F37' width='10' height='10'></Circle>)
 			default: return (<Circle key='mykey' bgColor='#E94F37' width='10' height='10'></Circle>)
 		}
@@ -91,7 +87,7 @@ class RegisteredAnimalsList extends Component {
 	}
 
 	fetchRegisteredAnimals() {
-		let url = window.sessionStorage.getItem(endpoints.AR) + '/application/v1/registeranimal'
+		let url = window.sessionStorage.getItem(endpoints.TRS) + '/application/v1/transferedanimal'
 		fetch(url, {
 			method: "GET",
 			headers: {
@@ -103,7 +99,7 @@ class RegisteredAnimalsList extends Component {
 				if (res.status === 200) {
 					res.json()
 						.then(data => {
-
+							console.log(data);
 							if (data.length === 0) {
 								this.setState({ ardata: [] });
 							} else {
@@ -133,34 +129,33 @@ class RegisteredAnimalsList extends Component {
 		return (
 			<CRow>
 				<CCol xs="12" sm="12">
-          {this.displayAlert(this.state.alert.title, this.state.alert.message)}
-          </CCol>
+					{this.displayAlert(this.state.alert.title, this.state.alert.message)}
+				</CCol>
 				<CCol xl={12}>
 					<CCard>
 						<CCardHeader>
 							<CRow>
 								<CCol xs="12">
-									Registered Animals
-	                 				<small className="text-muted"> all registered animal in the form </small>
+									Animal Status
+									<small className="text-muted"> at transporter  </small>
 									<strong className="text-left"> [ Total Rows: {this.state.ardata.length} ]</strong>
 								</CCol>
-								
 							</CRow>
+
+						
 						</CCardHeader>
 						<CCardBody>
 							<CDataTable
 								items={this.state.ardata}
 								fields={[
-									//
-									{ label: '', key: 'status', _style: { width: '3%' } },
-									{ label: 'No.', key: 'animalID', _style: { width: '10%' } },
-									{ label: 'Parent', key: 'animalIDMother', _style: { width: '15%' } },
-									{ label: 'Sex', key: 'sex', _style: { width: '15%' } },
-									{ label: 'Date of Birth', key: 'dateOfBirth', _style: { width: '15%' } },
-									{ label: 'Place of Birth', key: 'birthPlace', _style: { width: '10%' } },
-									{ label: 'Registrar', key: 'employerID', _style: { width: '10%' } },
+									{ label: 'Animal ID', key: 'animalID', _style: { width: '10%' } },
+									{ label: 'Birth Place #', key: 'birthPlace', _style: { width: '10%' } },
+									{ label: 'Current Weight', key: 'currentWeight', _style: { width: '5%' } },
+									{ label: 'Sex', key: 'sex', _style: { width: '5%' } },
+									{ label: 'Birth Date', key: 'birthDate', _style: { width: '10%' } },
 									{ label: 'Breed', key: 'breed', _style: { width: '10%' } },
-									{ label: 'Examination Report', key: 'pregnancyExamination', _style: { width: '5%' } }
+									{ label: 'Transfer Date', key: 'transferDate', _style: { width: '20%' } },
+									{ label: 'Current Status', key: 'currentStatus', _style: { width: '10%' } }
 								]}
 								hover
 								striped
@@ -168,21 +163,21 @@ class RegisteredAnimalsList extends Component {
 								itemsPerPage={7}
 								pagination
 								clickableRows
-								onRowClick={(item) => this.props.history.push(`/animal/reglist/${item.animalID}`)}
+								onRowClick={(item) => this.props.history.push(`/animal/reglist/${item.cid}`)}
 								scopedSlots={{
-									'pregnancyExamination':
+									'currentStatus':
 										(item) => (
 											<td>
-												<CButton block color="info" id={item.animalID} onClick={(e) => this.handleDetailClick(e, item)}>Detail</CButton>
+												{item.currentStatus==null?"Waitng for Carrier":item.currentStatus}
 											</td>
 										),
-									'status':
+									'longDistance':
 										(item) => (
 											<td>
-												{this.getBadge(item.status)}
+												{this.getBadge(item.longDistance)}
 											</td>
 										),
-										
+
 								}}
 							/>
 						</CCardBody>
@@ -193,4 +188,4 @@ class RegisteredAnimalsList extends Component {
 	}
 }
 
-export default RegisteredAnimalsList
+export default AnimalListStatus

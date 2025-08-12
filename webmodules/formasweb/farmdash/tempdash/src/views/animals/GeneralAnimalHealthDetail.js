@@ -206,7 +206,8 @@ class GeneralAnimalHealthDetail extends Component {
 				  	  { label: 'By', key: 'observer', _style: { width: '10%'} },
 				  	  { label: 'Date', key: 'gheDate', _style: { width: '10%'} },
 					  { label: 'Wound', key: 'wound', _style: { width: '25%'} },
-				      { label: 'Swelling',key: 'swelling', _style: { width: '20%'} },				      
+				      { label: 'Swelling',key: 'swelling', _style: { width: '20%'} },
+					  				      
 	        	  ]}
 	              hover
 				  striped

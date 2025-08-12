@@ -17,10 +17,13 @@ let endpoints =
     SU:'prebirthctrl',    
     BD:'generaldatactrl',
     RS:'reportslaughterhousectrl',
+	TRS:'TRS',
     HR:'resourcesctrl', // Farm, Farmer, etc
+	VDR:'VDR', // Farm, Farmer, etc
+	SHD:'SHD', // Farm, Farmer, etc
     //CHR:'http://192.168.10.127:9090'
-    CHR:'http://localhost:9090',
-    SRV:'http://localhost'
+    CHR:'http://192.168.132.136:9090',
+    SRV:'http://192.168.132.136'
     
   }
 

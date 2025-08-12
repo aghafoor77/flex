@@ -185,7 +185,8 @@ class Register extends Component {
                           <img src={Logo} width="50" height="50" />
                         </CCol>
                         <CCol >
-                          <h1>Verifiable Traceability</h1>
+						<h1>FLEX</h1>
+						<small>Framework for Livestock Empowerment and Decentralized Secure Data eXchange</small>
                         </CCol>
                       </CRow>
                       

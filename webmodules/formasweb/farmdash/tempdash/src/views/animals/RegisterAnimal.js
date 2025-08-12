@@ -17,7 +17,6 @@ import {
 
 } from '@coreui/react'
 
-
 import endpoints from "../config/Configuration";
 
 class RegisterAnimal extends Component {
@@ -318,6 +317,7 @@ class RegisterAnimal extends Component {
   render() {
     const { isnewlyborn, ispurchased } = this.state;
     return (
+		
       <CRow>
         <CCol xs="12" sm="12">
           {this.displayAlert(this.state.alert.title, this.state.alert.message)}
@@ -330,7 +330,7 @@ class RegisterAnimal extends Component {
             </CCardHeader>
             <CCardBody>
               <CForm action="" method="post" encType="multipart/form-data" className="form-horizontal">
-                <CRow>
+			    <CRow>
                   <CCol xs="1">
                   </CCol>
                   <CCol xs="3">
